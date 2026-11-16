@@ -1,0 +1,11 @@
+# Besucher roots gegen die Vorlage (Besucherliste, Port 8988); Beispielwerte, Gruss fest
+start | http://localhost:8988/_werkzeuge/registre/?gruss=tag#start | /_werkzeuge/registre/?gruss=tag#start
+besuche | http://localhost:8988/_werkzeuge/registre/?gruss=tag#besuche | /_werkzeuge/registre/?gruss=tag#besuche
+herkunft | http://localhost:8988/_werkzeuge/registre/?gruss=tag#herkunft | /_werkzeuge/registre/?gruss=tag#herkunft
+zeit | http://localhost:8988/_werkzeuge/registre/?gruss=tag#zeit | /_werkzeuge/registre/?gruss=tag#zeit
+seiten | http://localhost:8988/_werkzeuge/registre/?gruss=tag#seiten | /_werkzeuge/registre/?gruss=tag#seiten
+verlauf | http://localhost:8988/_werkzeuge/registre/?gruss=tag#verlauf | /_werkzeuge/registre/?gruss=tag#verlauf
+buchung | http://localhost:8988/_werkzeuge/registre/?gruss=tag#buchung | /_werkzeuge/registre/?gruss=tag#buchung
+zaehlung | http://localhost:8988/_werkzeuge/registre/?gruss=tag#zaehlung | /_werkzeuge/registre/?gruss=tag#zaehlung
+rundgang | http://localhost:8988/_werkzeuge/registre/?gruss=tag&rundgang#start | /_werkzeuge/registre/?gruss=tag&rundgang#start
+anleitung | http://localhost:8988/_werkzeuge/registre/anleitung.html | /_werkzeuge/registre/anleitung.html

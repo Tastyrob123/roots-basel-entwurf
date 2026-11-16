@@ -1,0 +1,13 @@
+{
+ "zeit": "2026-11-07T09:10:00+01:00",
+ "frage": "Meine Frau verträgt keine Nüsse. Geht das?",
+ "antwort": "Bitte geben Sie Allergien oder Unverträglichkeiten bei der Reservation an; die Küche stimmt es mit Ihnen ab.",
+ "belegt": true,
+ "thema": "",
+ "gruppe": "Allergien & Unverträglichkeiten",
+ "sprache": "de",
+ "buchung": false,
+ "mappe": false,
+ "anfrage": "",
+ "beispiel": true
+}

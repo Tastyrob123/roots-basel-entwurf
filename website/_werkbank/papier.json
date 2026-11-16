@@ -1,0 +1,174 @@
+{
+ "druck": [
+  {
+   "id": "zeiten",
+   "name": "Aushang Zeiten",
+   "seiten": 1
+  },
+  {
+   "id": "kueche",
+   "name": "Aushang Küche",
+   "seiten": 1
+  },
+  {
+   "id": "allergien",
+   "name": "Hinweis Allergien",
+   "seiten": 1
+  },
+  {
+   "id": "region",
+   "name": "Aushang Grüner Stern",
+   "seiten": 1
+  },
+  {
+   "id": "regal",
+   "name": "Aushang Saal",
+   "seiten": 1
+  },
+  {
+   "id": "ausgezeichnet",
+   "name": "Aushang Auszeichnungen",
+   "seiten": 1
+  },
+  {
+   "id": "gewachsen",
+   "name": "Aushang Geschichte",
+   "seiten": 1
+  },
+  {
+   "id": "jobs",
+   "name": "Aushang Stelle",
+   "seiten": 1
+  },
+  {
+   "id": "moment",
+   "name": "Schild Empfang",
+   "seiten": 1
+  },
+  {
+   "id": "tram",
+   "name": "Aushang Anfahrt",
+   "seiten": 1
+  },
+  {
+   "id": "anfahrt",
+   "name": "Beileger Anfahrt",
+   "seiten": 1
+  },
+  {
+   "id": "lunch",
+   "name": "Flyer Businesslunch",
+   "seiten": 2
+  },
+  {
+   "id": "gesellschaft",
+   "name": "Flyer Gesellschaft",
+   "seiten": 2
+  },
+  {
+   "id": "gutscheine",
+   "name": "Flyer Gutscheine",
+   "seiten": 2
+  },
+  {
+   "id": "begleiter",
+   "name": "Karte alkoholfreie Begleiter",
+   "seiten": 1
+  },
+  {
+   "id": "weinkarte",
+   "name": "Umschlag Weinkarte",
+   "seiten": 1
+  },
+  {
+   "id": "parkieren",
+   "name": "Hinweiskarte Parkieren",
+   "seiten": 1
+  },
+  {
+   "id": "menue",
+   "name": "Menüeinleger",
+   "seiten": 1
+  },
+  {
+   "id": "bachletten",
+   "name": "Plakat Bachletten",
+   "seiten": 1
+  },
+  {
+   "id": "karte",
+   "name": "Plakat Karte",
+   "seiten": 1
+  },
+  {
+   "id": "postkarte",
+   "name": "Postkarte Saal",
+   "seiten": 2
+  },
+  {
+   "id": "postkarte-regal",
+   "name": "Postkarte Regal",
+   "seiten": 2
+  },
+  {
+   "id": "momentaufnahme",
+   "name": "Karte momentaufnahme",
+   "seiten": 1
+  },
+  {
+   "id": "instagram",
+   "name": "Beitrag für Instagram",
+   "seiten": 1
+  }
+ ],
+ "etiketten": [
+  {
+   "id": "u01",
+   "name": "Das «r»"
+  },
+  {
+   "id": "u02",
+   "name": "Das Gemüse"
+  },
+  {
+   "id": "u03",
+   "name": "Wurzelwerk"
+  },
+  {
+   "id": "u04",
+   "name": "Formalität"
+  },
+  {
+   "id": "u05",
+   "name": "Im Boden"
+  },
+  {
+   "id": "u06",
+   "name": "Hauptrolle"
+  },
+  {
+   "id": "u07",
+   "name": "Ein Glas"
+  },
+  {
+   "id": "u08",
+   "name": "Gewachsen"
+  },
+  {
+   "id": "u09",
+   "name": "Bachletten"
+  },
+  {
+   "id": "u10",
+   "name": "Freude"
+  },
+  {
+   "id": "u11",
+   "name": "Selbst gemacht"
+  },
+  {
+   "id": "u12",
+   "name": "Tapete"
+  }
+ ]
+}

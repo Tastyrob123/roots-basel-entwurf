@@ -1,0 +1,51 @@
+{
+ "zeit": "2026-11-08T11:02:00+01:00",
+ "art": "tisch",
+ "name": "James Taylor",
+ "kontakt": "james.taylor@example.com",
+ "datum": "Do, 3. Dezember 2026, 12:30 Uhr",
+ "personen": 4,
+ "anliegen": "Businesslunch für vier Personen am Donnerstag, 3. Dezember, 12:30 Uhr; eine Person isst vegetarisch.",
+ "sprache": "en",
+ "gespraech": "beispiel-5",
+ "verlauf": [
+  {
+   "rolle": "user",
+   "text": "Hello, do you serve lunch? We are four people and would like to come on Thursday, 3 December, around 12:30. One of us is vegetarian."
+  },
+  {
+   "rolle": "assistant",
+   "text": "Yes, on Thursdays the business lunch is served from 12.00 to 2.30 pm. If you like, I can pass your request on to the team; for that I need your name and an e-mail address or phone number."
+  },
+  {
+   "rolle": "user",
+   "text": "James Taylor, james.taylor@example.com"
+  },
+  {
+   "rolle": "assistant",
+   "text": "Thank you. This is a draft by Tasty Studios: your request does not go to the restaurant, it is only kept for viewing in the host tool."
+  }
+ ],
+ "status": "neu",
+ "beispiel": true,
+ "abteilung": "Reservation",
+ "entwurf": {
+  "betreff": "Your business lunch at «roots» on 3 December",
+  "text": "Dear Mr Taylor\n\nThank you very much for your request. We would be delighted to welcome you and your guests for our business lunch on Thursday, 3 December, at 12.30 pm.\n\nOur business lunch is served on Thursdays from 12.00 to 2.30 pm: three courses for CHF 98, four courses for CHF 110 or five courses for CHF 122. Vegetables are at the heart of every course. We have noted that one of your guests is vegetarian; our kitchen will take this into account.\n\nShould there be any allergies or intolerances, please let us know in advance.\n\nWe look forward to seeing you.\n\nKind regards\n\nThe «roots» team",
+  "team": "Grundlage: Karte (Businesslunch donnerstags 12.00 bis 14.30 Uhr, 3/4/5 Gänge CHF 98/110/122), Über uns (Gemüse im Mittelpunkt)\nOffen: Tisch für vier am 3. Dezember mittags, vegetarischer Gast an die Küche",
+  "vorlage": "reservation",
+  "absender": "info@roots-basel.ch",
+  "zeit": "2026-11-08T11:02:00+01:00",
+  "deutsch": {
+   "betreff": "Ihr Businesslunch im «roots» am 3. Dezember",
+   "text": "Lieber Herr Taylor\n\nVielen Dank für Ihre Anfrage. Gerne empfangen wir Sie und Ihre Gäste am Donnerstag, 3. Dezember, um 12.30 Uhr zum Businesslunch.\n\nUnseren Businesslunch servieren wir donnerstags von 12.00 bis 14.30 Uhr: drei Gänge für CHF 98, vier Gänge für CHF 110 oder fünf Gänge für CHF 122. Das Gemüse steht im Mittelpunkt jedes Gangs. Wir haben notiert, dass einer Ihrer Gäste vegetarisch isst; unsere Küche berücksichtigt das.\n\nSollte es Allergien oder Unverträglichkeiten geben, sagen Sie uns bitte vorher Bescheid.\n\nWir freuen uns auf Sie.\n\nFreundliche Grüsse\n\nIhr Team des «roots»",
+   "quelle": "29efdaad7c19"
+  }
+ },
+ "verlauf_de": [
+  "Guten Tag, gibt es bei Ihnen Mittagessen? Wir sind vier Personen und möchten am Donnerstag, 3. Dezember, gegen 12.30 Uhr kommen. Eine Person isst vegetarisch.",
+  "Ja, donnerstags gibt es von 12.00 bis 14.30 Uhr den Businesslunch. Wenn Sie möchten, gebe ich Ihre Anfrage an das Team weiter; dafür brauche ich Ihren Namen und eine E-Mail-Adresse oder Telefonnummer.",
+  "James Taylor, james.taylor@example.com",
+  "Danke. Dies ist ein Entwurf von Tasty Studios: Ihre Anfrage geht nicht an das Restaurant, sie liegt nur zur Ansicht im Werkzeug des Teams."
+ ]
+}

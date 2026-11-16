@@ -1,0 +1,40 @@
+{
+ "_hinweis": "Je Werkzeug: Adresse des eigenen Servers (Ports 9302–9307, AUFTRAG-GEMEINSAM.md), Stand-Weg ab der Wurzel seines Servers (lokal über /_weiter/<werkzeug>/ des Kontrollpanels auf 9301), Anleitung, Ordner mit seinem Code (Knopf-Namen der Tafel). Ein Weg darf eine Liste sein (M14): antwortet der erste nicht, gilt der nächste.",
+ "bureau": {
+  "adresse": "/_werkzeuge/bureau/",
+  "stand": ["/api/x/website/ueberblick/roots", "/studio/api/ueberblick"],
+  "pruefung": "/werkzeuge/website/pruefung.html?haus=roots",
+  "code": ["_werkzeuge/bureau", "~/Desktop/Website-Projekte/_Werkzeuge/werkzeuge/website"]
+ },
+ "carte": {
+  "adresse": "/_werkzeuge/carte/",
+  "stand": "/_werkzeuge/carte/api/status",
+  "anleitung": "/_werkzeuge/carte/anleitung.html",
+  "code": ["_werkzeuge/carte"]
+ },
+ "imprimerie": {
+  "adresse": "/_werkzeuge/imprimerie/",
+  "stand": "/_werkzeuge/imprimerie/haeuser/roots/vorlagen/index.json",
+  "code": ["_werkzeuge/imprimerie"]
+ },
+ "reception": {
+  "adresse": "/_werkzeuge/reception/",
+  "stand": "/_werkzeuge/reception/api/ueberblick",
+  "anleitung": "/_werkzeuge/reception/anleitung.html",
+  "code": ["_werkzeuge/reception"],
+  "beispiel": true
+ },
+ "livre": {
+  "adresse": "/_werkzeuge/livre/",
+  "stand": ["/marke/livre.json", "/_werkzeuge/livre/livre.json"],
+  "livre_json": "_werkzeuge/livre/livre.json",
+  "anleitung": "/_werkzeuge/livre/anleitung.html",
+  "code": ["_werkzeuge/livre"]
+ },
+ "registre": {
+  "adresse": "/_werkzeuge/registre/",
+  "stand": ["/api/registre?tage=30&beispiel=1"],
+  "anleitung": "/_werkzeuge/registre/anleitung.html",
+  "code": ["_werkzeuge/registre"]
+ }
+}

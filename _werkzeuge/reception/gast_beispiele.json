@@ -1,0 +1,250 @@
+[
+ {
+  "vor": [
+   0,
+   9,
+   12
+  ],
+  "art": "tisch",
+  "status": "neu",
+  "abteilung": "Reservation",
+  "name": "Claudia Meier",
+  "kontakt": "claudia.meier@example.com",
+  "datum": "Sa, 21. November 2026",
+  "uhrzeit": "19:00 Uhr",
+  "personen": 2,
+  "sprache": "de",
+  "anliegen": "Tisch mit Wünschen: zehnter Hochzeitstag, Menü mit acht Gängen",
+  "betreff": "",
+  "text": "",
+  "team": "",
+  "web": true,
+  "an": "info@roots-basel.ch",
+  "formular": "allgemein",
+  "seite": "/kontakt.html",
+  "seite_name": "Kontakt",
+  "nachricht": "Art: Tisch mit Wünschen\nDatum: Sa, 21. November 2026\nUhrzeit: 19:00 Uhr\nPersonen: 2\nNachricht: Wir feiern unseren zehnten Hochzeitstag und freuen uns auf das Menü mit acht Gängen. Mein Mann verträgt keine Nüsse.",
+  "verlauf": [
+   [
+    "user",
+    "Über ein Formular der Website (Seite Kontakt): Art: Tisch mit Wünschen\nDatum: Sa, 21. November 2026\nUhrzeit: 19:00 Uhr\nPersonen: 2\nNachricht: Wir feiern unseren zehnten Hochzeitstag und freuen uns auf das Menü mit acht Gängen. Mein Mann verträgt keine Nüsse."
+   ]
+  ]
+ },
+ {
+  "vor": [
+   1,
+   16,
+   40
+  ],
+  "art": "bankett",
+  "status": "gelesen",
+  "abteilung": "Gruppe",
+  "name": "Thomas Wyss",
+  "kontakt": "+41 79 000 00 00",
+  "datum": "Fr, 4. Dezember 2026, 19:00 Uhr",
+  "personen": 8,
+  "sprache": "de",
+  "anliegen": "Gruppe von acht Personen zum 60. Geburtstag, Menü mit neun Gängen, zwei Gäste ohne Alkohol.",
+  "betreff": "Ihr 60. Geburtstag im «roots» am 4. Dezember",
+  "text": "Guten Tag Herr Wyss\n\nvielen Dank für Ihre Anfrage. Es freut uns sehr, dass Sie Ihren 60. Geburtstag mit Ihren Liebsten im «roots» feiern möchten. Für Freitag, 4. Dezember, ab 19.00 Uhr halten wir gerne einen Tisch für acht Personen für Sie bereit.\n\nDas Menü mit neun Gängen kostet CHF 218 pro Person. Jeder Gang wird von der Saison beeinflusst; das Gemüse steht im Mittelpunkt, Fisch und Fleisch spielen die Nebenrolle. Zu jedem Gang gibt es auf Wunsch ein Glas: Die Getränkebegleitung mit neun Gläsern kostet mit Alkohol CHF 145, ohne Alkohol CHF 99. Die alkoholfreien Begleiter macht das Haus selbst, zum Beispiel aus Apfel und Hibiskus oder Kirsche und Miso.\n\nDamit wir den Abend in Ruhe vorbereiten können, sagen Sie uns bitte noch:\n- ob jemand in der Runde Allergien oder Unverträglichkeiten hat\n- ob es bei zwei Gästen ohne Alkohol bleibt\n\nWir freuen uns auf Ihren Abend.\n\nHerzliche Grüsse\n\nIhr Team des «roots»",
+  "team": "Grundlage: Karte (9 Gänge CHF 218; Getränkebegleitung 9 Gläser CHF 145 mit, CHF 99 ohne Alkohol), Startseite (alkoholfreie Begleiter), Fenster «Tisch reservieren» (ab sechs Personen per Mail)\nOffen: Tisch für acht am 4. Dezember frei halten, Allergien der Runde",
+  "verlauf": [
+   [
+    "user",
+    "Wir möchten mit acht Personen den 60. Geburtstag meines Vaters feiern, am Freitag, 4. Dezember. Geht das?"
+   ],
+   [
+    "assistant",
+    "Für eine Gruppe ab sechs Personen schreibt das Team gerne persönlich zurück. Gerne gebe ich Ihre Anfrage weiter; dafür brauche ich Ihren Namen und eine E-Mail-Adresse oder Telefonnummer."
+   ],
+   [
+    "user",
+    "Thomas Wyss, +41 79 000 00 00. Wir hätten gerne neun Gänge, zwei von uns trinken keinen Alkohol."
+   ],
+   [
+    "assistant",
+    "Danke. Dies ist ein Entwurf von Tasty Studios: Die Anfrage geht nicht an das Haus, sie liegt nur zur Ansicht in «Anfragen & Chat»."
+   ]
+  ]
+ },
+ {
+  "vor": [
+   0,
+   7,
+   48
+  ],
+  "art": "anlass",
+  "status": "neu",
+  "abteilung": "Gruppe",
+  "name": "Daniela Frei",
+  "kontakt": "daniela.frei@example.com",
+  "datum": "So, 29. November 2026",
+  "uhrzeit": "18:30 Uhr",
+  "personen": 22,
+  "sprache": "de",
+  "anliegen": "Geschlossene Gesellschaft: Jahresessen eines Teams, etwa 22 Personen",
+  "betreff": "",
+  "text": "",
+  "team": "",
+  "web": true,
+  "an": "info@roots-basel.ch",
+  "formular": "allgemein",
+  "seite": "/ueber-uns.html",
+  "seite_name": "Über uns",
+  "nachricht": "Art: Geschlossene Gesellschaft\nDatum: So, 29. November 2026\nUhrzeit: 18:30 Uhr\nPersonen: 22\nNachricht: Wir möchten das «roots» für das Jahresessen unseres Teams exklusiv buchen. Gerne das Menü mit sieben Gängen und die Getränkebegleitung.",
+  "verlauf": [
+   [
+    "user",
+    "Über ein Formular der Website (Seite Über uns): Art: Geschlossene Gesellschaft\nDatum: So, 29. November 2026\nUhrzeit: 18:30 Uhr\nPersonen: 22\nNachricht: Wir möchten das «roots» für das Jahresessen unseres Teams exklusiv buchen. Gerne das Menü mit sieben Gängen und die Getränkebegleitung."
+   ]
+  ]
+ },
+ {
+  "vor": [
+   3,
+   10,
+   5
+  ],
+  "art": "gutschein",
+  "status": "erledigt",
+  "abteilung": "Gutschein",
+  "name": "Andrea Keller",
+  "kontakt": "andrea.keller@example.com",
+  "datum": "",
+  "personen": 2,
+  "sprache": "de",
+  "anliegen": "Gutschein für zwei Personen zu Weihnachten, Dinner mit Getränkebegleitung",
+  "betreff": "Ihr Gutschein für einen Abend im «roots»",
+  "text": "Guten Tag Frau Keller\n\nvielen Dank für Ihre Nachricht und die schöne Idee, einen Abend im «roots» zu schenken.\n\nGutscheine stellen Sie ganz einfach selbst aus: Über den Knopf «Gutscheine» auf unserer Website gelangen Sie in unseren Gutschein-Shop. Dort wählen Sie den Betrag und erhalten den Gutschein direkt. Als Anhaltspunkt: Das Dinner mit sieben Gängen kostet CHF 198 pro Person, die Getränkebegleitung mit sieben Gläsern CHF 115 mit Alkohol und CHF 77 ohne Alkohol.\n\nWir freuen uns, Ihre Liebsten bei uns zu empfangen, und wünschen Ihnen schon jetzt schöne Festtage.\n\nHerzliche Grüsse\n\nIhr Team des «roots»",
+  "team": "Grundlage: Fuss jeder Seite (Gutscheine über den Shop), Karte (7 Gänge CHF 198; Getränkebegleitung 7 Gläser CHF 115 mit, CHF 77 ohne Alkohol)\nOffen: nichts",
+  "web": true,
+  "an": "info@roots-basel.ch",
+  "formular": "allgemein",
+  "seite": "/karte.html",
+  "seite_name": "Karte",
+  "nachricht": "Art: Gutschein\nPersonen: 2\nNachricht: Ich möchte meinen Eltern zu Weihnachten einen Abend im «roots» schenken, mit Getränkebegleitung. Wie geht das?",
+  "verlauf": [
+   [
+    "user",
+    "Über ein Formular der Website (Seite Karte): Art: Gutschein\nPersonen: 2\nNachricht: Ich möchte meinen Eltern zu Weihnachten einen Abend im «roots» schenken, mit Getränkebegleitung. Wie geht das?"
+   ]
+  ]
+ },
+ {
+  "vor": [
+   0,
+   11,
+   2
+  ],
+  "art": "tisch",
+  "status": "neu",
+  "abteilung": "Reservation",
+  "name": "James Taylor",
+  "kontakt": "james.taylor@example.com",
+  "datum": "Do, 3. Dezember 2026, 12:30 Uhr",
+  "personen": 4,
+  "sprache": "en",
+  "anliegen": "Businesslunch für vier Personen am Donnerstag, 3. Dezember, 12:30 Uhr; eine Person isst vegetarisch.",
+  "betreff": "Your business lunch at «roots» on 3 December",
+  "text": "Dear Mr Taylor\n\nThank you very much for your request. We would be delighted to welcome you and your guests for our business lunch on Thursday, 3 December, at 12.30 pm.\n\nOur business lunch is served on Thursdays from 12.00 to 2.30 pm: three courses for CHF 98, four courses for CHF 110 or five courses for CHF 122. Vegetables are at the heart of every course. We have noted that one of your guests is vegetarian; our kitchen will take this into account.\n\nShould there be any allergies or intolerances, please let us know in advance.\n\nWe look forward to seeing you.\n\nKind regards\n\nThe «roots» team",
+  "team": "Grundlage: Karte (Businesslunch donnerstags 12.00 bis 14.30 Uhr, 3/4/5 Gänge CHF 98/110/122), Über uns (Gemüse im Mittelpunkt)\nOffen: Tisch für vier am 3. Dezember mittags, vegetarischer Gast an die Küche",
+  "deutsch": {
+   "betreff": "Ihr Businesslunch im «roots» am 3. Dezember",
+   "text": "Lieber Herr Taylor\n\nVielen Dank für Ihre Anfrage. Gerne empfangen wir Sie und Ihre Gäste am Donnerstag, 3. Dezember, um 12.30 Uhr zum Businesslunch.\n\nUnseren Businesslunch servieren wir donnerstags von 12.00 bis 14.30 Uhr: drei Gänge für CHF 98, vier Gänge für CHF 110 oder fünf Gänge für CHF 122. Das Gemüse steht im Mittelpunkt jedes Gangs. Wir haben notiert, dass einer Ihrer Gäste vegetarisch isst; unsere Küche berücksichtigt das.\n\nSollte es Allergien oder Unverträglichkeiten geben, sagen Sie uns bitte vorher Bescheid.\n\nWir freuen uns auf Sie.\n\nFreundliche Grüsse\n\nIhr Team des «roots»"
+  },
+  "verlauf": [
+   [
+    "user",
+    "Hello, do you serve lunch? We are four people and would like to come on Thursday, 3 December, around 12:30. One of us is vegetarian."
+   ],
+   [
+    "assistant",
+    "Yes, on Thursdays the business lunch is served from 12.00 to 2.30 pm. If you like, I can pass your request on to the team; for that I need your name and an e-mail address or phone number."
+   ],
+   [
+    "user",
+    "James Taylor, james.taylor@example.com"
+   ],
+   [
+    "assistant",
+    "Thank you. This is a draft by Tasty Studios: your request does not go to the restaurant, it is only kept for viewing in the host tool."
+   ]
+  ],
+  "verlauf_de": [
+   "Guten Tag, gibt es bei Ihnen Mittagessen? Wir sind vier Personen und möchten am Donnerstag, 3. Dezember, gegen 12.30 Uhr kommen. Eine Person isst vegetarisch.",
+   "Ja, donnerstags gibt es von 12.00 bis 14.30 Uhr den Businesslunch. Wenn Sie möchten, gebe ich Ihre Anfrage an das Team weiter; dafür brauche ich Ihren Namen und eine E-Mail-Adresse oder Telefonnummer.",
+   "James Taylor, james.taylor@example.com",
+   "Danke. Dies ist ein Entwurf von Tasty Studios: Ihre Anfrage geht nicht an das Restaurant, sie liegt nur zur Ansicht im Werkzeug des Teams."
+  ]
+ },
+ {
+  "vor": [
+   2,
+   20,
+   15
+  ],
+  "art": "tisch",
+  "status": "neu",
+  "abteilung": "Reservation",
+  "name": "Sabine Roth",
+  "kontakt": "sabine.roth@example.com",
+  "datum": "Di, 24. November 2026",
+  "uhrzeit": "12:00 Uhr",
+  "personen": 2,
+  "sprache": "de",
+  "anliegen": "Tisch mittags für zwei Personen",
+  "betreff": "",
+  "text": "",
+  "team": "",
+  "web": true,
+  "an": "info@roots-basel.ch",
+  "formular": "allgemein",
+  "seite": "/karte.html",
+  "seite_name": "Karte",
+  "nachricht": "Art: Tisch mit Wünschen\nDatum: Di, 24. November 2026\nUhrzeit: 12:00 Uhr\nPersonen: 2\nNachricht: Wir sind an diesem Tag in Basel und würden gerne mittags bei Ihnen essen.",
+  "verlauf": [
+   [
+    "user",
+    "Über ein Formular der Website (Seite Karte): Art: Tisch mit Wünschen\nDatum: Di, 24. November 2026\nUhrzeit: 12:00 Uhr\nPersonen: 2\nNachricht: Wir sind an diesem Tag in Basel und würden gerne mittags bei Ihnen essen."
+   ]
+  ]
+ },
+ {
+  "vor": [
+   1,
+   9,
+   30
+  ],
+  "art": "nachricht",
+  "status": "gelesen",
+  "abteilung": "Reservation",
+  "name": "Peter Graf",
+  "kontakt": "peter.graf@example.com",
+  "datum": "Sa, 12. Dezember 2026",
+  "personen": 2,
+  "sprache": "de",
+  "anliegen": "Frage, ob zum Hochzeitsjubiläum eine eigene Flasche aus dem Hochzeitsjahr mitgebracht werden darf.",
+  "betreff": "",
+  "text": "",
+  "team": "",
+  "verlauf": [
+   [
+    "user",
+    "Wir feiern am 12. Dezember unser Hochzeitsjubiläum bei Ihnen. Dürfen wir eine Flasche aus unserem Hochzeitsjahr mitbringen?"
+   ],
+   [
+    "assistant",
+    "Dazu steht nichts in meinen Unterlagen. Gerne gebe ich Ihre Frage an das Team weiter; dafür brauche ich Ihren Namen und eine E-Mail-Adresse oder Telefonnummer."
+   ],
+   [
+    "user",
+    "Peter Graf, peter.graf@example.com"
+   ],
+   [
+    "assistant",
+    "Danke. Dies ist ein Entwurf von Tasty Studios: Die Anfrage geht nicht an das Haus, sie liegt nur zur Ansicht in «Anfragen & Chat»."
+   ]
+  ]
+ }
+]

@@ -1,0 +1,436 @@
+{
+ "stand": 1794208761.1011388,
+ "bereiche": [
+  {
+   "bereich": "Das Haus",
+   "gruppen": [
+    {
+     "gruppe": "Auf einen Blick",
+     "zeilen": [
+      {
+       "fid": "ebd4b78067",
+       "was": "Adresse",
+       "angabe": "Bachlettenstrasse 1, 4054 Basel",
+       "beleg": "Bachlettenstrasse 1 4054 Basel +41 61 322 10 56 info@roots-basel.ch",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "b75f262d66",
+       "was": "Telefon und E-Mail",
+       "angabe": "+41 61 322 10 56, info@roots-basel.ch",
+       "beleg": "+41 61 322 10 56 · info@roots-basel.ch",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "2440fcc729",
+       "was": "Lage",
+       "angabe": "im Bachlettenquartier, in unmittelbarer Nachbarschaft zum Basler Zoo",
+       "beleg": "Das Restaurant «roots» liegt im Bachlettenquartier – in unmittelbarer Nachbarschaft zum Basler Zoo",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "aaf30e2416",
+       "was": "Küche",
+       "angabe": "das Gemüse im Mittelpunkt, Fisch und Fleisch in der Nebenrolle",
+       "beleg": "Fisch und Fleisch spielen bei uns eine Nebenrolle – wenn auch eine Oscar-verdächtige.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "94c2d81b74",
+       "was": "Saison",
+       "angabe": "jedes Menü von der Saison geprägt, meist regionale Produkte",
+       "beleg": "Jeder Gang wird von der Saison beeinflusst und aus meist regionalen, sorgfältig ausgesuchten Produkten frisch für Sie zubereitet.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "d3785de69a",
+       "was": "Atmosphäre",
+       "angabe": "wohlfühlen wie im eigenen Wohnzimmer",
+       "beleg": "Bei uns dürfen Sie sich wohlfühlen wie im eigenen Wohnzimmer.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "5df1c3c3e4",
+       "was": "Gutscheine",
+       "angabe": "online über den Gutschein-Shop (Knopf «Gutscheine» der Website)",
+       "beleg": "Gutscheine: https://shop.e-guma.ch/roots-basel/de/gutscheine",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    },
+    {
+     "gruppe": "Das Team",
+     "zeilen": [
+      {
+       "fid": "f0c7b2f55f",
+       "was": "Küchenchef",
+       "angabe": "Pascal Steffen, seit Dezember 2017, seit Januar 2025 Teilhaber",
+       "beleg": "Seit Dezember 2017 hat er diese Erfahrungen bei uns im «roots» gekonnt zu einer eigenen Handschrift weiterentwickelt.",
+       "datei": "gast_wissen.txt",
+       "mehr": [
+        "Seit Januar 2025 ist Pascal Steffen Teilhaber."
+       ]
+      },
+      {
+       "fid": "ff30fd04e7",
+       "was": "Geführt von",
+       "angabe": "Dragan Rapic, seit der Eröffnung 2017",
+       "beleg": "Geführt wird das Restaurant seit seiner Eröffnung 2017 von Dragan Rapic.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "84e2f0163a",
+       "was": "Restaurantleiterin",
+       "angabe": "Jenny, seit Februar 2026, prägt die Weinkarte",
+       "beleg": "Jenny sorgt seit Februar 2026 dafür",
+       "datei": "gast_wissen.txt",
+       "mehr": [
+        "Als Restaurantleiterin prägt sie mit ihrer Expertise auch die Auswahl auf unserer Weinkarte."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bereich": "Öffnungszeiten & Reservation",
+   "gruppen": [
+    {
+     "gruppe": "Wann offen ist",
+     "zeilen": [
+      {
+       "fid": "eac5a0f9e2",
+       "was": "Abends",
+       "angabe": "Dienstag bis Samstag, 18.30 bis 24.00 Uhr",
+       "beleg": "Dienstag bis Samstag 18.30 bis 24.00 Uhr",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "f8eee50947",
+       "was": "Businesslunch",
+       "angabe": "Donnerstag, 12.00 bis 14.30 Uhr",
+       "beleg": "Donnerstag, Businesslunch 12.00 bis 14.30 Uhr",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "99ad262b31",
+       "was": "Geschlossen",
+       "angabe": "Sonntag und Montag",
+       "beleg": "Sonntag und Montag geschlossen",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    },
+    {
+     "gruppe": "Reservieren",
+     "zeilen": [
+      {
+       "fid": "21c286b14e",
+       "was": "Online",
+       "angabe": "im Fenster «Tisch reservieren» der Website (aleno)",
+       "beleg": "Reservation online: im Fenster «Tisch reservieren» der Website (System aleno)",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "54418cbe9f",
+       "was": "Allergien",
+       "angabe": "bitte bei der Reservation angeben",
+       "beleg": "Bitte geben Sie uns bei der Reservation allfällige Allergien oder Unverträglichkeiten an.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bereich": "Karte & Businesslunch",
+   "gruppen": [
+    {
+     "gruppe": "Dinner",
+     "zeilen": [
+      {
+       "fid": "e4c5111947",
+       "was": "7 Gänge",
+       "angabe": "CHF 198",
+       "beleg": "7 Gänge: Dinner CHF 198",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "6a3ee33976",
+       "was": "8 Gänge",
+       "angabe": "CHF 208",
+       "beleg": "8 Gänge: Dinner CHF 208",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "e0c638703d",
+       "was": "9 Gänge",
+       "angabe": "CHF 218",
+       "beleg": "9 Gänge: Dinner CHF 218",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "e383f7bf66",
+       "was": "10 Gänge",
+       "angabe": "CHF 228",
+       "beleg": "10 Gänge: Dinner CHF 228",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    },
+    {
+     "gruppe": "Businesslunch",
+     "zeilen": [
+      {
+       "fid": "5c72d6699d",
+       "was": "Wann",
+       "angabe": "jeweils donnerstags, 12.00 bis 14.30 Uhr",
+       "beleg": "Jeweils donnerstags, 12.00 bis 14.30 Uhr.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "185bd8df6a",
+       "was": "3 Gänge",
+       "angabe": "CHF 98",
+       "beleg": "3-Gänge-Menü CHF 98",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "29f99c5e54",
+       "was": "4 Gänge",
+       "angabe": "CHF 110",
+       "beleg": "4-Gänge-Menü CHF 110",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "f3987c82fa",
+       "was": "5 Gänge",
+       "angabe": "CHF 122",
+       "beleg": "5-Gänge-Menü CHF 122",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "d3666fb23f",
+       "was": "Dessert",
+       "angabe": "CHF 18",
+       "beleg": "Dessert CHF 18",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bereich": "Getränkebegleitung & Wein",
+   "gruppen": [
+    {
+     "gruppe": "Zu jedem Gang ein Glas",
+     "zeilen": [
+      {
+       "fid": "c2ed598884",
+       "was": "Mit Alkohol",
+       "angabe": "7 Gläser CHF 115, 8 Gläser 130, 9 Gläser 145, 10 Gläser 160",
+       "beleg": "7 Gläser 115 77 8 Gläser 130 88 9 Gläser 145 99 10 Gläser 160 110",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "2fb9bab3d0",
+       "was": "Ohne Alkohol",
+       "angabe": "7 Gläser CHF 77, 8 Gläser 88, 9 Gläser 99, 10 Gläser 110",
+       "beleg": "7 Gläser 115 77 8 Gläser 130 88 9 Gläser 145 99 10 Gläser 160 110",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "892c777961",
+       "was": "Alkoholfrei, selbst gemacht",
+       "angabe": "je CHF 11, zum Beispiel Apfel und Hibiskus, Kapuziner und Sauerampfer, Kirsche und Miso",
+       "beleg": "Alkoholfrei, selbst gemacht · je CHF 11",
+       "datei": "gast_wissen.txt",
+       "mehr": [
+        "Die alkoholfreien Begleiter macht das Haus selbst: Apfel und Hibiskus, Kapuziner und Sauerampfer, Kirsche und Miso."
+       ]
+      }
+     ]
+    },
+    {
+     "gruppe": "Weinkarte",
+     "zeilen": [
+      {
+       "fid": "8cd951b8a3",
+       "was": "Auswahl",
+       "angabe": "287 Weine, vom Klassiker bis zum Newcomer, ausgewählt von Restaurantleiterin Jenny",
+       "beleg": "287 Weine. Unsere Restaurantleiterin Jenny prägt mit ihrer Expertise die Auswahl.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bereich": "Gruppen & Gesellschaften",
+   "gruppen": [
+    {
+     "gruppe": "Grössere Runden",
+     "zeilen": [
+      {
+       "fid": "df12f5ee17",
+       "was": "Gruppe",
+       "angabe": "ab sechs Personen per Mail an info@roots-basel.ch",
+       "beleg": "Für eine grössere Gruppe (ab sechs Personen) oder eine geschlossene Gesellschaft schreiben Sie uns an info@roots-basel.ch",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "4a2edae413",
+       "was": "Geschlossene Gesellschaft",
+       "angabe": "per Mail an info@roots-basel.ch",
+       "beleg": "Für eine grössere Gruppe (ab sechs Personen) oder eine geschlossene Gesellschaft schreiben Sie uns an info@roots-basel.ch",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bereich": "Auszeichnungen & Neuigkeiten",
+   "gruppen": [
+    {
+     "gruppe": "Ausgezeichnet",
+     "zeilen": [
+      {
+       "fid": "56bf869046",
+       "was": "Michelin",
+       "angabe": "zwei Sterne, der zweite seit 17. Oktober 2022",
+       "beleg": "«roots»-Küchenchef Pascal Steffen erhält seinen zweiten Michelin-Stern",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "1bb60cac63",
+       "was": "Grüner Stern",
+       "angabe": "als erstes Restaurant in Basel, seit 21. Oktober 2024",
+       "beleg": "«roots»: erstes Restaurant mit Grünem Michelin-Stern in Basel",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "4542c8c4d4",
+       "was": "GaultMillau",
+       "angabe": "18 Punkte, seit 25. September 2023",
+       "beleg": "«Aufsteiger des Jahres 2024» und neu mit 18 GaultMillau-Punkten",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    },
+    {
+     "gruppe": "Neu",
+     "zeilen": [
+      {
+       "fid": "630da4eca1",
+       "was": "Standort",
+       "angabe": "seit Januar 2025 im Bachlettenquartier, im ehemaligen Restaurant «Oliv»",
+       "beleg": "ab Januar 2025 seine Gäste im ehemaligen Restaurant «Oliv» im Basler Bachlettenquartier verwöhnen",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bereich": "Jobs",
+   "gruppen": [
+    {
+     "gruppe": "Offene Stelle",
+     "zeilen": [
+      {
+       "fid": "c19d149fc6",
+       "was": "Chef de Rang",
+       "angabe": "100 %, per sofort oder nach Vereinbarung",
+       "beleg": "Für unser Serviceteam suchen wir per sofort oder nach Vereinbarung einen Chef de Rang (w/m).",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "6d0268f836",
+       "was": "Bewerbung",
+       "angabe": "Lebenslauf und Foto an Managing Director Dragan Rapic",
+       "beleg": "Lebenslauf und Foto gehen an unseren Managing Director Dragan Rapic.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bereich": "Lage & Anreise",
+   "gruppen": [
+    {
+     "gruppe": "Anreise",
+     "zeilen": [
+      {
+       "fid": "05a66440cf",
+       "was": "Tram",
+       "angabe": "Tram 1 oder Tram 8 bis «Zoo Bachletten», eine Gehminute",
+       "beleg": "Tram 1 oder Tram 8 bis zur Station «Zoo Bachletten», eine Gehminute.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "51c67c50a9",
+       "was": "Zug",
+       "angabe": "ab Bahnhof SBB vom Centralbahnplatz mit Tram 1 oder 8",
+       "beleg": "Ab Bahnhof SBB vom Centralbahnplatz mit Tram 1 oder Tram 8 bis «Zoo Bachletten».",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "fa48c79182",
+       "was": "Auto",
+       "angabe": "Richtung «Basel City», Ausfahrt «Grosspeter», dann Beschilderung «Zoo»",
+       "beleg": "Richtung «Basel City», Ausfahrt «Grosspeter», dann der Beschilderung «Zoo» folgen.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "18567d12a3",
+       "was": "Parkieren",
+       "angabe": "blaue und weisse Zone, ab 19.00 Uhr die Parkplätze des Zoos kostenlos",
+       "beleg": "Blaue und weisse Zone rund um das «roots», ab 19.00 Uhr die Parkplätze des Zoos kostenlos.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

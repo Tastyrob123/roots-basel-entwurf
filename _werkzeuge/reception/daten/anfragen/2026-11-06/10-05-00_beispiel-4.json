@@ -1,0 +1,34 @@
+{
+ "zeit": "2026-11-06T10:05:00+01:00",
+ "art": "gutschein",
+ "name": "Andrea Keller",
+ "kontakt": "andrea.keller@example.com",
+ "datum": "",
+ "personen": 2,
+ "anliegen": "Gutschein für zwei Personen zu Weihnachten, Dinner mit Getränkebegleitung",
+ "sprache": "de",
+ "gespraech": "beispiel-4",
+ "verlauf": [
+  {
+   "rolle": "user",
+   "text": "Über ein Formular der Website (Seite Karte): Art: Gutschein\nPersonen: 2\nNachricht: Ich möchte meinen Eltern zu Weihnachten einen Abend im «roots» schenken, mit Getränkebegleitung. Wie geht das?"
+  }
+ ],
+ "status": "erledigt",
+ "beispiel": true,
+ "an": "info@roots-basel.ch",
+ "abteilung": "Gutschein",
+ "seite": "/karte.html",
+ "seite_name": "Karte",
+ "web": true,
+ "nachricht": "Art: Gutschein\nPersonen: 2\nNachricht: Ich möchte meinen Eltern zu Weihnachten einen Abend im «roots» schenken, mit Getränkebegleitung. Wie geht das?",
+ "formular": "allgemein",
+ "entwurf": {
+  "betreff": "Ihr Gutschein für einen Abend im «roots»",
+  "text": "Guten Tag Frau Keller\n\nvielen Dank für Ihre Nachricht und die schöne Idee, einen Abend im «roots» zu schenken.\n\nGutscheine stellen Sie ganz einfach selbst aus: Über den Knopf «Gutscheine» auf unserer Website gelangen Sie in unseren Gutschein-Shop. Dort wählen Sie den Betrag und erhalten den Gutschein direkt. Als Anhaltspunkt: Das Dinner mit sieben Gängen kostet CHF 198 pro Person, die Getränkebegleitung mit sieben Gläsern CHF 115 mit Alkohol und CHF 77 ohne Alkohol.\n\nWir freuen uns, Ihre Liebsten bei uns zu empfangen, und wünschen Ihnen schon jetzt schöne Festtage.\n\nHerzliche Grüsse\n\nIhr Team des «roots»",
+  "team": "Grundlage: Fuss jeder Seite (Gutscheine über den Shop), Karte (7 Gänge CHF 198; Getränkebegleitung 7 Gläser CHF 115 mit, CHF 77 ohne Alkohol)\nOffen: nichts",
+  "vorlage": "gutschein",
+  "absender": "info@roots-basel.ch",
+  "zeit": "2026-11-06T10:05:00+01:00"
+ }
+}

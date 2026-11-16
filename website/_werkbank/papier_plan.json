@@ -1,0 +1,110 @@
+{
+ "druck": [],
+ "etiketten": [
+  {
+   "id": "u01",
+   "b": 100,
+   "h": 100,
+   "name": "Das «r»",
+   "satz": "Ihr Zeichen mit dem Wurzelwerk, rundherum Name und Adresse.",
+   "form": "M50 1A49 49 0 1 1 50 99A49 49 0 1 1 50 1Z"
+  },
+  {
+   "id": "u02",
+   "b": 100,
+   "h": 100,
+   "name": "Das Gemüse",
+   "satz": "Der Satz Ihrer Startseite, wörtlich.",
+   "form": "M50 1A49 49 0 1 1 50 99A49 49 0 1 1 50 1Z"
+  },
+  {
+   "id": "u03",
+   "b": 94,
+   "h": 94,
+   "name": "Wurzelwerk",
+   "satz": "Das Wurzelwerk des «r» als ganzer Grund, in der Mitte Ihr Name.",
+   "form": "M5 0H89A5 5 0 0 1 94 5V89A5 5 0 0 1 89 94H5A5 5 0 0 1 0 89V5A5 5 0 0 1 5 0Z"
+  },
+  {
+   "id": "u04",
+   "b": 100,
+   "h": 100,
+   "name": "Formalität",
+   "satz": "Ihr Satz aus dem Saal, im Grün der Wände.",
+   "form": "M50 1A49 49 0 1 1 50 99A49 49 0 1 1 50 1Z"
+  },
+  {
+   "id": "u05",
+   "b": 100,
+   "h": 100,
+   "name": "Im Boden",
+   "satz": "Der Titel Ihrer Küche, darüber das Wurzelwerk.",
+   "form": "M50 1A49 49 0 1 1 50 99A49 49 0 1 1 50 1Z"
+  },
+  {
+   "id": "u06",
+   "b": 94,
+   "h": 94,
+   "name": "Hauptrolle",
+   "satz": "Fisch, Gemüse, Fleisch: das Gemüse in der Mitte, wie auf Ihrer Seite.",
+   "form": "M5 0H89A5 5 0 0 1 94 5V89A5 5 0 0 1 89 94H5A5 5 0 0 1 0 89V5A5 5 0 0 1 5 0Z"
+  },
+  {
+   "id": "u07",
+   "b": 100,
+   "h": 100,
+   "name": "Ein Glas",
+   "satz": "Die Getränkebegleitung, Satz von Ihrer Karte.",
+   "form": "M50 1A49 49 0 1 1 50 99A49 49 0 1 1 50 1Z"
+  },
+  {
+   "id": "u08",
+   "b": 94,
+   "h": 94,
+   "name": "Gewachsen",
+   "satz": "Ihre Jahre von der Eröffnung bis zum Bachletten.",
+   "form": "M5 0H89A5 5 0 0 1 94 5V89A5 5 0 0 1 89 94H5A5 5 0 0 1 0 89V5A5 5 0 0 1 5 0Z"
+  },
+  {
+   "id": "u09",
+   "b": 100,
+   "h": 100,
+   "name": "Bachletten",
+   "satz": "Das Quartier, rundherum der Weg mit dem Tram.",
+   "form": "M50 1A49 49 0 1 1 50 99A49 49 0 1 1 50 1Z"
+  },
+  {
+   "id": "u10",
+   "b": 94,
+   "h": 94,
+   "name": "Freude",
+   "satz": "Der Satz aus dem Fuss Ihrer Seite.",
+   "form": "M5 0H89A5 5 0 0 1 94 5V89A5 5 0 0 1 89 94H5A5 5 0 0 1 0 89V5A5 5 0 0 1 5 0Z"
+  },
+  {
+   "id": "u11",
+   "b": 100,
+   "h": 100,
+   "name": "Selbst gemacht",
+   "satz": "Ein alkoholfreier Begleiter des Hauses, Name wie auf der Karte.",
+   "form": "M50 1A49 49 0 1 1 50 99A49 49 0 1 1 50 1Z"
+  },
+  {
+   "id": "u12",
+   "b": 100,
+   "h": 100,
+   "name": "Tapete",
+   "satz": "Das Wurzelwerk Ton in Ton, in der Mitte das «r» in Messing.",
+   "form": "M50 1A49 49 0 1 1 50 99A49 49 0 1 1 50 1Z"
+  }
+ ],
+ "boegen": 2,
+ "meins": [
+  "Auswahl der Sätze auf den Untersetzern",
+  "Zeichnung des Wurzelwerks als Tapete (nach dem «r» des Logos)"
+ ],
+ "masse": [
+  94,
+  100
+ ]
+}

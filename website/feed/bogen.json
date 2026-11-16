@@ -1,0 +1,446 @@
+{
+ "reihen": 20,
+ "stuecke": [
+  {
+   "id": "teller-salat",
+   "r": 1,
+   "c": 1,
+   "w": 2,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/website/assets/img/teller-salat-1920.webp"
+  },
+  {
+   "id": "saal",
+   "r": 1,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/website/assets/img/saal-2560.webp"
+  },
+  {
+   "id": "pascal-dragan",
+   "r": 2,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/website/assets/img/pascal-dragan-2400.webp"
+  },
+  {
+   "id": "gemuese-schale",
+   "r": 2,
+   "c": 2,
+   "w": 2,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/website/assets/img/gemuese-schale-2400.webp"
+  },
+  {
+   "id": "teller-porzellan",
+   "r": 3,
+   "c": 1,
+   "w": 2,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/website/assets/img/teller-porzellan-1920.webp"
+  },
+  {
+   "id": "p-erik",
+   "r": 3,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/website/assets/img/p-erik-2083.webp"
+  },
+  {
+   "id": "p-jenny",
+   "r": 4,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/website/assets/img/p-jenny-1920.webp"
+  },
+  {
+   "id": "regal",
+   "r": 4,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/website/assets/img/regal-2560.webp"
+  },
+  {
+   "id": "teller-fisch",
+   "r": 4,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/website/assets/img/teller-fisch-1920.webp"
+  },
+  {
+   "id": "teller-nudeln",
+   "r": 5,
+   "c": 1,
+   "w": 2,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/website/assets/img/teller-nudeln-1920.webp"
+  },
+  {
+   "id": "p-vanessa",
+   "r": 5,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/website/assets/img/p-vanessa-2083.webp"
+  },
+  {
+   "id": "pascal-kueche",
+   "r": 6,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/website/assets/img/pascal-kueche-2400.webp"
+  },
+  {
+   "id": "tisch-wand",
+   "r": 6,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/website/assets/img/tisch-wand-2560.webp"
+  },
+  {
+   "id": "teller-reiben",
+   "r": 6,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/website/assets/img/teller-reiben-1920.webp"
+  },
+  {
+   "id": "durch-die-tuer",
+   "r": 7,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/website/assets/img/durch-die-tuer-2560.webp"
+  },
+  {
+   "id": "teller-dessert",
+   "r": 7,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/website/assets/img/teller-dessert-1920.webp"
+  },
+  {
+   "id": "p-felicia",
+   "r": 7,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/website/assets/img/p-felicia-2083.webp"
+  },
+  {
+   "id": "teller-fleisch-besteck",
+   "r": 8,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/website/assets/img/teller-fleisch-besteck-1920.webp"
+  },
+  {
+   "id": "tisch-leuchte",
+   "r": 8,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/website/assets/img/tisch-leuchte-1707.webp"
+  },
+  {
+   "id": "stich",
+   "r": 8,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/website/assets/img/stich-2400.webp"
+  },
+  {
+   "id": "p-valentin",
+   "r": 9,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/website/assets/img/p-valentin-2083.webp"
+  },
+  {
+   "id": "teller-giessen",
+   "r": 9,
+   "c": 2,
+   "w": 2,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/website/assets/img/teller-giessen-1920.webp"
+  },
+  {
+   "id": "m-suesses",
+   "r": 10,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/_quelle/michelin/m13.jpg"
+  },
+  {
+   "id": "teller-blau",
+   "r": 10,
+   "c": 2,
+   "w": 2,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/website/assets/img/teller-blau-1920.webp"
+  },
+  {
+   "id": "m-bluete",
+   "r": 11,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/_quelle/michelin/m20.jpg"
+  },
+  {
+   "id": "m-brot",
+   "r": 11,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/_quelle/michelin/m19.jpg"
+  },
+  {
+   "id": "tisch-regal",
+   "r": 11,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/website/assets/img/tisch-regal-2400.webp"
+  },
+  {
+   "id": "m-gruss-brett",
+   "r": 12,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/_quelle/michelin/m8.jpg"
+  },
+  {
+   "id": "m-pinzette",
+   "r": 12,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/_quelle/michelin/m17.jpg"
+  },
+  {
+   "id": "pascal-nah",
+   "r": 12,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/_quelle/mediathek/IMG_1832.jpg"
+  },
+  {
+   "id": "teller-tofu",
+   "r": 13,
+   "c": 1,
+   "w": 2,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/website/assets/img/teller-tofu-1920.webp"
+  },
+  {
+   "id": "tisch-hoch",
+   "r": 13,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/website/assets/img/tisch-hoch-1707.webp"
+  },
+  {
+   "id": "m-sauce",
+   "r": 14,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/_quelle/michelin/m21.jpg"
+  },
+  {
+   "id": "teller-dunkel",
+   "r": 14,
+   "c": 2,
+   "w": 2,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/website/assets/img/teller-dunkel-1920.webp"
+  },
+  {
+   "id": "m-tischtuch",
+   "r": 15,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/_quelle/michelin/m7.jpg"
+  },
+  {
+   "id": "p-malko",
+   "r": 15,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/website/assets/img/p-malko-1920.webp"
+  },
+  {
+   "id": "m-fisch-schaum",
+   "r": 15,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/_quelle/michelin/m9.jpg"
+  },
+  {
+   "id": "teller-gruen",
+   "r": 16,
+   "c": 1,
+   "w": 2,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/website/assets/img/teller-gruen-1920.webp"
+  },
+  {
+   "id": "m-blueten-schale",
+   "r": 16,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/_quelle/michelin/m14.jpg"
+  },
+  {
+   "id": "m-loeffel",
+   "r": 17,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/_quelle/michelin/m16.jpg"
+  },
+  {
+   "id": "p-zsombor",
+   "r": 17,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/website/assets/img/p-zsombor-2083.webp"
+  },
+  {
+   "id": "m-dessert",
+   "r": 17,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/_quelle/michelin/m18.jpg"
+  },
+  {
+   "id": "teller-schale",
+   "r": 18,
+   "c": 1,
+   "w": 2,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/website/assets/img/teller-schale-1920.webp"
+  },
+  {
+   "id": "m-gruss-holz",
+   "r": 18,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/_quelle/michelin/m22.jpg"
+  },
+  {
+   "id": "p-dragan",
+   "r": 19,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/website/assets/img/p-dragan-2083.webp"
+  },
+  {
+   "id": "m-fisch-bohnen",
+   "r": 19,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/_quelle/michelin/m12.jpg"
+  },
+  {
+   "id": "tisch-rund",
+   "r": 19,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/_quelle/mediathek/Roots_2025-01-11_DigitaleMassarbeit_027-scaled.jpg"
+  },
+  {
+   "id": "teller-oel",
+   "r": 20,
+   "c": 1,
+   "w": 2,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/website/assets/img/teller-oel-1920.webp"
+  },
+  {
+   "id": "m-rettich",
+   "r": 20,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/roots Basel/_quelle/michelin/m11.jpg"
+  }
+ ]
+}

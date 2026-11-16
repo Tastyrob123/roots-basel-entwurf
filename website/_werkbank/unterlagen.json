@@ -1,0 +1,4 @@
+[
+ {"ziel": "momentaufnahme", "quelle": "../_quelle/pdf/2026_09.15_momentaufnahme_web.pdf", "name": "momentaufnahme", "gruppe": "Restaurant", "seiten": 1, "b": 220, "h": 110, "dazu": "", "fehlt": ""},
+ {"ziel": "weinkarte", "quelle": "../_quelle/pdf/09.2026_Weinkarte.pdf", "name": "Weinkarte", "gruppe": "Restaurant", "seiten": 25, "b": 210, "h": 297, "dazu": "", "fehlt": ""}
+]

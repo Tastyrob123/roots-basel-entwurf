@@ -1,0 +1,107 @@
+[
+ {
+  "name": "Ansicht start: zweimal geladen, kein Fehler, kein Überlaufen, keine kaputten Bilder",
+  "ok": true,
+  "info": "Anfragen & Chat GÄSTE · ROOTS Übersicht KEINE NEUEN ANFRAGEN CHAT AUSPROBIEREN W"
+ },
+ {
+  "name": "Ansicht eingang: zweimal geladen, kein Fehler, kein Überlaufen, keine kaputten Bilder",
+  "ok": true,
+  "info": "Anfragen & Chat GÄSTE · ROOTS Eingang KEINE NEUEN ANFRAGEN CHAT AUSPROBIEREN WEB"
+ },
+ {
+  "name": "Ansicht gefragt: zweimal geladen, kein Fehler, kein Überlaufen, keine kaputten Bilder",
+  "ok": true,
+  "info": "Anfragen & Chat GÄSTE · ROOTS Das wurde gefragt KEINE NEUEN ANFRAGEN CHAT AUSPRO"
+ },
+ {
+  "name": "Ansicht nachgetragen: zweimal geladen, kein Fehler, kein Überlaufen, keine kaputten Bilder",
+  "ok": true,
+  "info": "Anfragen & Chat GÄSTE · ROOTS Vom Team nachgetragen KEINE NEUEN ANFRAGEN CHAT AU"
+ },
+ {
+  "name": "Ansicht wissen: zweimal geladen, kein Fehler, kein Überlaufen, keine kaputten Bilder",
+  "ok": true,
+  "info": "Anfragen & Chat GÄSTE · ROOTS Das weiss der Chat KEINE NEUEN ANFRAGEN CHAT AUSPR"
+ },
+ {
+  "name": "Kein roher Code im Bild ({, undefined, NaN, None, null) in allen Ansichten und jeder Anfrage (Fehlerbuch 10a)",
+  "ok": true,
+  "info": "8 Anfragen, 5 Ansichten"
+ },
+ {
+  "name": "Auswahl und Kalender im Stil des Hauses: keine Systemauswahl sichtbar, Bereich und «Gilt bis» wählbar",
+  "ok": true,
+  "info": "Bereich Veranstaltungen, gilt bis 2026-12-15"
+ },
+ {
+  "name": "Bilder in jeder Liste: jeder Eintrag hat ein geladenes Foto (Robert 19.10.2026)",
+  "ok": true,
+  "info": "eingang 8, gefragt 10, nachgetragen 3, wissen 10"
+ },
+ {
+  "name": "Eingang: Hinweise geschlossen, Mittag, Gruppe, Allergien stehen bei den richtigen Anfragen",
+  "ok": true,
+  "info": "Frei, Roth, Meier, Graf"
+ },
+ {
+  "name": "Eingang ruhig gesetzt (Robert 20.10.): Hinweise mit Luft zur Schrift, kein Leerraum in der Karte, Rundgang-Schild bleibt beim Scrollen stehen",
+  "ok": true,
+  "info": "Luft 18 px, Rest 26 px, Schild 0"
+ },
+ {
+  "name": "Eingang: Auswahl Reservation / Gruppe / Gutschein zählt richtig",
+  "ok": true,
+  "info": "{\"Reservation\":5,\"Gruppe\":2,\"Gutschein\":1}"
+ },
+ {
+  "name": "Brief: «Brief schreiben» (Probe ohne KI) nennt die Allergie, Text ändern, sichern, neu laden, bleibt",
+  "ok": true,
+  "info": "gesichert und zurückgestellt"
+ },
+ {
+  "name": "Brief: «Als PDF speichern» lädt ein A4-PDF mit Briefkopf von roots",
+  "ok": true,
+  "info": "roots – Thomas Wyss – 09.11.2026.pdf, 110210 Byte"
+ },
+ {
+  "name": "Erledigt und wieder offen",
+  "ok": true,
+  "info": "ok"
+ },
+ {
+  "name": "Auf Deutsch lesen (englische Anfrage)",
+  "ok": true,
+  "info": "Lesefassung da"
+ },
+ {
+  "name": "Das wurde gefragt: Lücke nachtragen, steht in «Vom Team nachgetragen», entfernen",
+  "ok": true,
+  "info": "Lücken 2 → 1, weggeräumt"
+ },
+ {
+  "name": "Das weiss der Chat: Suche «Businesslunch» trifft, «Kinderstuhl» führt zu «noch nicht im Wissen»",
+  "ok": true,
+  "info": "ok"
+ },
+ {
+  "name": "Chat ausprobieren: Frage antippen, Antwort kommt (Probe), Anfrage mit Kontakt landet als Beispiel im Eingang",
+  "ok": true,
+  "info": "Anfrage tisch, weggeräumt"
+ },
+ {
+  "name": "Website-Formular bewerben → Eingang mit allen Angaben",
+  "ok": true,
+  "info": "nachricht/bewerbung"
+ },
+ {
+  "name": "Sicherheit Weg «formular»: fremde Herkunft 403, Kontakt ungültig 422, Maschinenfeld legt nichts ab, über 12 kB 413",
+  "ok": true,
+  "info": "422 422 · Falle ok · 413 413 · fremd 403"
+ },
+ {
+  "name": "Flüssigkeit 4× gedrosselt: Wechsel der Ansichten und Scrollen",
+  "ok": true,
+  "info": "104 Bilder/s, 4 über 50 ms, längstes 233 ms (571 Bilder)"
+ }
+]

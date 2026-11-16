@@ -1,0 +1,28 @@
+{
+ "zeit": "2026-11-09T07:48:00+01:00",
+ "art": "anlass",
+ "name": "Daniela Frei",
+ "kontakt": "daniela.frei@example.com",
+ "datum": "So, 29. November 2026",
+ "personen": 22,
+ "anliegen": "Geschlossene Gesellschaft: Jahresessen eines Teams, etwa 22 Personen",
+ "sprache": "de",
+ "gespraech": "beispiel-3",
+ "verlauf": [
+  {
+   "rolle": "user",
+   "text": "Über ein Formular der Website (Seite Über uns): Art: Geschlossene Gesellschaft\nDatum: So, 29. November 2026\nUhrzeit: 18:30 Uhr\nPersonen: 22\nNachricht: Wir möchten das «roots» für das Jahresessen unseres Teams exklusiv buchen. Gerne das Menü mit sieben Gängen und die Getränkebegleitung."
+  }
+ ],
+ "status": "gelesen",
+ "beispiel": true,
+ "an": "info@roots-basel.ch",
+ "abteilung": "Gruppe",
+ "seite": "/ueber-uns.html",
+ "seite_name": "Über uns",
+ "web": true,
+ "nachricht": "Art: Geschlossene Gesellschaft\nDatum: So, 29. November 2026\nUhrzeit: 18:30 Uhr\nPersonen: 22\nNachricht: Wir möchten das «roots» für das Jahresessen unseres Teams exklusiv buchen. Gerne das Menü mit sieben Gängen und die Getränkebegleitung.",
+ "formular": "allgemein",
+ "uhrzeit": "18:30 Uhr",
+ "entwurf": null
+}

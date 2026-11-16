@@ -1,0 +1,676 @@
+{
+ "druck": [
+  {
+   "id": "zeiten",
+   "name": "Aushang Zeiten",
+   "titel": [
+    "Wann Sie bei uns",
+    "einen Tisch finden."
+   ],
+   "satz": "Dinner, Businesslunch und Ruhetage, so wie sie auf Ihrer Website stehen. Für die Tür und den Eingang.",
+   "format": "A4 hoch, mit Beschnitt",
+   "pdf": "roots-zeiten.pdf",
+   "seiten": 1,
+   "karton": [
+    [
+     "w-zeiten",
+     46,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-zeiten": [
+     640,
+     898
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "aushang-001"
+  },
+  {
+   "id": "kueche",
+   "name": "Aushang Küche",
+   "titel": [
+    "Das Gemüse",
+    "in der Mitte."
+   ],
+   "satz": "Pascal Steffen in der Küche, darunter Ihr Satz vom Gemüse als Lebensmittelpunkt.",
+   "format": "A4 hoch, mit Beschnitt",
+   "pdf": "roots-kueche.pdf",
+   "seiten": 1,
+   "karton": [
+    [
+     "w-kueche",
+     46,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-kueche": [
+     640,
+     898
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "aushang-002"
+  },
+  {
+   "id": "allergien",
+   "name": "Hinweis Allergien",
+   "titel": [
+    "Sagen Sie es uns",
+    "vorher."
+   ],
+   "satz": "Die Bitte um Allergien und Unverträglichkeiten, im Wortlaut Ihrer Seite, mit Telefon und Mail.",
+   "format": "A4 hoch, mit Beschnitt",
+   "pdf": "roots-allergien.pdf",
+   "seiten": 1,
+   "karton": [
+    [
+     "w-allergien",
+     46,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-allergien": [
+     640,
+     898
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "aushang-003"
+  },
+  {
+   "id": "region",
+   "name": "Aushang Grüner Stern",
+   "titel": [
+    "Möglichst",
+    "aus der Region."
+   ],
+   "satz": "Ihr Satz zur Nachhaltigkeit und der Grüne Michelin-Stern, über einem Teller aus Ihrer Küche.",
+   "format": "A4 hoch, mit Beschnitt",
+   "pdf": "roots-region.pdf",
+   "seiten": 1,
+   "karton": [
+    [
+     "w-region",
+     46,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-region": [
+     640,
+     898
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "aushang-004"
+  },
+  {
+   "id": "regal",
+   "name": "Aushang Saal",
+   "titel": [
+    "Das Regal",
+    "im Saal."
+   ],
+   "satz": "Formalität ist Staub von gestern: der Satz aus dem Saal über dem Foto des Regals.",
+   "format": "A4 hoch, mit Beschnitt",
+   "pdf": "roots-regal.pdf",
+   "seiten": 1,
+   "karton": [
+    [
+     "w-regal",
+     46,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-regal": [
+     640,
+     898
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "aushang-015"
+  },
+  {
+   "id": "ausgezeichnet",
+   "name": "Aushang Auszeichnungen",
+   "titel": [
+    "Ausgezeichnet,",
+    "mit Jahr."
+   ],
+   "satz": "Zwei Michelin-Sterne, der Grüne Stern und 18 GaultMillau-Punkte, jede Auszeichnung mit ihrer Zeile.",
+   "format": "A4 hoch, mit Beschnitt",
+   "pdf": "roots-ausgezeichnet.pdf",
+   "seiten": 1,
+   "karton": [
+    [
+     "w-ausgezeichnet",
+     46,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-ausgezeichnet": [
+     640,
+     898
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "aushang-016"
+  },
+  {
+   "id": "gewachsen",
+   "name": "Aushang Geschichte",
+   "titel": [
+    "Gewachsen",
+    "seit 2017."
+   ],
+   "satz": "Ihre Jahre von der Eröffnung bis zum neuen Zuhause im Bachletten, wie auf der Startseite.",
+   "format": "A4 hoch, mit Beschnitt",
+   "pdf": "roots-gewachsen.pdf",
+   "seiten": 1,
+   "karton": [
+    [
+     "w-gewachsen",
+     46,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-gewachsen": [
+     640,
+     898
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "aushang-017"
+  },
+  {
+   "id": "jobs",
+   "name": "Aushang Stelle",
+   "titel": [
+    "Chef de Rang",
+    "gesucht."
+   ],
+   "satz": "Die offene Stelle aus Ihrem Inserat, mit einem Porträt aus dem Team.",
+   "format": "A4 hoch, mit Beschnitt",
+   "pdf": "roots-jobs.pdf",
+   "seiten": 1,
+   "karton": [
+    [
+     "w-jobs",
+     46,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-jobs": [
+     640,
+     898
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "aushang-019"
+  },
+  {
+   "id": "moment",
+   "name": "Schild Empfang",
+   "titel": [
+    "Einen Moment",
+    "bitte."
+   ],
+   "satz": "Für den Eingang: Wir begleiten Sie an Ihren Tisch.",
+   "format": "A4 hoch, mit Beschnitt",
+   "pdf": "roots-moment.pdf",
+   "seiten": 1,
+   "karton": [
+    [
+     "w-moment",
+     46,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-moment": [
+     640,
+     898
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "aushang-024"
+  },
+  {
+   "id": "tram",
+   "name": "Aushang Anfahrt",
+   "titel": [
+    "Mit dem Tram",
+    "zum Tisch."
+   ],
+   "satz": "Tram 1 oder Tram 8 bis «Zoo Bachletten», vom Bahnhof SBB aus, im Wortlaut Ihrer Kontaktseite.",
+   "format": "A4 hoch, mit Beschnitt",
+   "pdf": "roots-tram.pdf",
+   "seiten": 1,
+   "karton": [
+    [
+     "w-tram",
+     46,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-tram": [
+     640,
+     898
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "aushang-027"
+  },
+  {
+   "id": "anfahrt",
+   "name": "Beileger Anfahrt",
+   "titel": [
+    "Neben",
+    "dem Zoo."
+   ],
+   "satz": "Adresse und Weg als schmaler Beileger für Gutschein und Bestätigung.",
+   "format": "DIN lang hoch, mit Beschnitt",
+   "pdf": "roots-anfahrt.pdf",
+   "seiten": 1,
+   "karton": [
+    [
+     "w-anfahrt",
+     46,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-anfahrt": [
+     640,
+     1315
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "beileger-004"
+  },
+  {
+   "id": "lunch",
+   "name": "Flyer Businesslunch",
+   "titel": [
+    "Mittag",
+    "im Bachletten."
+   ],
+   "satz": "Der Businesslunch am Donnerstag mit seinen Zeiten, über einem Teller aus Ihrer Küche.",
+   "format": "A5 hoch, mit Beschnitt, 2 Seiten",
+   "pdf": "roots-lunch.pdf",
+   "seiten": 2,
+   "karton": [
+    [
+     "w-lunch",
+     46,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-lunch": [
+     640,
+     897
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "flyer-001"
+  },
+  {
+   "id": "gesellschaft",
+   "name": "Flyer Gesellschaft",
+   "titel": [
+    "Ihre Gesellschaft",
+    "im «roots»."
+   ],
+   "satz": "Für eine grössere Gruppe ab sechs Personen oder eine geschlossene Gesellschaft, im Wortlaut Ihrer Seite.",
+   "format": "A5 hoch, mit Beschnitt, 2 Seiten",
+   "pdf": "roots-gesellschaft.pdf",
+   "seiten": 2,
+   "karton": [
+    [
+     "w-gesellschaft",
+     46,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-gesellschaft": [
+     640,
+     897
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "flyer-002"
+  },
+  {
+   "id": "gutscheine",
+   "name": "Flyer Gutscheine",
+   "titel": [
+    "Ein Abend",
+    "zum Verschenken."
+   ],
+   "satz": "Der Hinweis auf Ihre Gutscheine, mit dem Satz aus dem Fuss Ihrer Seite.",
+   "format": "A5 hoch, mit Beschnitt, 2 Seiten",
+   "pdf": "roots-gutscheine.pdf",
+   "seiten": 2,
+   "karton": [
+    [
+     "w-gutscheine",
+     46,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-gutscheine": [
+     640,
+     897
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "flyer-010"
+  },
+  {
+   "id": "begleiter",
+   "name": "Karte alkoholfreie Begleiter",
+   "titel": [
+    "Alkoholfrei,",
+    "selbst gemacht."
+   ],
+   "satz": "Alle Begleiter des Hauses, Name für Name von Ihrer Karte, für den Tisch.",
+   "format": "DIN lang hoch, mit Beschnitt",
+   "pdf": "roots-begleiter.pdf",
+   "seiten": 1,
+   "karton": [
+    [
+     "w-begleiter",
+     46,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-begleiter": [
+     640,
+     1315
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "getraenke-002"
+  },
+  {
+   "id": "weinkarte",
+   "name": "Umschlag Weinkarte",
+   "titel": [
+    "Vom Klassiker",
+    "bis zum Newcomer."
+   ],
+   "satz": "Der Umschlag der Weinkarte mit Jenny und den 287 Weinen.",
+   "format": "DIN lang hoch, mit Beschnitt",
+   "pdf": "roots-weinkarte.pdf",
+   "seiten": 1,
+   "karton": [
+    [
+     "w-weinkarte",
+     46,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-weinkarte": [
+     640,
+     1315
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "getraenke-005"
+  },
+  {
+   "id": "parkieren",
+   "name": "Hinweiskarte Parkieren",
+   "titel": [
+    "Ab 19.00 Uhr",
+    "kostenlos."
+   ],
+   "satz": "Die Parkplätze des Zoos am Abend, als kleine Karte für die Reservation.",
+   "format": "A6 hoch, mit Beschnitt",
+   "pdf": "roots-parkieren.pdf",
+   "seiten": 1,
+   "karton": [
+    [
+     "w-parkieren",
+     40,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-parkieren": [
+     640,
+     888
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "hinweiskarte-001"
+  },
+  {
+   "id": "menue",
+   "name": "Menüeinleger",
+   "titel": [
+    "Was Saison",
+    "ist."
+   ],
+   "satz": "Der Einleger für die Karte: Ihr Satz zur Saison und die Gänge des Abends.",
+   "format": "A5 hoch, mit Beschnitt",
+   "pdf": "roots-menue.pdf",
+   "seiten": 1,
+   "karton": [
+    [
+     "w-menue",
+     46,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-menue": [
+     640,
+     897
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "menueeinleger-003"
+  },
+  {
+   "id": "bachletten",
+   "name": "Plakat Bachletten",
+   "titel": [
+    "Wie im eigenen",
+    "Wohnzimmer."
+   ],
+   "satz": "Der Saal unter den Wurzeln als Plakat, mit Ihrem Satz zum Bachletten.",
+   "format": "A3 hoch, mit Beschnitt",
+   "pdf": "roots-bachletten.pdf",
+   "seiten": 1,
+   "karton": [
+    [
+     "w-bachletten",
+     46,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-bachletten": [
+     640,
+     900
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "plakat-009"
+  },
+  {
+   "id": "karte",
+   "name": "Plakat Karte",
+   "titel": [
+    "Sieben bis",
+    "zehn Gänge."
+   ],
+   "satz": "Die Gemüseschale als Plakat, darunter das Dinner, wie es auf Ihrer Karte steht.",
+   "format": "A3 hoch, mit Beschnitt",
+   "pdf": "roots-karte.pdf",
+   "seiten": 1,
+   "karton": [
+    [
+     "w-karte",
+     46,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-karte": [
+     640,
+     900
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "plakat-004"
+  },
+  {
+   "id": "postkarte",
+   "name": "Postkarte Saal",
+   "titel": [
+    "Grüsse",
+    "aus dem Saal."
+   ],
+   "satz": "Der Saal unter den Wurzel-Leuchtern als Postkarte, mit Ihrer Adresse auf der Rückseite.",
+   "format": "A6 quer, mit Beschnitt, 2 Seiten",
+   "pdf": "roots-postkarte.pdf",
+   "seiten": 2,
+   "karton": [
+    [
+     "w-postkarte",
+     86,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-postkarte": [
+     1000,
+     721
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "postkarte-001"
+  },
+  {
+   "id": "postkarte-regal",
+   "name": "Postkarte Regal",
+   "titel": [
+    "Das Regal",
+    "als Karte."
+   ],
+   "satz": "Das Regal mit den Einmachgläsern als zweite Postkarte.",
+   "format": "A6 quer, mit Beschnitt, 2 Seiten",
+   "pdf": "roots-postkarte-regal.pdf",
+   "seiten": 2,
+   "karton": [
+    [
+     "w-postkarte-regal",
+     86,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-postkarte-regal": [
+     1000,
+     721
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "postkarte-003"
+  },
+  {
+   "id": "momentaufnahme",
+   "name": "Karte momentaufnahme",
+   "titel": [
+    "Gemüse",
+    "in der Hauptrolle."
+   ],
+   "satz": "Die Zutaten Ihrer «momentaufnahme» vom 15.09.2026 als Karte für den Tisch.",
+   "format": "A4 hoch, mit Beschnitt",
+   "pdf": "roots-momentaufnahme.pdf",
+   "seiten": 1,
+   "karton": [
+    [
+     "w-momentaufnahme",
+     46,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-momentaufnahme": [
+     640,
+     898
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "speisekarte-004"
+  },
+  {
+   "id": "instagram",
+   "name": "Beitrag für Instagram",
+   "titel": [
+    "Die Küche",
+    "im Feed."
+   ],
+   "satz": "Ein Beitrag im Format für Instagram: Foto aus Ihrer Küche, darunter Ihr Satz.",
+   "format": "Hochformat für Instagram (4:5)",
+   "pdf": "roots-instagram.pdf",
+   "seiten": 1,
+   "karton": [
+    [
+     "w-instagram",
+     40,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-instagram": [
+     640,
+     791
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "instagram-016"
+  }
+ ]
+}

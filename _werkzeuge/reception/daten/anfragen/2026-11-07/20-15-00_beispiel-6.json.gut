@@ -1,0 +1,28 @@
+{
+ "zeit": "2026-11-07T20:15:00+01:00",
+ "art": "tisch",
+ "name": "Sabine Roth",
+ "kontakt": "sabine.roth@example.com",
+ "datum": "Di, 24. November 2026",
+ "personen": 2,
+ "anliegen": "Tisch mittags für zwei Personen",
+ "sprache": "de",
+ "gespraech": "beispiel-6",
+ "verlauf": [
+  {
+   "rolle": "user",
+   "text": "Über ein Formular der Website (Seite Karte): Art: Tisch mit Wünschen\nDatum: Di, 24. November 2026\nUhrzeit: 12:00 Uhr\nPersonen: 2\nNachricht: Wir sind an diesem Tag in Basel und würden gerne mittags bei Ihnen essen."
+  }
+ ],
+ "status": "gelesen",
+ "beispiel": true,
+ "an": "info@roots-basel.ch",
+ "abteilung": "Reservation",
+ "seite": "/karte.html",
+ "seite_name": "Karte",
+ "web": true,
+ "nachricht": "Art: Tisch mit Wünschen\nDatum: Di, 24. November 2026\nUhrzeit: 12:00 Uhr\nPersonen: 2\nNachricht: Wir sind an diesem Tag in Basel und würden gerne mittags bei Ihnen essen.",
+ "formular": "allgemein",
+ "uhrzeit": "12:00 Uhr",
+ "entwurf": null
+}

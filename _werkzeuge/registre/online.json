@@ -1,0 +1,38 @@
+{
+ "name": "Besucher",
+ "hinweis": "roots, Basel, 09.11.2026 (Form wie die Vorlage, AUFTRAG-GEMEINSAM.md). Nicht hochgeladen, nur bereitgelegt. Oberfläche statisch unter /werkzeuge/registre/ (Vorführung liest beispiel/*.json, braucht keinen Dienst); /api/registre für «Kontrollpanel» (Beispielwerte, dieselbe Rechnung) und erst ab Betriebsbeginn für echte Werte mit eigenem Schlüssel (bis dahin kein Schlüssel angelegt). Eigener Speicher nur über REGISTRE_READ_WRITE_TOKEN (fehlt er: /tmp/roots-basel-registre-demo, nie der gemeinsame Speicher, nie der eines anderen Hauses). Rahmen aus der Oberfläche der Häuser (assets/oberflaeche/, Kleid roots): bis Station 14 unter _werkzeuge/oberflaeche/. Bühnenfotos aus /assets/img/ der Website (saal, tisch-paar, durch-die-tuer, tisch-leuchte, regal, tisch-hoch, tisch-wand, stich, je -1400.webp), Listenbilder je -760.webp, Schriften /assets/fonts/. Die Zählung der Website (Vorschlag vorschlag/messung.js) sendet an /api/registre. Wege relativ zum Projektordner; die Website liegt in website/.",
+ "funktionen": {
+  "api/registre.py": {
+   "von": "_werkzeuge/registre/online/registre.py",
+   "dauer": 30
+  }
+ },
+ "lib": {
+  "_werkzeuge/registre/registre.py": "api/_lib/registre/registre.py",
+  "_werkzeuge/registre/beispiel": "api/_lib/registre/beispiel"
+ },
+ "statik": {
+  "assets/oberflaeche": "assets/oberflaeche",
+  "_werkzeuge/registre/index.html": "werkzeuge/registre/index.html",
+  "_werkzeuge/registre/registre.css": "werkzeuge/registre/registre.css",
+  "_werkzeuge/registre/registre.js": "werkzeuge/registre/registre.js",
+  "_werkzeuge/registre/auftakt.js": "werkzeuge/registre/auftakt.js",
+  "_werkzeuge/registre/rundgang.js": "werkzeuge/registre/rundgang.js",
+  "_werkzeuge/registre/zur-werkbank.js": "werkzeuge/registre/zur-werkbank.js",
+  "_werkzeuge/registre/fehler.js": "werkzeuge/registre/fehler.js",
+  "_werkzeuge/registre/seiten.json": "werkzeuge/registre/seiten.json",
+  "_werkzeuge/registre/anleitung.html": "werkzeuge/registre/anleitung.html",
+  "_werkzeuge/registre/anleitung.js": "werkzeuge/registre/anleitung.js",
+  "_werkzeuge/registre/anleitung": "werkzeuge/registre/anleitung",
+  "_werkzeuge/registre/beispiel": "werkzeuge/registre/beispiel",
+  "_werkzeuge/registre/seiten-bilder.json": "werkzeuge/registre/seiten-bilder.json",
+  "_werkzeuge/registre/roots.css": "werkzeuge/registre/roots.css",
+  "_werkzeuge/registre/seiten-fotos.json": "werkzeuge/registre/seiten-fotos.json"
+ },
+ "umleitungen": [],
+ "stand": "/api/registre?tage=30&beispiel=1",
+ "pruefung": {
+  "weg": "/werkzeuge/registre/",
+  "kurz": true
+ }
+}

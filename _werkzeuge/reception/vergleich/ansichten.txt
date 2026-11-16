@@ -1,0 +1,9 @@
+# Anfragen & Chat (roots) gegen die Vorlage (Reservationsbuch der Vorlage, Server 9047, nur gelesen). Je Zeile: name | vorlage | neu
+start | http://127.0.0.1:9047/_werkzeuge/reception/#start | /_werkzeuge/reception/#start
+eingang | http://127.0.0.1:9047/_werkzeuge/reception/#eingang | /_werkzeuge/reception/#eingang
+gefragt | http://127.0.0.1:9047/_werkzeuge/reception/#gefragt | /_werkzeuge/reception/#gefragt
+nachgetragen | http://127.0.0.1:9047/_werkzeuge/reception/#nachgetragen | /_werkzeuge/reception/#nachgetragen
+wissen | http://127.0.0.1:9047/_werkzeuge/reception/#wissen | /_werkzeuge/reception/#wissen
+rundgang-fenster | http://127.0.0.1:9047/_werkzeuge/reception/?rundgang#start | /_werkzeuge/reception/?rundgang#start
+pruefung | http://127.0.0.1:9047/_werkzeuge/reception/pruefung.html | /_werkzeuge/reception/pruefung.html
+anleitung | http://127.0.0.1:9047/_werkzeuge/reception/anleitung.html | /_werkzeuge/reception/anleitung.html

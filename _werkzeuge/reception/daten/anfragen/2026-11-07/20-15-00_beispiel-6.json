@@ -1,0 +1,36 @@
+{
+ "zeit": "2026-11-07T20:15:00+01:00",
+ "art": "tisch",
+ "name": "Sabine Roth",
+ "kontakt": "sabine.roth@example.com",
+ "datum": "Di, 24. November 2026",
+ "personen": 2,
+ "anliegen": "Tisch mittags für zwei Personen",
+ "sprache": "de",
+ "gespraech": "beispiel-6",
+ "verlauf": [
+  {
+   "rolle": "user",
+   "text": "Über ein Formular der Website (Seite Karte): Art: Tisch mit Wünschen\nDatum: Di, 24. November 2026\nUhrzeit: 12:00 Uhr\nPersonen: 2\nNachricht: Wir sind an diesem Tag in Basel und würden gerne mittags bei Ihnen essen."
+  }
+ ],
+ "status": "gelesen",
+ "beispiel": true,
+ "an": "info@roots-basel.ch",
+ "abteilung": "Reservation",
+ "seite": "/karte.html",
+ "seite_name": "Karte",
+ "web": true,
+ "nachricht": "Art: Tisch mit Wünschen\nDatum: Di, 24. November 2026\nUhrzeit: 12:00 Uhr\nPersonen: 2\nNachricht: Wir sind an diesem Tag in Basel und würden gerne mittags bei Ihnen essen.",
+ "formular": "allgemein",
+ "uhrzeit": "12:00 Uhr",
+ "entwurf": {
+  "betreff": "Ihre Anfrage im «roots» (Probe)",
+  "text": "Guten Tag Sabine Roth\n\nVielen Dank für Ihre Anfrage. Dies ist ein Probe-Brief ohne KI, damit sich Gestalten, PDF und Text prüfen lassen.\n\nFür Ihr Datum [Verfügbarkeit prüfen] und [Tisch bestätigen].\n\nDamit wir alles in Ruhe vorbereiten können:\n- Uhrzeit\n- Anzahl Personen\n- Anzahl Gänge\n\nHerzliche Grüsse\n\n[Name]\nroots",
+  "team": "Grundlage: Probe ohne KI\nOffen: Verfügbarkeit, Bestätigung",
+  "vorlage": "reservation",
+  "absender": "info@roots-basel.ch",
+  "zeit": "2026-11-09T16:01:33+08:00",
+  "fassung": 1
+ }
+}

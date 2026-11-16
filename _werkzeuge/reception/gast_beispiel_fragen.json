@@ -1,0 +1,132 @@
+[
+ {
+  "vor": [
+   0,
+   10,
+   20
+  ],
+  "sprache": "de",
+  "belegt": true,
+  "frage": "Habt ihr am Montag offen?",
+  "antwort": "Sonntag und Montag ist das «roots» geschlossen. Geöffnet ist:\n- Dienstag bis Samstag: 18.30 bis 24.00 Uhr\n- Donnerstag, Businesslunch: 12.00 bis 14.30 Uhr",
+  "thema": "",
+  "buchung": false
+ },
+ {
+  "vor": [
+   0,
+   8,
+   55
+  ],
+  "sprache": "de",
+  "belegt": true,
+  "frage": "Was kostet das Menü mit acht Gängen?",
+  "antwort": "Das Dinner mit acht Gängen kostet CHF 208 pro Person.\n- Getränkebegleitung mit Alkohol: CHF 130\n- Getränkebegleitung ohne Alkohol: CHF 88\n- Alle Preise inkl. 8.1 % MwSt.",
+  "thema": "",
+  "buchung": false
+ },
+ {
+  "vor": [
+   1,
+   19,
+   5
+  ],
+  "sprache": "de",
+  "belegt": true,
+  "frage": "Wir sind acht Personen. Wie reservieren wir?",
+  "antwort": "Für eine Gruppe ab sechs Personen schreiben Sie dem Team bitte eine Mail.\n- E-Mail: info@roots-basel.ch\n- Telefon: +41 61 322 10 56",
+  "thema": "",
+  "buchung": false
+ },
+ {
+  "vor": [
+   1,
+   13,
+   40
+  ],
+  "sprache": "en",
+  "belegt": true,
+  "frage": "Is there a non-alcoholic drinks pairing?",
+  "antwort": "Yes, every course can come with a non-alcoholic glass, made in-house.\n- 7 glasses: CHF 77\n- 10 glasses: CHF 110\n- For example: apple and hibiscus, nasturtium and sorrel, cherry and miso",
+  "thema": "",
+  "buchung": false
+ },
+ {
+  "vor": [
+   2,
+   17,
+   25
+  ],
+  "sprache": "de",
+  "belegt": true,
+  "frage": "Gibt es mittags auch etwas?",
+  "antwort": "Donnerstags gibt es von 12.00 bis 14.30 Uhr den Businesslunch.\n- 3 Gänge: CHF 98\n- 4 Gänge: CHF 110\n- 5 Gänge: CHF 122",
+  "thema": "",
+  "buchung": false
+ },
+ {
+  "vor": [
+   2,
+   9,
+   10
+  ],
+  "sprache": "de",
+  "belegt": true,
+  "frage": "Meine Frau verträgt keine Nüsse. Geht das?",
+  "antwort": "Bitte geben Sie Allergien oder Unverträglichkeiten bei der Reservation an; die Küche stimmt es mit Ihnen ab.",
+  "thema": "",
+  "buchung": false
+ },
+ {
+  "vor": [
+   3,
+   12,
+   30
+  ],
+  "sprache": "de",
+  "belegt": false,
+  "frage": "Haben Sie einen Kinderstuhl?",
+  "antwort": "Dazu steht nichts in meinen Unterlagen. Das Team hilft Ihnen gerne weiter:\n- Telefon: +41 61 322 10 56\n- E-Mail: info@roots-basel.ch",
+  "thema": "Kinderstuhl",
+  "buchung": false
+ },
+ {
+  "vor": [
+   3,
+   15,
+   45
+  ],
+  "sprache": "de",
+  "belegt": false,
+  "frage": "Darf ich meinen Hund mitbringen?",
+  "antwort": "Dazu steht nichts in meinen Unterlagen. Das Team hilft Ihnen gerne weiter:\n- Telefon: +41 61 322 10 56\n- E-Mail: info@roots-basel.ch",
+  "thema": "Hund",
+  "buchung": false
+ },
+ {
+  "vor": [
+   4,
+   11,
+   0
+  ],
+  "sprache": "de",
+  "belegt": true,
+  "frage": "Wie komme ich mit dem Tram zu euch?",
+  "antwort": "Mit Tram 1 oder Tram 8 bis zur Station «Zoo Bachletten», von dort ist es eine Gehminute.\n- Ab Bahnhof SBB: vom Centralbahnplatz mit Tram 1 oder Tram 8",
+  "thema": "",
+  "buchung": false
+ },
+ {
+  "vor": [
+   4,
+   18,
+   20
+  ],
+  "sprache": "de",
+  "belegt": true,
+  "frage": "Wo kann ich parkieren?",
+  "antwort": "Rund um das «roots» gibt es die blaue und die weisse Zone.\n- Ab 19.00 Uhr: die Parkplätze des Zoos, kostenlos",
+  "thema": "",
+  "buchung": false
+ }
+]

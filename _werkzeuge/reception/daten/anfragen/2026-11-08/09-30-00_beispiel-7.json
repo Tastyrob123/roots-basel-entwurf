@@ -1,0 +1,33 @@
+{
+ "zeit": "2026-11-08T09:30:00+01:00",
+ "art": "nachricht",
+ "name": "Peter Graf",
+ "kontakt": "peter.graf@example.com",
+ "datum": "Sa, 12. Dezember 2026",
+ "personen": 2,
+ "anliegen": "Frage, ob zum Hochzeitsjubiläum eine eigene Flasche aus dem Hochzeitsjahr mitgebracht werden darf.",
+ "sprache": "de",
+ "gespraech": "beispiel-7",
+ "verlauf": [
+  {
+   "rolle": "user",
+   "text": "Wir feiern am 12. Dezember unser Hochzeitsjubiläum bei Ihnen. Dürfen wir eine Flasche aus unserem Hochzeitsjahr mitbringen?"
+  },
+  {
+   "rolle": "assistant",
+   "text": "Dazu steht nichts in meinen Unterlagen. Gerne gebe ich Ihre Frage an das Team weiter; dafür brauche ich Ihren Namen und eine E-Mail-Adresse oder Telefonnummer."
+  },
+  {
+   "rolle": "user",
+   "text": "Peter Graf, peter.graf@example.com"
+  },
+  {
+   "rolle": "assistant",
+   "text": "Danke. Dies ist ein Entwurf von Tasty Studios: Die Anfrage geht nicht an das Haus, sie liegt nur zur Ansicht in «Anfragen & Chat»."
+  }
+ ],
+ "status": "gelesen",
+ "beispiel": true,
+ "abteilung": "Reservation",
+ "entwurf": null
+}

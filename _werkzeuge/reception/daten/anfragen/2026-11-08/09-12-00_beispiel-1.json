@@ -1,0 +1,36 @@
+{
+ "zeit": "2026-11-08T09:12:00+01:00",
+ "art": "tisch",
+ "name": "Claudia Meier",
+ "kontakt": "claudia.meier@example.com",
+ "datum": "Sa, 21. November 2026",
+ "personen": 2,
+ "anliegen": "Tisch mit Wünschen: zehnter Hochzeitstag, Menü mit acht Gängen",
+ "sprache": "de",
+ "gespraech": "beispiel-1",
+ "verlauf": [
+  {
+   "rolle": "user",
+   "text": "Über ein Formular der Website (Seite Kontakt): Art: Tisch mit Wünschen\nDatum: Sa, 21. November 2026\nUhrzeit: 19:00 Uhr\nPersonen: 2\nNachricht: Wir feiern unseren zehnten Hochzeitstag und freuen uns auf das Menü mit acht Gängen. Mein Mann verträgt keine Nüsse."
+  }
+ ],
+ "status": "gelesen",
+ "beispiel": true,
+ "an": "info@roots-basel.ch",
+ "abteilung": "Reservation",
+ "seite": "/kontakt.html",
+ "seite_name": "Kontakt",
+ "web": true,
+ "nachricht": "Art: Tisch mit Wünschen\nDatum: Sa, 21. November 2026\nUhrzeit: 19:00 Uhr\nPersonen: 2\nNachricht: Wir feiern unseren zehnten Hochzeitstag und freuen uns auf das Menü mit acht Gängen. Mein Mann verträgt keine Nüsse.",
+ "formular": "allgemein",
+ "uhrzeit": "19:00 Uhr",
+ "entwurf": {
+  "betreff": "Ihre Anfrage im «roots» (Probe)",
+  "text": "Guten Tag Claudia Meier\n\nVielen Dank für Ihre Anfrage. Dies ist ein Probe-Brief ohne KI, damit sich Gestalten, PDF und Text prüfen lassen.\n\nFür Ihr Datum [Verfügbarkeit prüfen] und [Tisch bestätigen].\n\nIhre Angaben zu Allergien und Unverträglichkeiten geben wir an die Küche weiter [Küche informieren].\n\nDamit wir alles in Ruhe vorbereiten können:\n- Uhrzeit\n- Anzahl Personen\n- Anzahl Gänge\n\nHerzliche Grüsse\n\n[Name]\nroots",
+  "team": "Grundlage: Probe ohne KI\nOffen: Verfügbarkeit, Bestätigung",
+  "vorlage": "reservation",
+  "absender": "info@roots-basel.ch",
+  "zeit": "2026-11-09T16:01:24+08:00",
+  "fassung": 1
+ }
+}

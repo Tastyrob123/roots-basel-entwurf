@@ -1,0 +1,40 @@
+{
+ "zeit": "2026-11-08T16:40:00+01:00",
+ "art": "bankett",
+ "name": "Thomas Wyss",
+ "kontakt": "+41 79 000 00 00",
+ "datum": "Fr, 4. Dezember 2026, 19:00 Uhr",
+ "personen": 8,
+ "anliegen": "Gruppe von acht Personen zum 60. Geburtstag, Menü mit neun Gängen, zwei Gäste ohne Alkohol.",
+ "sprache": "de",
+ "gespraech": "beispiel-2",
+ "verlauf": [
+  {
+   "rolle": "user",
+   "text": "Wir möchten mit acht Personen den 60. Geburtstag meines Vaters feiern, am Freitag, 4. Dezember. Geht das?"
+  },
+  {
+   "rolle": "assistant",
+   "text": "Für eine Gruppe ab sechs Personen schreibt das Team gerne persönlich zurück. Gerne gebe ich Ihre Anfrage weiter; dafür brauche ich Ihren Namen und eine E-Mail-Adresse oder Telefonnummer."
+  },
+  {
+   "rolle": "user",
+   "text": "Thomas Wyss, +41 79 000 00 00. Wir hätten gerne neun Gänge, zwei von uns trinken keinen Alkohol."
+  },
+  {
+   "rolle": "assistant",
+   "text": "Danke. Dies ist ein Entwurf von Tasty Studios: Die Anfrage geht nicht an das Haus, sie liegt nur zur Ansicht in «Anfragen & Chat»."
+  }
+ ],
+ "status": "gelesen",
+ "beispiel": true,
+ "abteilung": "Gruppe",
+ "entwurf": {
+  "betreff": "Ihr 60. Geburtstag im «roots» am 4. Dezember",
+  "text": "Guten Tag Herr Wyss\n\nvielen Dank für Ihre Anfrage. Es freut uns sehr, dass Sie Ihren 60. Geburtstag mit Ihren Liebsten im «roots» feiern möchten. Für Freitag, 4. Dezember, ab 19.00 Uhr halten wir gerne einen Tisch für acht Personen für Sie bereit.\n\nDas Menü mit neun Gängen kostet CHF 218 pro Person. Jeder Gang wird von der Saison beeinflusst; das Gemüse steht im Mittelpunkt, Fisch und Fleisch spielen die Nebenrolle. Zu jedem Gang gibt es auf Wunsch ein Glas: Die Getränkebegleitung mit neun Gläsern kostet mit Alkohol CHF 145, ohne Alkohol CHF 99. Die alkoholfreien Begleiter macht das Haus selbst, zum Beispiel aus Apfel und Hibiskus oder Kirsche und Miso.\n\nDamit wir den Abend in Ruhe vorbereiten können, sagen Sie uns bitte noch:\n- ob jemand in der Runde Allergien oder Unverträglichkeiten hat\n- ob es bei zwei Gästen ohne Alkohol bleibt\n\nWir freuen uns auf Ihren Abend.\n\nHerzliche Grüsse\n\nIhr Team des «roots»",
+  "team": "Grundlage: Karte (9 Gänge CHF 218; Getränkebegleitung 9 Gläser CHF 145 mit, CHF 99 ohne Alkohol), Startseite (alkoholfreie Begleiter), Fenster «Tisch reservieren» (ab sechs Personen per Mail)\nOffen: Tisch für acht am 4. Dezember frei halten, Allergien der Runde",
+  "vorlage": "gruppe",
+  "absender": "info@roots-basel.ch",
+  "zeit": "2026-11-08T16:40:00+01:00"
+ }
+}

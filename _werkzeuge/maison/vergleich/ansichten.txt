@@ -1,0 +1,10 @@
+# Kontrollpanel roots · Vorlage (Zentrale auf 8987) links, roots (9301) rechts. name | url-der-vorlage | url-des-neuen-werkzeugs
+start | http://127.0.0.1:8987/_werkzeuge/maison/?gruss=tag | /_werkzeuge/maison/?gruss=tag
+rundgang | http://127.0.0.1:8987/_werkzeuge/maison/?rundgang | /_werkzeuge/maison/?rundgang
+saal-website | http://127.0.0.1:8987/_werkzeuge/maison/#bureau | /_werkzeuge/maison/#bureau
+saal-karten | http://127.0.0.1:8987/_werkzeuge/maison/#carte | /_werkzeuge/maison/#carte
+saal-drucksachen | http://127.0.0.1:8987/_werkzeuge/maison/#imprimerie | /_werkzeuge/maison/#imprimerie
+saal-anfragen | http://127.0.0.1:8987/_werkzeuge/maison/#reception | /_werkzeuge/maison/#reception
+saal-markenbuch | http://127.0.0.1:8987/_werkzeuge/maison/#livre | /_werkzeuge/maison/#livre
+saal-besucher | http://127.0.0.1:8987/_werkzeuge/maison/#registre | /_werkzeuge/maison/#registre
+fuss | http://127.0.0.1:8987/_werkzeuge/maison/#fuss | /_werkzeuge/maison/#fuss

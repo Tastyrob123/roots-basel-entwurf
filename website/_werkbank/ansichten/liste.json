@@ -1,0 +1,146 @@
+{
+ "index.html": {
+  "name": "Startseite",
+  "rechner": 8,
+  "stellen": [
+   [
+    1,
+    0
+   ],
+   [
+    2,
+    0
+   ],
+   [
+    3,
+    0
+   ],
+   [
+    4,
+    0
+   ],
+   [
+    8,
+    0
+   ],
+   [
+    9,
+    0
+   ],
+   [
+    10,
+    0
+   ]
+  ],
+  "handy": 8
+ },
+ "karte.html": {
+  "name": "Karte",
+  "rechner": 4,
+  "stellen": [
+   [
+    1,
+    0
+   ],
+   [
+    2,
+    0
+   ],
+   [
+    3,
+    0
+   ]
+  ],
+  "handy": 4
+ },
+ "weinkarte.html": {
+  "name": "Weinkarte",
+  "rechner": 3,
+  "stellen": [
+   [
+    1,
+    0
+   ],
+   [
+    1,
+    0.030303030303030304
+   ]
+  ],
+  "handy": 3
+ },
+ "ueber-uns.html": {
+  "name": "Über uns",
+  "rechner": 4,
+  "stellen": [
+   [
+    1,
+    0
+   ],
+   [
+    1,
+    0.3333333333333333
+   ],
+   [
+    1,
+    0.6666666666666666
+   ]
+  ],
+  "handy": 4
+ },
+ "neuigkeiten.html": {
+  "name": "Neuigkeiten",
+  "rechner": 3,
+  "stellen": [
+   [
+    1,
+    0
+   ],
+   [
+    1,
+    0.5
+   ]
+  ],
+  "handy": 3
+ },
+ "medien.html": {
+  "name": "Medien",
+  "rechner": 3,
+  "stellen": [
+   [
+    1,
+    0
+   ],
+   [
+    1,
+    0.3333333333333333
+   ]
+  ],
+  "handy": 3
+ },
+ "jobs.html": {
+  "name": "Jobs",
+  "rechner": 2,
+  "stellen": [
+   [
+    1,
+    0
+   ]
+  ],
+  "handy": 2
+ },
+ "kontakt.html": {
+  "name": "Kontakt",
+  "rechner": 3,
+  "stellen": [
+   [
+    1,
+    0
+   ],
+   [
+    1,
+    0.5
+   ]
+  ],
+  "handy": 3
+ }
+}

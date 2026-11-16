@@ -1,0 +1,577 @@
+{
+ "zeit": "2026-11-09T07:40:19.698Z",
+ "gruen": 93,
+ "rot": 2,
+ "ergebnis": [
+  {
+   "w": "chromium 1440",
+   "n": "Stand-Zeilen gefüllt",
+   "gut": true,
+   "info": "bureau-kurz: Alles veröffentlicht | carte-kurz: 3 Karten, alle veröffentlicht | imprimerie-kurz: 207 Vorlagen in 23 Arten | reception-kurz: 4 neue Anfragen · 2 Fragen ohne Antwort · Beispiel | livre-kurz: 43 Fotos · 38 Dateien | registre-kurz: 781 Besuche in 30 Tagen · Beispiel | registre-heute: 0 | registre-buchung: 0 | bureau: Nichts offen im Entwurf. | carte: Alle Karten sind veröffentlicht, di"
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Link «Prüfung öffnen» antwortet",
+   "gut": true,
+   "info": "200 /werkzeuge/website/pruefung.html?haus=roots"
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Link «Neu laden» antwortet",
+   "gut": true,
+   "info": "200 /_werkzeuge/maison/"
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Sprungziel #fuss da",
+   "gut": true,
+   "info": "Anleitungen"
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Sprungziel #oben da",
+   "gut": true,
+   "info": "KontrollpanelAlle Werkzeuge · roots"
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Sprungziel #bureau da",
+   "gut": true,
+   "info": "Website bearbeiten"
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Sprungziel #carte da",
+   "gut": true,
+   "info": "Speisekarten"
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Sprungziel #imprimerie da",
+   "gut": true,
+   "info": "Drucksachen & Feed"
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Sprungziel #reception da",
+   "gut": true,
+   "info": "Anfragen & Chat"
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Sprungziel #livre da",
+   "gut": true,
+   "info": "Markenbuch"
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Sprungziel #registre da",
+   "gut": true,
+   "info": "Besucher"
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Link «Website ansehen» antwortet",
+   "gut": true,
+   "info": "200 /website/index.html"
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Link «N° 1Website bearbeitenWebsite pflegenAlles veröffe» antwortet",
+   "gut": true,
+   "info": "200 /_werkzeuge/bureau/"
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Link «N° 2SpeisekartenKarten und Preislisten3 Karten, al» antwortet",
+   "gut": true,
+   "info": "200 /_werkzeuge/carte/"
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Link «N° 3Drucksachen & FeedDrucksachen und Beiträge207 » antwortet",
+   "gut": true,
+   "info": "200 /_werkzeuge/imprimerie/"
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Link «N° 4Anfragen & ChatGästen antworten4 neue Anfragen» antwortet",
+   "gut": true,
+   "info": "200 /_werkzeuge/reception/"
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Link «N° 5MarkenbuchMarke und Bilder43 Fotos · 38 Dateie» antwortet",
+   "gut": true,
+   "info": "200 /_werkzeuge/livre/"
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Link «N° 6BesucherBesuche der Website781 Besuche in 30 T» antwortet",
+   "gut": true,
+   "info": "200 /_werkzeuge/registre/"
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Link «Speisekarten, Schritt für Schritt» antwortet",
+   "gut": true,
+   "info": "200 /_werkzeuge/carte/anleitung.html"
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Link «Anfragen & Chat, Schritt für Schritt» antwortet",
+   "gut": true,
+   "info": "200 /_werkzeuge/reception/anleitung.html"
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Link «Markenbuch, Schritt für Schritt» antwortet",
+   "gut": true,
+   "info": "200 /_werkzeuge/livre/anleitung.html"
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Link «Besucher, Schritt für Schritt» antwortet",
+   "gut": true,
+   "info": "200 /_werkzeuge/registre/anleitung.html"
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Konsole leer beim Laden",
+   "gut": true,
+   "info": ""
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Kachel 1 öffnet /_werkzeuge/bureau/",
+   "gut": true,
+   "info": "/_werkzeuge/bureau/ · Website bearbeiten · roots · "
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Kachel 1: keine Skriptfehler",
+   "gut": true,
+   "info": ""
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Kachel 2 öffnet /_werkzeuge/carte/",
+   "gut": true,
+   "info": "/_werkzeuge/carte/#momentaufnahme · Speisekarten · roots · "
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Kachel 2: keine Skriptfehler",
+   "gut": true,
+   "info": ""
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Kachel 3 öffnet /_werkzeuge/imprimerie/",
+   "gut": true,
+   "info": "/_werkzeuge/imprimerie/ · Drucksachen & Feed · roots · "
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Kachel 3: keine Skriptfehler",
+   "gut": true,
+   "info": ""
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Kachel 4 öffnet /_werkzeuge/reception/",
+   "gut": true,
+   "info": "/_werkzeuge/reception/ · Anfragen & Chat · roots Basel · "
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Kachel 4: keine Skriptfehler",
+   "gut": true,
+   "info": ""
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Kachel 5 öffnet /_werkzeuge/livre/",
+   "gut": true,
+   "info": "/_werkzeuge/livre/ · Markenbuch · roots Basel · "
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Kachel 5: keine Skriptfehler",
+   "gut": true,
+   "info": ""
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Kachel 6 öffnet /_werkzeuge/registre/",
+   "gut": true,
+   "info": "/_werkzeuge/registre/ · Übersicht · Besucher · roots · "
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Kachel 6: keine Skriptfehler",
+   "gut": true,
+   "info": ""
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Leiste: sichtbare Sprungmarken",
+   "gut": true,
+   "info": "#fuss #oben"
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Leiste #fuss springt hin",
+   "gut": true,
+   "info": "519"
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Leiste #oben springt hin",
+   "gut": true,
+   "info": "0"
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Leiste ohne Fehler",
+   "gut": true,
+   "info": ""
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Schild «Kurzer Rundgang» erscheint",
+   "gut": true,
+   "info": ""
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Rundgang Schritt 1: Karte ganz im Bild",
+   "gut": true,
+   "info": ""
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Rundgang Schritt 2: Karte ganz im Bild",
+   "gut": true,
+   "info": ""
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Rundgang Schritt 3: Karte ganz im Bild",
+   "gut": true,
+   "info": ""
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Rundgang Schritt 4: Karte ganz im Bild",
+   "gut": true,
+   "info": ""
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Rundgang Schritt 5: Karte ganz im Bild",
+   "gut": true,
+   "info": ""
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Rundgang: fünf Schritte, dann zu",
+   "gut": true,
+   "info": "5"
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Rundgang ohne Fehler",
+   "gut": true,
+   "info": ""
+  },
+  {
+   "w": "chromium 1440",
+   "n": "Werkbank hat Weg zum Kontrollpanel",
+   "gut": false,
+   "info": ""
+  },
+  {
+   "w": "chromium 390",
+   "n": "Stand-Zeilen gefüllt",
+   "gut": true,
+   "info": "bureau-kurz: Alles veröffentlicht | carte-kurz: 3 Karten, alle veröffentlicht | imprimerie-kurz: 207 Vorlagen in 23 Arten | reception-kurz: 4 neue Anfragen · 2 Fragen ohne Antwort · Beispiel | livre-kurz: 43 Fotos · 38 Dateien | registre-kurz: 781 Besuche in 30 Tagen · Beispiel | registre-heute: 0 | registre-buchung: 0 | bureau: Nichts offen im Entwurf. | carte: Alle Karten sind veröffentlicht, di"
+  },
+  {
+   "w": "chromium 390",
+   "n": "Link «Prüfung öffnen» antwortet",
+   "gut": true,
+   "info": "200 /werkzeuge/website/pruefung.html?haus=roots"
+  },
+  {
+   "w": "chromium 390",
+   "n": "Link «Neu laden» antwortet",
+   "gut": true,
+   "info": "200 /_werkzeuge/maison/"
+  },
+  {
+   "w": "chromium 390",
+   "n": "Sprungziel #fuss da",
+   "gut": true,
+   "info": "Anleitungen"
+  },
+  {
+   "w": "chromium 390",
+   "n": "Sprungziel #oben da",
+   "gut": true,
+   "info": "KontrollpanelAlle Werkzeuge · roots"
+  },
+  {
+   "w": "chromium 390",
+   "n": "Sprungziel #bureau da",
+   "gut": true,
+   "info": "Website bearbeiten"
+  },
+  {
+   "w": "chromium 390",
+   "n": "Sprungziel #carte da",
+   "gut": true,
+   "info": "Speisekarten"
+  },
+  {
+   "w": "chromium 390",
+   "n": "Sprungziel #imprimerie da",
+   "gut": true,
+   "info": "Drucksachen & Feed"
+  },
+  {
+   "w": "chromium 390",
+   "n": "Sprungziel #reception da",
+   "gut": true,
+   "info": "Anfragen & Chat"
+  },
+  {
+   "w": "chromium 390",
+   "n": "Sprungziel #livre da",
+   "gut": true,
+   "info": "Markenbuch"
+  },
+  {
+   "w": "chromium 390",
+   "n": "Sprungziel #registre da",
+   "gut": true,
+   "info": "Besucher"
+  },
+  {
+   "w": "chromium 390",
+   "n": "Link «Website ansehen» antwortet",
+   "gut": true,
+   "info": "200 /website/index.html"
+  },
+  {
+   "w": "chromium 390",
+   "n": "Link «N° 1Website bearbeitenWebsite pflegenAlles veröffe» antwortet",
+   "gut": true,
+   "info": "200 /_werkzeuge/bureau/"
+  },
+  {
+   "w": "chromium 390",
+   "n": "Link «N° 2SpeisekartenKarten und Preislisten3 Karten, al» antwortet",
+   "gut": true,
+   "info": "200 /_werkzeuge/carte/"
+  },
+  {
+   "w": "chromium 390",
+   "n": "Link «N° 3Drucksachen & FeedDrucksachen und Beiträge207 » antwortet",
+   "gut": true,
+   "info": "200 /_werkzeuge/imprimerie/"
+  },
+  {
+   "w": "chromium 390",
+   "n": "Link «N° 4Anfragen & ChatGästen antworten4 neue Anfragen» antwortet",
+   "gut": true,
+   "info": "200 /_werkzeuge/reception/"
+  },
+  {
+   "w": "chromium 390",
+   "n": "Link «N° 5MarkenbuchMarke und Bilder43 Fotos · 38 Dateie» antwortet",
+   "gut": true,
+   "info": "200 /_werkzeuge/livre/"
+  },
+  {
+   "w": "chromium 390",
+   "n": "Link «N° 6BesucherBesuche der Website781 Besuche in 30 T» antwortet",
+   "gut": true,
+   "info": "200 /_werkzeuge/registre/"
+  },
+  {
+   "w": "chromium 390",
+   "n": "Link «Speisekarten, Schritt für Schritt» antwortet",
+   "gut": true,
+   "info": "200 /_werkzeuge/carte/anleitung.html"
+  },
+  {
+   "w": "chromium 390",
+   "n": "Link «Anfragen & Chat, Schritt für Schritt» antwortet",
+   "gut": true,
+   "info": "200 /_werkzeuge/reception/anleitung.html"
+  },
+  {
+   "w": "chromium 390",
+   "n": "Link «Markenbuch, Schritt für Schritt» antwortet",
+   "gut": true,
+   "info": "200 /_werkzeuge/livre/anleitung.html"
+  },
+  {
+   "w": "chromium 390",
+   "n": "Link «Besucher, Schritt für Schritt» antwortet",
+   "gut": true,
+   "info": "200 /_werkzeuge/registre/anleitung.html"
+  },
+  {
+   "w": "chromium 390",
+   "n": "Konsole leer beim Laden",
+   "gut": true,
+   "info": ""
+  },
+  {
+   "w": "chromium 390",
+   "n": "Kachel 1 öffnet /_werkzeuge/bureau/",
+   "gut": true,
+   "info": "/_werkzeuge/bureau/ · Website bearbeiten · roots · "
+  },
+  {
+   "w": "chromium 390",
+   "n": "Kachel 1: keine Skriptfehler",
+   "gut": true,
+   "info": ""
+  },
+  {
+   "w": "chromium 390",
+   "n": "Kachel 2 öffnet /_werkzeuge/carte/",
+   "gut": true,
+   "info": "/_werkzeuge/carte/#momentaufnahme · Speisekarten · roots · "
+  },
+  {
+   "w": "chromium 390",
+   "n": "Kachel 2: keine Skriptfehler",
+   "gut": true,
+   "info": ""
+  },
+  {
+   "w": "chromium 390",
+   "n": "Kachel 3 öffnet /_werkzeuge/imprimerie/",
+   "gut": true,
+   "info": "/_werkzeuge/imprimerie/ · Drucksachen & Feed · roots · "
+  },
+  {
+   "w": "chromium 390",
+   "n": "Kachel 3: keine Skriptfehler",
+   "gut": true,
+   "info": ""
+  },
+  {
+   "w": "chromium 390",
+   "n": "Kachel 4 öffnet /_werkzeuge/reception/",
+   "gut": true,
+   "info": "/_werkzeuge/reception/ · Anfragen & Chat · roots Basel · "
+  },
+  {
+   "w": "chromium 390",
+   "n": "Kachel 4: keine Skriptfehler",
+   "gut": true,
+   "info": ""
+  },
+  {
+   "w": "chromium 390",
+   "n": "Kachel 5 öffnet /_werkzeuge/livre/",
+   "gut": true,
+   "info": "/_werkzeuge/livre/ · Markenbuch · roots Basel · "
+  },
+  {
+   "w": "chromium 390",
+   "n": "Kachel 5: keine Skriptfehler",
+   "gut": true,
+   "info": ""
+  },
+  {
+   "w": "chromium 390",
+   "n": "Kachel 6 öffnet /_werkzeuge/registre/",
+   "gut": true,
+   "info": "/_werkzeuge/registre/ · Übersicht · Besucher · roots · "
+  },
+  {
+   "w": "chromium 390",
+   "n": "Kachel 6: keine Skriptfehler",
+   "gut": true,
+   "info": ""
+  },
+  {
+   "w": "chromium 390",
+   "n": "Leiste: sichtbare Sprungmarken",
+   "gut": true,
+   "info": "#oben"
+  },
+  {
+   "w": "chromium 390",
+   "n": "Leiste #oben springt hin",
+   "gut": true,
+   "info": "0"
+  },
+  {
+   "w": "chromium 390",
+   "n": "Leiste ohne Fehler",
+   "gut": true,
+   "info": ""
+  },
+  {
+   "w": "chromium 390",
+   "n": "Schild «Kurzer Rundgang» erscheint",
+   "gut": true,
+   "info": ""
+  },
+  {
+   "w": "chromium 390",
+   "n": "Rundgang Schritt 1: Karte ganz im Bild",
+   "gut": true,
+   "info": ""
+  },
+  {
+   "w": "chromium 390",
+   "n": "Rundgang Schritt 2: Karte ganz im Bild",
+   "gut": true,
+   "info": ""
+  },
+  {
+   "w": "chromium 390",
+   "n": "Rundgang Schritt 3: Karte ganz im Bild",
+   "gut": true,
+   "info": ""
+  },
+  {
+   "w": "chromium 390",
+   "n": "Rundgang Schritt 4: Karte ganz im Bild",
+   "gut": true,
+   "info": ""
+  },
+  {
+   "w": "chromium 390",
+   "n": "Rundgang Schritt 5: Karte ganz im Bild",
+   "gut": true,
+   "info": ""
+  },
+  {
+   "w": "chromium 390",
+   "n": "Rundgang: fünf Schritte, dann zu",
+   "gut": true,
+   "info": "5"
+  },
+  {
+   "w": "chromium 390",
+   "n": "Rundgang ohne Fehler",
+   "gut": true,
+   "info": ""
+  },
+  {
+   "w": "chromium 390",
+   "n": "Werkbank hat Weg zum Kontrollpanel",
+   "gut": false,
+   "info": ""
+  }
+ ]
+}

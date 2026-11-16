@@ -1,0 +1,28 @@
+{
+ "zeit": "2026-11-08T09:12:00+01:00",
+ "art": "tisch",
+ "name": "Claudia Meier",
+ "kontakt": "claudia.meier@example.com",
+ "datum": "Sa, 21. November 2026",
+ "personen": 2,
+ "anliegen": "Tisch mit Wünschen: zehnter Hochzeitstag, Menü mit acht Gängen",
+ "sprache": "de",
+ "gespraech": "beispiel-1",
+ "verlauf": [
+  {
+   "rolle": "user",
+   "text": "Über ein Formular der Website (Seite Kontakt): Art: Tisch mit Wünschen\nDatum: Sa, 21. November 2026\nUhrzeit: 19:00 Uhr\nPersonen: 2\nNachricht: Wir feiern unseren zehnten Hochzeitstag und freuen uns auf das Menü mit acht Gängen. Mein Mann verträgt keine Nüsse."
+  }
+ ],
+ "status": "gelesen",
+ "beispiel": true,
+ "an": "info@roots-basel.ch",
+ "abteilung": "Reservation",
+ "seite": "/kontakt.html",
+ "seite_name": "Kontakt",
+ "web": true,
+ "nachricht": "Art: Tisch mit Wünschen\nDatum: Sa, 21. November 2026\nUhrzeit: 19:00 Uhr\nPersonen: 2\nNachricht: Wir feiern unseren zehnten Hochzeitstag und freuen uns auf das Menü mit acht Gängen. Mein Mann verträgt keine Nüsse.",
+ "formular": "allgemein",
+ "uhrzeit": "19:00 Uhr",
+ "entwurf": null
+}

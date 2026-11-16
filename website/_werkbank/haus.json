@@ -1,0 +1,55 @@
+{
+ "_quelle": "Angaben des «roots» für Werkbank, Mails, Sticker und Drucksachen (09.11.2026). Jede Zeile steht so auf der neuen Website (website/*.html) bzw. in _quelle/ (CHARAKTER.md); nichts erfunden.",
+ "name": "roots",
+ "voll": "roots Basel",
+ "firma": "rootilicious GmbH",
+ "strasse": "Bachlettenstrasse 1",
+ "ort": "4054 Basel",
+ "telefon": "+41 61 322 10 56",
+ "mail": "info@roots-basel.ch",
+ "web": "roots-basel.ch",
+ "instagram": "roots_basel",
+ "reservation": "aleno",
+ "zeiten": {
+  "tage": "Dienstag bis Samstag",
+  "offen": "18.30 bis 24.00 Uhr",
+  "lunch": "Donnerstag, Businesslunch, 12.00 bis 14.30 Uhr",
+  "ruhetag": "Sonntag und Montag geschlossen"
+ },
+ "auszeichnungen": ["Zwei Michelin-Sterne", "Grüner Michelin-Stern", "18 GaultMillau-Punkte"],
+ "menschen": {
+  "kueche": "Pascal Steffen, Küchenchef und seit Januar 2025 Teilhaber",
+  "gastgeber": "Dragan Rapic, führt das Restaurant seit der Eröffnung 2017 (Managing Director)",
+  "service": "Jenny, Restaurantleiterin seit Februar 2026, prägt die Weinkarte"
+ },
+ "saetze": {
+  "gemuese": "Das Gemüse als Lebensmittelpunkt.",
+  "boden": "Es beginnt im Boden.",
+  "formalitaet": "Formalität ist Staub von gestern.",
+  "wohnzimmer": "Bei uns dürfen Sie sich wohlfühlen wie im eigenen Wohnzimmer.",
+  "freude": "Das Essen im «roots» soll Freude und Spass machen.",
+  "spass": "Uns macht es Freude, wenn es Ihnen Spass macht.",
+  "nebenrolle": "Fisch und Fleisch spielen bei uns eine Nebenrolle – wenn auch eine Oscar-verdächtige.",
+  "saison": "Im «roots» lassen wir Sie deutlich spüren, was Saison ist.",
+  "strom": "Zu jung, um mit dem Strom zu schwimmen.",
+  "kompetent": "Kompetent kommt nicht von kompliziert.",
+  "gewachsen": "Gewachsen seit 2017.",
+  "tisch": "Wann und wie Sie bei uns zu einem Tisch kommen.",
+  "allergien": "Bitte geben Sie uns bei der Reservation allfällige Allergien oder Unverträglichkeiten an.",
+  "gruppe": "Für eine grössere Gruppe (ab sechs Personen) oder eine geschlossene Gesellschaft schreiben Sie uns an info@roots-basel.ch.",
+  "zoo": "In unmittelbarer Nachbarschaft zum Basler Zoo.",
+  "tram": "Tram 1 oder Tram 8 bis zur Station «Zoo Bachletten», eine Gehminute.",
+  "parkieren": "Blaue und weisse Zone rund um das «roots», ab 19.00 Uhr die Parkplätze des Zoos kostenlos.",
+  "begleiter": "Die alkoholfreien Begleiter macht das Haus selbst: Apfel und Hibiskus, Kapuziner und Sauerampfer, Kirsche und Miso.",
+  "weine": "287 Weine. Unsere Restaurantleiterin Jenny prägt mit ihrer Expertise die Auswahl."
+ },
+ "weg": [
+  ["2017", "Das «roots» öffnet, im Dezember übernimmt Pascal Steffen die Küche."],
+  ["2018", "GaultMillau: Entdeckung des Jahres, auf Anhieb 16 Punkte."],
+  ["2022", "Restaurant des Jahres. Der zweite Michelin-Stern."],
+  ["2023", "Aufsteiger des Jahres 2024, neu 18 Punkte."],
+  ["2024", "Der Grüne Michelin-Stern."],
+  ["2025", "Ein neues Zuhause im Bachletten."]
+ ],
+ "preise_quelle": "Nur die Preise der Website (karte.html): Dinner ab CHF 198, Getränkebegleitung CHF 115–160 bzw. 77–110, Businesslunch CHF 98/110/122, Dessert 18, alkoholfreie Begleiter je CHF 11. Nirgends andere Preise eintragen."
+}

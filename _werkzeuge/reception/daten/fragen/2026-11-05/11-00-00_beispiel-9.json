@@ -1,0 +1,13 @@
+{
+ "zeit": "2026-11-05T11:00:00+01:00",
+ "frage": "Wie komme ich mit dem Tram zu euch?",
+ "antwort": "Mit Tram 1 oder Tram 8 bis zur Station «Zoo Bachletten», von dort ist es eine Gehminute.\n- Ab Bahnhof SBB: vom Centralbahnplatz mit Tram 1 oder Tram 8",
+ "belegt": true,
+ "thema": "",
+ "gruppe": "Anreise & Parkplatz",
+ "sprache": "de",
+ "buchung": false,
+ "mappe": false,
+ "anfrage": "",
+ "beispiel": true
+}

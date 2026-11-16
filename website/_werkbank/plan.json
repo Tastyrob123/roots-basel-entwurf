@@ -1,0 +1,58 @@
+{
+ "port": 9308,
+ "base": "http://127.0.0.1:9308/",
+ "kurz": "roots",
+ "seiten": [
+  [
+   "index.html",
+   "Startseite",
+   8
+  ],
+  [
+   "karte.html",
+   "Karte",
+   4
+  ],
+  [
+   "weinkarte.html",
+   "Weinkarte",
+   3
+  ],
+  [
+   "ueber-uns.html",
+   "Über uns",
+   4
+  ],
+  [
+   "neuigkeiten.html",
+   "Neuigkeiten",
+   3
+  ],
+  [
+   "medien.html",
+   "Medien",
+   3
+  ],
+  [
+   "jobs.html",
+   "Jobs",
+   3
+  ],
+  [
+   "kontakt.html",
+   "Kontakt",
+   3
+  ]
+ ],
+ "wahl": "main > header.kopf, main > section",
+ "start_ms": 4200,
+ "heute": "https://roots-basel.ch/de/",
+ "etiketten_ordner": "untersetzer",
+ "name": "roots",
+ "gold": "#c8a36b",
+ "punkt": "#c8a36b",
+ "tinte": "#15221a",
+ "chat_frage": "Bis wann gibt es etwas zu essen?",
+ "chat_frage_h": "Kann ich meinen Hund mitbringen?",
+ "mappe": false
+}

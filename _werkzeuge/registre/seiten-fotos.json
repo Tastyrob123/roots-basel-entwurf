@@ -1,0 +1,101 @@
+{
+ "index.html": [
+  "assets/img/tisch-wand-760.webp",
+  "assets/img/teller-nudeln-760.webp",
+  "assets/img/teller-salat-760.webp",
+  "assets/img/teller-kraeuter-760.webp",
+  "assets/img/teller-porzellan-760.webp",
+  "assets/img/teller-dunkel-760.webp",
+  "assets/img/teller-ei-760.webp",
+  "assets/img/teller-schale-760.webp",
+  "assets/img/teller-tofu-760.webp",
+  "assets/img/teller-blau-760.webp",
+  "assets/img/teller-erdbeer-760.webp",
+  "assets/img/durch-die-tuer-760.webp",
+  "assets/img/pascal-dragan-760.webp",
+  "assets/img/teller-reiben-760.webp",
+  "assets/img/teller-giessen-760.webp",
+  "assets/img/teller-truffel-760.webp",
+  "assets/img/regal-760.webp",
+  "assets/img/tisch-hoch-760.webp",
+  "assets/img/teller-fisch-760.webp",
+  "assets/img/gemuese-schale-760.webp",
+  "assets/img/teller-fleisch-760.webp",
+  "assets/img/teller-gruen-760.webp",
+  "assets/img/teller-oel-760.webp",
+  "assets/img/p-jenny-wein-760.webp"
+ ],
+ "jobs.html": [
+  "assets/img/p-zsombor-760.webp"
+ ],
+ "karte.html": [
+  "assets/img/teller-reiben-760.webp",
+  "assets/img/teller-porzellan-760.webp",
+  "assets/img/teller-giessen-760.webp",
+  "assets/img/regal-760.webp"
+ ],
+ "kontakt.html": [
+  "assets/img/teller-oel-760.webp",
+  "assets/img/tisch-paar-760.webp"
+ ],
+ "medien.html": [
+  "assets/img/tisch-wand-760.webp",
+  "assets/img/teller-gruen-760.webp",
+  "assets/img/teller-porzellan-760.webp",
+  "assets/img/teller-dunkel-760.webp",
+  "assets/img/teller-nudeln-760.webp",
+  "assets/img/teller-tofu-760.webp",
+  "assets/img/teller-giessen-760.webp",
+  "assets/img/teller-salat-760.webp",
+  "assets/img/teller-truffel-760.webp",
+  "assets/img/teller-fleisch-besteck-760.webp",
+  "assets/img/teller-erdbeer-760.webp",
+  "assets/img/teller-dessert-760.webp",
+  "assets/img/teller-schale-760.webp",
+  "assets/img/tisch-regal-760.webp",
+  "assets/img/saal-760.webp",
+  "assets/img/tisch-paar-760.webp",
+  "assets/img/regal-760.webp",
+  "assets/img/durch-die-tuer-760.webp",
+  "assets/img/tisch-hoch-760.webp",
+  "assets/img/tisch-leuchte-760.webp",
+  "assets/img/p-pascal-760.webp",
+  "assets/img/p-malko-760.webp",
+  "assets/img/p-vanessa-760.webp",
+  "assets/img/p-valentin-760.webp",
+  "assets/img/p-erik-760.webp",
+  "assets/img/p-jenny-760.webp",
+  "assets/img/p-felicia-760.webp",
+  "assets/img/p-zsombor-760.webp",
+  "assets/img/p-dragan-760.webp"
+ ],
+ "neuigkeiten.html": [
+  "assets/img/tisch-regal-760.webp",
+  "assets/img/dinner-meeting-760.webp",
+  "assets/img/p-zsombor-760.webp",
+  "assets/img/stich-760.webp",
+  "assets/img/saal-760.webp",
+  "assets/img/p-pascal-760.webp",
+  "assets/img/gemuese-schale-760.webp",
+  "assets/img/tisch-leuchte-760.webp"
+ ],
+ "ueber-uns.html": [
+  "assets/img/pascal-kueche-760.webp",
+  "assets/img/teller-salat-760.webp",
+  "assets/img/teller-schale-760.webp",
+  "assets/img/p-jenny-wein-760.webp",
+  "assets/img/pascal-dragan-760.webp",
+  "assets/img/p-pascal-760.webp",
+  "assets/img/p-malko-760.webp",
+  "assets/img/p-vanessa-760.webp",
+  "assets/img/p-valentin-760.webp",
+  "assets/img/p-erik-760.webp",
+  "assets/img/p-jenny-760.webp",
+  "assets/img/p-felicia-760.webp",
+  "assets/img/p-zsombor-760.webp",
+  "assets/img/p-dragan-760.webp"
+ ],
+ "weinkarte.html": [
+  "assets/img/p-jenny-wein-760.webp"
+ ]
+}
