@@ -1,0 +1,62 @@
+[
+ [
+  "01",
+  "01-tisch",
+  "Ihr Tisch",
+  "Kommt gleich nach der Reservation über aleno: Tag, Uhrzeit und Personen zum Nachlesen, dazu die Bitte um allfällige Allergien."
+ ],
+ [
+  "02",
+  "02-allergien",
+  "Die Küche weiss Bescheid",
+  "Kommt, wenn bei der Reservation Allergien oder Unverträglichkeiten stehen: dass Pascal Steffen und sein Team Bescheid wissen."
+ ],
+ [
+  "03",
+  "03-morgen",
+  "Morgen im Bachletten",
+  "Kommt am Tag vor dem Besuch: der Tisch, der Weg mit dem Tram und wo man parkiert."
+ ],
+ [
+  "04",
+  "04-danke",
+  "Danke für Ihren Abend",
+  "Kommt am Tag nach dem Besuch: ein Dank, die Saison als Grund zum Wiederkommen und der Weg zum Gutschein."
+ ],
+ [
+  "05",
+  "05-anderer-abend",
+  "Ein anderer Abend",
+  "Kommt, wenn am Wunschabend alle Tische vergeben sind: der Vorschlag eines anderen Abends und der Businesslunch am Donnerstag."
+ ],
+ [
+  "06",
+  "06-gesellschaft",
+  "Ihre Gesellschaft",
+  "Kommt nach der Anfrage für eine grössere Gruppe oder eine geschlossene Gesellschaft: Tag, Personen und Anlass, und dass wir uns persönlich melden."
+ ],
+ [
+  "07",
+  "07-businesslunch",
+  "Ihr Businesslunch",
+  "Kommt, wenn ein Tisch zum Businesslunch am Donnerstag reserviert ist: Tag, Uhrzeit, Personen und der Weg ab Bahnhof SBB."
+ ],
+ [
+  "08",
+  "08-begleitung",
+  "Zu jedem Gang ein Glas",
+  "Kommt nach einer Frage zur Getränkebegleitung: die Weinkarte von Jenny und die alkoholfreien Begleiter, die das Haus selbst macht."
+ ],
+ [
+  "09",
+  "09-gutschein",
+  "Ihr Gutschein",
+  "Kommt nach der Bestellung im Gutschein-Shop des Hauses: ein Dank und wo der Gutschein eingelöst wird."
+ ],
+ [
+  "10",
+  "10-bewerbung",
+  "Danke für deine Bewerbung",
+  "Kommt nach der Bewerbung über die Jobs-Seite, in der Du-Form der Seite: die Stelle und dass Lebenslauf und Foto bei Dragan Rapic sind."
+ ]
+]

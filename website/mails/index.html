@@ -1,0 +1,508 @@
+<!doctype html>
+<html lang="de-CH" class="lade"><head><script data-wurzel>/* Wurzel-Weiche: Seite laeuft an der Wurzel einer Adresse oder in einem Unterordner (github.io/<repo>/) */(function(){var D=2,p=location.pathname.split('/');p.splice(p.length-1-D,D+1);var W=p.join('/')+'/';window.__W=W;if(W==='/')return;var O=location.origin;
+function f(u){if(typeof u!=='string')return u;if(u.indexOf(O+'/')===0)return O+f(u.slice(O.length));if(u.charAt(0)!=='/'||u.charAt(1)==='/'||u.indexOf(W)===0||u+'/'===W)return u;return W+u.slice(1)}
+function s(v){return typeof v!=='string'?v:v.replace(/(^|,)(\s*)(\S+)/g,function(m,a,b,u){return a+b+f(u)})}
+function c(v){return typeof v!=='string'?v:v.replace(/url\(\s*(['"]?)([^'")]+)/g,function(m,q,u){return 'url('+q+f(u)})}
+function h(v){return typeof v!=='string'?v:c(v.replace(/(\s(?:src|href|poster|action|data-src|data-href)\s*=\s*)(["'])([^"']*)\2/gi,function(m,a,q,u){return a+q+f(u)+q}).replace(/(\s(?:srcset|imagesrcset|data-srcset)\s*=\s*)(["'])([^"']*)\2/gi,function(m,a,q,u){return a+q+s(u)+q}))}
+function d(K,k,g){K=window[K];if(!K)return;var x=Object.getOwnPropertyDescriptor(K.prototype,k);if(!x||!x.set)return;Object.defineProperty(K.prototype,k,{configurable:true,enumerable:x.enumerable,get:x.get,set:function(v){x.set.call(this,g(v))}})}
+[['HTMLImageElement','src'],['HTMLScriptElement','src'],['HTMLLinkElement','href'],['HTMLIFrameElement','src'],['HTMLSourceElement','src'],['HTMLMediaElement','src'],['HTMLVideoElement','poster'],['HTMLAnchorElement','href'],['HTMLAreaElement','href'],['HTMLFormElement','action'],['HTMLEmbedElement','src'],['HTMLObjectElement','data']].forEach(function(z){d(z[0],z[1],f)});
+[['HTMLImageElement','srcset'],['HTMLSourceElement','srcset'],['HTMLLinkElement','imageSrcset']].forEach(function(z){d(z[0],z[1],s)});
+d('Element','innerHTML',h);d('Element','outerHTML',h);var iah=Element.prototype.insertAdjacentHTML;Element.prototype.insertAdjacentHTML=function(w,v){return iah.call(this,w,h(v))};
+var sa=Element.prototype.setAttribute;Element.prototype.setAttribute=function(n,v){var l=String(n).toLowerCase();if(/^(src|href|poster|action|data|data-src|data-href)$/.test(l))v=f(v);else if(/srcset$/.test(l))v=s(v);else if(l==='style')v=c(v);return sa.call(this,n,v)};
+var st=CSSStyleDeclaration.prototype,sp=st.setProperty;st.setProperty=function(n,v,q){return sp.call(this,n,c(v),q)};['background','backgroundImage','cssText','maskImage','webkitMaskImage','listStyleImage','borderImageSource','content'].forEach(function(k){var x=Object.getOwnPropertyDescriptor(st,k);if(x&&x.set)Object.defineProperty(st,k,{configurable:true,enumerable:x.enumerable,get:x.get,set:function(v){x.set.call(this,c(v))}})});
+var F=window.fetch;if(F)window.fetch=function(i,o){if(typeof i==='string')i=f(i);else if(i instanceof URL)i=f(i.href);return F.call(this,i,o)};
+var XO=XMLHttpRequest.prototype.open;XMLHttpRequest.prototype.open=function(){var a=[].slice.call(arguments);a[1]=f(a[1] instanceof URL?a[1].href:a[1]);return XO.apply(this,a)};
+if(navigator.sendBeacon){var B=navigator.sendBeacon;navigator.sendBeacon=function(u,x){return B.call(navigator,f(u),x)}}
+var wo=window.open;window.open=function(u){var a=[].slice.call(arguments);a[0]=f(u);return wo.apply(window,a)};
+var dw=document.write,dl=document.writeln;document.write=function(){return dw.apply(document,[].map.call(arguments,h))};document.writeln=function(){return dl.apply(document,[].map.call(arguments,h))};
+['pushState','replaceState'].forEach(function(k){var o=history[k];history[k]=function(a,b,u){return o.call(history,a,b,u==null?u:f(String(u)))}});
+function e(el){if(!el||el.nodeType!==1)return;['src','href','poster','action'].forEach(function(a){var v=el.getAttribute(a);if(v&&v.charAt(0)==='/'){var z=f(v);if(z!==v)sa.call(el,a,z)}});var t=el.getAttribute('srcset');if(t&&/(^|,)\s*\/[^\/]/.test(t)){var z=s(t);if(z!==t)sa.call(el,'srcset',z)}t=el.getAttribute('style');if(t&&/url\(\s*['"]?\/[^\/]/.test(t)){z=c(t);if(z!==t)sa.call(el,'style',z)}}
+new MutationObserver(function(ms){ms.forEach(function(m){if(m.type==='attributes')e(m.target);else m.addedNodes.forEach(function(n){if(n.nodeType!==1)return;e(n);var l=n.querySelectorAll('[src],[href],[srcset],[poster],[action],[style]');for(var i=0;i<l.length;i++)e(l[i])})})}).observe(document.documentElement,{childList:true,subtree:true,attributes:true,attributeFilter:['src','href','srcset','poster','action','style']})})();</script><meta charset="utf-8"><script id="wb-rueckweg">(function(){var q=new URLSearchParams(location.search),y=q.get("wb");if(!/^\d+$/.test(y||""))y=q.get("wy");try{if(y&&/^\d+$/.test(y))sessionStorage.setItem("wb-rueck",y);else y=sessionStorage.getItem("wb-rueck")}catch(e){}if(!y||!/^\d+$/.test(y))return;function setze(){[].forEach.call(document.querySelectorAll("a[href]"),function(a){try{var u=new URL(a.getAttribute("href"),location.href);if(u.origin!==location.origin||!/\/werkbank\/(index\.html)?$/.test(u.pathname))return;u.hash="";u.search="?y="+y;a.href=u.toString()}catch(e){}})}if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",setze);else setze();addEventListener("load",setze);setTimeout(setze,1500)})();</script>
+<meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow">
+<title>Zehn Mails · roots Basel</title>
+<link rel="icon" href="../assets/marke/zeichen-dunkel.png">
+<style>
+@font-face{font-family:'Newsreader';font-weight:400;font-display:block;src:url('../assets/fonts/newsreader-titel-400.woff2') format('woff2')}
+@font-face{font-family:'Instrument Sans';font-weight:400;font-display:block;src:url('../assets/fonts/instrument-400.woff2') format('woff2')}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+/* erster Blick komplett: unsichtbar, bis die Bilder im ersten Bild geladen sind; Rückfall nach 3 s ohne Skript */
+html.lade body{opacity:0;animation:zeig 0s 3s forwards}@keyframes zeig{to{opacity:1}}
+body{margin:0;background:#0a2418;color:#f1ede4;font:400 17px/1.6 'Instrument Sans',system-ui,sans-serif;--rand:clamp(20px,4.6vw,76px)}
+header.kopf{padding:clamp(56px,8vw,120px) var(--rand) clamp(34px,4.4vw,64px);text-align:center}
+header.kopf img{width:clamp(54px,5.4vw,84px);height:auto}
+h1{margin:clamp(16px,1.8vw,26px) 0 0;font:400 clamp(2.6rem,7vw,6.4rem)/1.04 'Newsreader',Georgia,serif;letter-spacing:-.01em}h1 em{font-style:normal;color:#dcc293}
+header.kopf p{max-width:58ch;margin:clamp(20px,2.2vw,34px) auto 0;font-size:clamp(1.05rem,1.4vw,1.25rem);color:rgba(241,237,228,.86)}
+main{padding:0 0 clamp(30px,4vw,64px)}
+.band{display:flex;gap:clamp(20px,2.4vw,40px);align-items:flex-start;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scroll-padding-inline:var(--rand);padding:4px var(--rand) 34px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.band::-webkit-scrollbar{display:none}
+.band:focus-visible{outline:2px solid #c8a36b;outline-offset:-2px}
+.mb{flex:0 0 clamp(300px,34vw,520px);scroll-snap-align:start}
+.mb:last-child{margin-inline-end:var(--rand)}
+.mb-ueber{display:flex;gap:16px;align-items:flex-start;margin:0 4px 18px}
+.mb-nr{flex:0 0 auto;display:grid;place-items:center;width:52px;height:52px;border-radius:50%;border:1px solid rgba(200,163,107,.7);font:400 1.25rem/1 'Newsreader',Georgia,serif;color:#dcc293}
+.mb-ueber__t{display:flex;flex-direction:column;gap:5px;min-width:0}
+.mb-ueber__t b{font:400 1.45rem/1.15 'Newsreader',Georgia,serif}
+.mb-ueber__t small{display:flex;gap:6px;font-size:.86rem;line-height:1.4;color:rgba(241,237,228,.74)}
+.mb-ueber__t small span{flex:0 0 4.6em;font-size:.8rem;letter-spacing:.04em;color:#dcc293}
+.mb-blatt{position:relative;height:640px;border-radius:20px;overflow:hidden;background:#e6e0d1;box-shadow:0 0 0 1px rgba(200,163,107,.3),0 40px 50px -30px rgba(0,0,0,.9);-webkit-mask-image:linear-gradient(#000000 68%,transparent);mask-image:linear-gradient(#000000 68%,transparent)}
+.mb.auf .mb-blatt{-webkit-mask-image:none;mask-image:none}
+.mb-in{position:relative}.mb-in table{max-width:100%}
+.mb-ganz{position:relative;margin:-30px 0 0;text-align:center}
+.mb.auf .mb-ganz{margin-top:22px}
+.mb-kn{display:inline-flex;align-items:center;gap:12px;padding:8px 8px 8px 22px;border:0;border-radius:999px;cursor:pointer;font:400 1.02rem/1 'Newsreader',Georgia,serif;letter-spacing:.01em;color:#f1ede4;
+  background:linear-gradient(180deg,#1a5236,#0f3d27 60%,#0a2418);box-shadow:inset 0 1px 0 rgba(255,255,255,.14),0 0 0 1px rgba(200,163,107,.45),0 14px 22px -12px rgba(0,0,0,.8)}
+.mb-kn i{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;color:#15221a;background:linear-gradient(180deg,#f5f2ec,#f1ede4 55%,#dcc293);box-shadow:inset 0 1px 0 rgba(255,255,255,.6)}
+.mb-kn svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.mb-kn .z,.mb.auf .mb-kn .a{display:none}.mb.auf .mb-kn .z{display:inline}.mb.auf .mb-kn svg{transform:rotate(180deg)}
+.mb-kn:focus-visible{outline:2px solid #dcc293;outline-offset:3px}
+.pfeile{display:flex;justify-content:center;gap:14px;margin-top:4px}
+.pf{width:52px;height:52px;border:0;border-radius:50%;cursor:pointer;display:grid;place-items:center;color:#15221a;background:linear-gradient(180deg,#f5f2ec,#f1ede4 55%,#dcc293);box-shadow:inset 0 1px 0 rgba(255,255,255,.7),0 12px 20px -10px rgba(0,0,0,.7)}
+.pf svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.pf:disabled{opacity:.35;cursor:default}
+footer{display:flex;flex-wrap:wrap;gap:18px 28px;align-items:center;justify-content:center;padding:30px var(--rand) 44px;text-align:center;font-size:.92rem;color:rgba(241,237,228,.62);border-top:1px solid rgba(200,163,107,.22)}
+.zurueck{display:inline-flex;align-items:center;gap:12px;padding:8px 8px 8px 22px;border-radius:999px;font:400 1.02rem/1 'Newsreader',Georgia,serif;color:#15221a;text-decoration:none;background:linear-gradient(180deg,#f5f2ec,#f1ede4 60%,#e6e0d1);box-shadow:inset 0 1px 0 rgba(255,255,255,.7),0 12px 20px -10px rgba(0,0,0,.7)}
+.zurueck i{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;color:#f1ede4;background:#0f3d27}
+.zurueck svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.zurueck:focus-visible{outline:2px solid #dcc293;outline-offset:3px}
+/* Auftritte beim Scrollen: was unter dem ersten Bild steht, schwebt beim Hereinscrollen an seinen Platz */
+.js [data-a]{opacity:0;transform:translate3d(0,70px,0);transition:opacity 1.1s ease,transform 1.8s cubic-bezier(.16,1,.3,1);transition-delay:var(--vz,0ms)}
+.js [data-a].da{opacity:1;transform:none}
+html.sofort [data-a]{transition:none!important}
+@media (max-width:760px){.mb{flex-basis:calc(100vw - 2 * var(--rand))}.pfeile{display:none}}
+@media (hover:none){.pfeile{display:none}}
+@media (prefers-reduced-motion:reduce){.js [data-a]{opacity:1;transform:none;transition:none}}
+</style>
+<script>document.documentElement.classList.add('js')</script><style id="auftritte-seite">html.as-an .as-k{opacity:0;transform:translateY(38px)}html.as-an .as-k.as-da{opacity:1;transform:none;transition:opacity 1s cubic-bezier(.16,1,.3,1),transform 1.1s cubic-bezier(.16,1,.3,1);transition-delay:var(--as-v,0s)}@media print{html.as-an .as-k{opacity:1!important;transform:none!important}}</style></head>
+<body>
+<header class="kopf"><img src="img/zeichen.png" alt="" width="84" decoding="sync"><h1>Zehn Mails,<br><em>im Ton Ihres Hauses.</em></h1>
+<p>Was ein Gast nach einer Reservation oder einer Anfrage vom «roots» bekommt, sieht aus wie die neue Seite. Zehn Fälle als Idee, vom reservierten Tisch bis zum Dank nach dem Abend, dazu Gutschein und Bewerbung. Namen und Daten in den Mails sind Beispielwerte, Adresse, Telefon und Zeiten sind Ihre.</p></header>
+<main><div class="band" id="mband" tabindex="0" aria-label="Die zehn Mails, zum Blättern"><article class="mb" data-a style="--vz:0ms">
+  <header class="mb-ueber"><span class="mb-nr">01</span><span class="mb-ueber__t"><b>Ihr Tisch</b><small><span>Von</span> roots · info@roots-basel.ch</small><small><span>Wann</span> Gleich nach der Reservation über aleno</small><small><span>Betreff</span> Ihr Tisch im «roots» ist reserviert</small></span></header>
+  <div class="mb-blatt"><div class="mb-in">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#e6e0d1"><tr><td align="center" style="padding:24px 12px">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;background:#f1ede4;border-radius:22px;overflow:hidden">
+  <tr><td align="center" style="background:#0a2418;padding:36px 30px 34px">
+    <img decoding="sync" src="img/zeichen.png" width="56" alt="" style="display:block;border:0;width:56px;height:auto;margin:0 auto 14px">
+    <div style="font:400 22px/1.1 Georgia,'Times New Roman',Times,serif;letter-spacing:.32em;margin-right:-.32em;color:#f1ede4">roots</div>
+    <div style="margin-top:9px;font:400 12.5px/1.2 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;color:#dcc293">Bachletten · Basel</div>
+    <div style="width:44px;height:1px;margin:26px auto 0;background:#c8a36b;font-size:0;line-height:0">&nbsp;</div>
+    <h1 style="margin:24px 0 0;font:400 clamp(28px,7.6vw,38px)/1.18 Georgia,'Times New Roman',Times,serif;letter-spacing:0;color:#f1ede4">Ihr Tisch<br><span style="color:#dcc293">im «roots».</span></h1>
+  </td></tr>
+  <tr><td style="padding:34px clamp(22px,6vw,40px) 8px"><p style="margin:0 0 16px;font:400 21px/1.3 Georgia,'Times New Roman',Times,serif;color:#15221a">Liebe Frau Meier</p><p style="margin:0 0 14px;font:400 16px/1.62 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#2b382f">Herzlichen Dank für Ihre Reservation. Ihr Tisch ist für Sie reserviert, wir freuen uns auf Ihren Abend bei uns im Bachletten.</p><p style="margin:0 0 14px;font:400 16px/1.62 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#2b382f">Bitte geben Sie uns allfällige Allergien oder Unverträglichkeiten an, eine Antwort auf diese Mail genügt.</p><p style="margin:0 0 14px;font:400 16px/1.62 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#2b382f">Kommt jemand dazu oder wird es später, erreichen Sie uns unter +41 61 322 10 56.</p></td></tr>
+  <tr><td style="padding:6px 28px 6px"><img decoding="sync" src="img/saal.jpg" width="544" alt="Der Saal des «roots» in Flaschengrün, weisse Wurzeln hängen von der Decke" style="display:block;border:0;width:100%;height:auto;border-radius:14px;background:#e6e0d1"></td></tr>
+  <tr><td style="padding:10px 28px 6px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#0f3d27;border-radius:14px">
+    <tr><td style="padding:22px 26px 12px"><div style="font:400 16px/1.2 Georgia,'Times New Roman',Times,serif;color:#dcc293;padding-bottom:13px">Ihr Tisch <span style="font:400 13px/1.2 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.04em;color:#9fb3a6">· Beispielwerte</span></div>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding:12px 12px 12px 0;border-top:1px solid #2e5a43;font:400 13px/1.35 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293;width:34%;vertical-align:top">Tag</td><td style="padding:11px 0;border-top:1px solid #2e5a43;font:400 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#f1ede4;vertical-align:top">Samstag, 28. November 2026</td></tr><tr><td style="padding:12px 12px 12px 0;border-top:1px solid #2e5a43;font:400 13px/1.35 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293;width:34%;vertical-align:top">Uhrzeit</td><td style="padding:11px 0;border-top:1px solid #2e5a43;font:400 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#f1ede4;vertical-align:top">19.00 Uhr</td></tr><tr><td style="padding:12px 12px 12px 0;border-top:1px solid #2e5a43;font:400 13px/1.35 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293;width:34%;vertical-align:top">Personen</td><td style="padding:11px 0;border-top:1px solid #2e5a43;font:400 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#f1ede4;vertical-align:top">2</td></tr><tr><td style="padding:12px 12px 12px 0;border-top:1px solid #2e5a43;font:400 13px/1.35 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293;width:34%;vertical-align:top">Reserviert</td><td style="padding:11px 0;border-top:1px solid #2e5a43;font:400 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#f1ede4;vertical-align:top">über aleno</td></tr></table></td></tr></table></td></tr>
+  <tr><td align="center" style="padding:26px 40px 8px"><a href="../karte.html" style="display:inline-block;padding:15px 30px;border-radius:999px;background:#0a2418;font:400 16px/1.1 Georgia,'Times New Roman',Times,serif;letter-spacing:.02em;color:#f1ede4;text-decoration:none">Die Karte ansehen &nbsp;<span style="color:#dcc293">↗</span></a></td></tr>
+  <tr><td style="padding:14px 40px 30px"><p style="margin:0;font:400 15px/1.6 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#46534a;text-align:center">Tram 1 oder Tram 8 bis zur Station «Zoo Bachletten», eine Gehminute.</p>
+    <img decoding="sync" src="img/pascal-dragan.jpg" width="520" alt="Pascal Steffen und Dragan Rapic vor der grünen Wand des Saals" style="display:block;border:0;width:100%;max-width:520px;height:auto;margin:26px auto 0;border-radius:14px;background:#e6e0d1">
+    <p style="margin:18px 0 0;font:400 18px/1.4 Georgia,'Times New Roman',Times,serif;color:#15221a;text-align:center">Herzlich, Pascal Steffen, Dragan Rapic, Jenny und das Team</p></td></tr>
+  <tr><td align="center" style="background:#061a10;padding:28px 30px"><div style="font:400 17px/1.2 Georgia,'Times New Roman',Times,serif;letter-spacing:.32em;margin-right:-.32em;color:#f1ede4">roots</div>
+    <div style="margin-top:10px;font:400 13px/1.6 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#dec9a9">Bachlettenstrasse 1 · 4054 Basel<br><span style="color:#dec9a9">+41 61 322 10 56</span> · <span style="color:#dec9a9">info@roots-basel.ch</span></div>
+    <div style="margin-top:12px;font:400 13px/1.5 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293">Zwei Michelin-Sterne · Grüner Michelin-Stern · 18 GaultMillau-Punkte</div></td></tr>
+</table>
+</td></tr></table>
+</div></div>
+  <p class="mb-ganz"><button type="button" class="mb-kn" aria-expanded="false"><span class="a">Ganze Mail</span><span class="z">Weniger zeigen</span><i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg></i></button></p>
+</article><article class="mb" data-a style="--vz:110ms">
+  <header class="mb-ueber"><span class="mb-nr">02</span><span class="mb-ueber__t"><b>Die Küche weiss Bescheid</b><small><span>Von</span> roots · info@roots-basel.ch</small><small><span>Wann</span> Wenn bei der Reservation Allergien stehen</small><small><span>Betreff</span> Ihr Hinweis ist in der Küche</small></span></header>
+  <div class="mb-blatt"><div class="mb-in">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#e6e0d1"><tr><td align="center" style="padding:24px 12px">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;background:#f1ede4;border-radius:22px;overflow:hidden">
+  <tr><td align="center" style="background:#0a2418;padding:36px 30px 34px">
+    <img decoding="sync" src="img/zeichen.png" width="56" alt="" style="display:block;border:0;width:56px;height:auto;margin:0 auto 14px">
+    <div style="font:400 22px/1.1 Georgia,'Times New Roman',Times,serif;letter-spacing:.32em;margin-right:-.32em;color:#f1ede4">roots</div>
+    <div style="margin-top:9px;font:400 12.5px/1.2 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;color:#dcc293">Bachletten · Basel</div>
+    <div style="width:44px;height:1px;margin:26px auto 0;background:#c8a36b;font-size:0;line-height:0">&nbsp;</div>
+    <h1 style="margin:24px 0 0;font:400 clamp(28px,7.6vw,38px)/1.18 Georgia,'Times New Roman',Times,serif;letter-spacing:0;color:#f1ede4">Die Küche<br><span style="color:#dcc293">weiss Bescheid.</span></h1>
+  </td></tr>
+  <tr><td style="padding:34px clamp(22px,6vw,40px) 8px"><p style="margin:0 0 16px;font:400 21px/1.3 Georgia,'Times New Roman',Times,serif;color:#15221a">Liebe Frau Meier</p><p style="margin:0 0 14px;font:400 16px/1.62 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#2b382f">Danke für Ihren Hinweis. Pascal Steffen und sein Team wissen davon, bevor der erste Gang zu Ihnen kommt.</p><p style="margin:0 0 14px;font:400 16px/1.62 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#2b382f">Jeder Gang wird von der Saison beeinflusst und aus meist regionalen, sorgfältig ausgesuchten Produkten frisch für Sie zubereitet.</p><p style="margin:0 0 14px;font:400 16px/1.62 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#2b382f">Fällt Ihnen bis zu Ihrem Abend noch etwas ein, genügt eine Antwort auf diese Mail.</p></td></tr>
+  <tr><td style="padding:6px 28px 6px"><img decoding="sync" src="img/gemuese-schale.jpg" width="544" alt="Gemüse in der Mitte einer hellen Schale auf grünem Grund" style="display:block;border:0;width:100%;height:auto;border-radius:14px;background:#e6e0d1"></td></tr>
+  <tr><td style="padding:10px 28px 6px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#0f3d27;border-radius:14px">
+    <tr><td style="padding:22px 26px 12px"><div style="font:400 16px/1.2 Georgia,'Times New Roman',Times,serif;color:#dcc293;padding-bottom:13px">Ihr Tisch <span style="font:400 13px/1.2 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.04em;color:#9fb3a6">· Beispielwerte</span></div>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding:12px 12px 12px 0;border-top:1px solid #2e5a43;font:400 13px/1.35 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293;width:34%;vertical-align:top">Tag</td><td style="padding:11px 0;border-top:1px solid #2e5a43;font:400 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#f1ede4;vertical-align:top">Samstag, 28. November 2026</td></tr><tr><td style="padding:12px 12px 12px 0;border-top:1px solid #2e5a43;font:400 13px/1.35 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293;width:34%;vertical-align:top">Uhrzeit</td><td style="padding:11px 0;border-top:1px solid #2e5a43;font:400 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#f1ede4;vertical-align:top">19.00 Uhr</td></tr><tr><td style="padding:12px 12px 12px 0;border-top:1px solid #2e5a43;font:400 13px/1.35 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293;width:34%;vertical-align:top">Personen</td><td style="padding:11px 0;border-top:1px solid #2e5a43;font:400 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#f1ede4;vertical-align:top">2</td></tr><tr><td style="padding:12px 12px 12px 0;border-top:1px solid #2e5a43;font:400 13px/1.35 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293;width:34%;vertical-align:top">Hinweis</td><td style="padding:11px 0;border-top:1px solid #2e5a43;font:400 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#f1ede4;vertical-align:top">Nüsse, Laktose</td></tr></table></td></tr></table></td></tr>
+  <tr><td align="center" style="padding:26px 40px 8px"><a href="../karte.html" style="display:inline-block;padding:15px 30px;border-radius:999px;background:#0a2418;font:400 16px/1.1 Georgia,'Times New Roman',Times,serif;letter-spacing:.02em;color:#f1ede4;text-decoration:none">Die Karte ansehen &nbsp;<span style="color:#dcc293">↗</span></a></td></tr>
+  <tr><td style="padding:14px 40px 30px"><p style="margin:0;font:400 15px/1.6 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#46534a;text-align:center">Dienstag bis Samstag, 18.30 bis 24.00 Uhr. Donnerstag, Businesslunch, 12.00 bis 14.30 Uhr. Sonntag und Montag geschlossen.</p>
+    <img decoding="sync" src="img/pascal-dragan.jpg" width="520" alt="Pascal Steffen und Dragan Rapic vor der grünen Wand des Saals" style="display:block;border:0;width:100%;max-width:520px;height:auto;margin:26px auto 0;border-radius:14px;background:#e6e0d1">
+    <p style="margin:18px 0 0;font:400 18px/1.4 Georgia,'Times New Roman',Times,serif;color:#15221a;text-align:center">Herzlich, Pascal Steffen, Dragan Rapic, Jenny und das Team</p></td></tr>
+  <tr><td align="center" style="background:#061a10;padding:28px 30px"><div style="font:400 17px/1.2 Georgia,'Times New Roman',Times,serif;letter-spacing:.32em;margin-right:-.32em;color:#f1ede4">roots</div>
+    <div style="margin-top:10px;font:400 13px/1.6 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#dec9a9">Bachlettenstrasse 1 · 4054 Basel<br><span style="color:#dec9a9">+41 61 322 10 56</span> · <span style="color:#dec9a9">info@roots-basel.ch</span></div>
+    <div style="margin-top:12px;font:400 13px/1.5 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293">Zwei Michelin-Sterne · Grüner Michelin-Stern · 18 GaultMillau-Punkte</div></td></tr>
+</table>
+</td></tr></table>
+</div></div>
+  <p class="mb-ganz"><button type="button" class="mb-kn" aria-expanded="false"><span class="a">Ganze Mail</span><span class="z">Weniger zeigen</span><i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg></i></button></p>
+</article><article class="mb" data-a style="--vz:220ms">
+  <header class="mb-ueber"><span class="mb-nr">03</span><span class="mb-ueber__t"><b>Morgen im Bachletten</b><small><span>Von</span> roots · info@roots-basel.ch</small><small><span>Wann</span> Am Tag vor dem Besuch</small><small><span>Betreff</span> Morgen sind Sie bei uns im «roots»</small></span></header>
+  <div class="mb-blatt"><div class="mb-in">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#e6e0d1"><tr><td align="center" style="padding:24px 12px">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;background:#f1ede4;border-radius:22px;overflow:hidden">
+  <tr><td align="center" style="background:#0a2418;padding:36px 30px 34px">
+    <img decoding="sync" src="img/zeichen.png" width="56" alt="" style="display:block;border:0;width:56px;height:auto;margin:0 auto 14px">
+    <div style="font:400 22px/1.1 Georgia,'Times New Roman',Times,serif;letter-spacing:.32em;margin-right:-.32em;color:#f1ede4">roots</div>
+    <div style="margin-top:9px;font:400 12.5px/1.2 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;color:#dcc293">Bachletten · Basel</div>
+    <div style="width:44px;height:1px;margin:26px auto 0;background:#c8a36b;font-size:0;line-height:0">&nbsp;</div>
+    <h1 style="margin:24px 0 0;font:400 clamp(28px,7.6vw,38px)/1.18 Georgia,'Times New Roman',Times,serif;letter-spacing:0;color:#f1ede4">Morgen<br><span style="color:#dcc293">im Bachletten.</span></h1>
+  </td></tr>
+  <tr><td style="padding:34px clamp(22px,6vw,40px) 8px"><p style="margin:0 0 16px;font:400 21px/1.3 Georgia,'Times New Roman',Times,serif;color:#15221a">Lieber Herr Baumann</p><p style="margin:0 0 14px;font:400 16px/1.62 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#2b382f">Morgen Abend ist Ihr Tisch im «roots» für Sie gedeckt. Wir freuen uns auf Sie.</p><p style="margin:0 0 14px;font:400 16px/1.62 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#2b382f">Mit dem Tram: Tram 1 oder Tram 8 bis zur Station «Zoo Bachletten», eine Gehminute.</p><p style="margin:0 0 14px;font:400 16px/1.62 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#2b382f">Mit dem Auto: Blaue und weisse Zone rund um das «roots», ab 19.00 Uhr die Parkplätze des Zoos kostenlos.</p></td></tr>
+  <tr><td style="padding:6px 28px 6px"><img decoding="sync" src="img/durch-die-tuer.jpg" width="544" alt="Blick durch die Tür in den abendlichen Saal" style="display:block;border:0;width:100%;height:auto;border-radius:14px;background:#e6e0d1"></td></tr>
+  <tr><td style="padding:10px 28px 6px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#0f3d27;border-radius:14px">
+    <tr><td style="padding:22px 26px 12px"><div style="font:400 16px/1.2 Georgia,'Times New Roman',Times,serif;color:#dcc293;padding-bottom:13px">Ihr Besuch <span style="font:400 13px/1.2 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.04em;color:#9fb3a6">· Beispielwerte</span></div>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding:12px 12px 12px 0;border-top:1px solid #2e5a43;font:400 13px/1.35 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293;width:34%;vertical-align:top">Tag</td><td style="padding:11px 0;border-top:1px solid #2e5a43;font:400 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#f1ede4;vertical-align:top">Freitag, 27. November 2026</td></tr><tr><td style="padding:12px 12px 12px 0;border-top:1px solid #2e5a43;font:400 13px/1.35 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293;width:34%;vertical-align:top">Uhrzeit</td><td style="padding:11px 0;border-top:1px solid #2e5a43;font:400 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#f1ede4;vertical-align:top">19.30 Uhr</td></tr><tr><td style="padding:12px 12px 12px 0;border-top:1px solid #2e5a43;font:400 13px/1.35 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293;width:34%;vertical-align:top">Personen</td><td style="padding:11px 0;border-top:1px solid #2e5a43;font:400 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#f1ede4;vertical-align:top">4</td></tr></table></td></tr></table></td></tr>
+  <tr><td align="center" style="padding:26px 40px 8px"><a href="../kontakt.html" style="display:inline-block;padding:15px 30px;border-radius:999px;background:#0a2418;font:400 16px/1.1 Georgia,'Times New Roman',Times,serif;letter-spacing:.02em;color:#f1ede4;text-decoration:none">Kontakt und Anfahrt &nbsp;<span style="color:#dcc293">↗</span></a></td></tr>
+  <tr><td style="padding:14px 40px 30px"><p style="margin:0;font:400 15px/1.6 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#46534a;text-align:center">Bachlettenstrasse 1, 4054 Basel. In unmittelbarer Nachbarschaft zum Basler Zoo.</p>
+    <img decoding="sync" src="img/pascal-dragan.jpg" width="520" alt="Pascal Steffen und Dragan Rapic vor der grünen Wand des Saals" style="display:block;border:0;width:100%;max-width:520px;height:auto;margin:26px auto 0;border-radius:14px;background:#e6e0d1">
+    <p style="margin:18px 0 0;font:400 18px/1.4 Georgia,'Times New Roman',Times,serif;color:#15221a;text-align:center">Herzlich, Pascal Steffen, Dragan Rapic, Jenny und das Team</p></td></tr>
+  <tr><td align="center" style="background:#061a10;padding:28px 30px"><div style="font:400 17px/1.2 Georgia,'Times New Roman',Times,serif;letter-spacing:.32em;margin-right:-.32em;color:#f1ede4">roots</div>
+    <div style="margin-top:10px;font:400 13px/1.6 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#dec9a9">Bachlettenstrasse 1 · 4054 Basel<br><span style="color:#dec9a9">+41 61 322 10 56</span> · <span style="color:#dec9a9">info@roots-basel.ch</span></div>
+    <div style="margin-top:12px;font:400 13px/1.5 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293">Zwei Michelin-Sterne · Grüner Michelin-Stern · 18 GaultMillau-Punkte</div></td></tr>
+</table>
+</td></tr></table>
+</div></div>
+  <p class="mb-ganz"><button type="button" class="mb-kn" aria-expanded="false"><span class="a">Ganze Mail</span><span class="z">Weniger zeigen</span><i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg></i></button></p>
+</article><article class="mb" data-a style="--vz:330ms">
+  <header class="mb-ueber"><span class="mb-nr">04</span><span class="mb-ueber__t"><b>Danke für Ihren Abend</b><small><span>Von</span> roots · info@roots-basel.ch</small><small><span>Wann</span> Am Tag nach dem Besuch</small><small><span>Betreff</span> Danke für Ihren Abend im «roots»</small></span></header>
+  <div class="mb-blatt"><div class="mb-in">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#e6e0d1"><tr><td align="center" style="padding:24px 12px">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;background:#f1ede4;border-radius:22px;overflow:hidden">
+  <tr><td align="center" style="background:#0a2418;padding:36px 30px 34px">
+    <img decoding="sync" src="img/zeichen.png" width="56" alt="" style="display:block;border:0;width:56px;height:auto;margin:0 auto 14px">
+    <div style="font:400 22px/1.1 Georgia,'Times New Roman',Times,serif;letter-spacing:.32em;margin-right:-.32em;color:#f1ede4">roots</div>
+    <div style="margin-top:9px;font:400 12.5px/1.2 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;color:#dcc293">Bachletten · Basel</div>
+    <div style="width:44px;height:1px;margin:26px auto 0;background:#c8a36b;font-size:0;line-height:0">&nbsp;</div>
+    <h1 style="margin:24px 0 0;font:400 clamp(28px,7.6vw,38px)/1.18 Georgia,'Times New Roman',Times,serif;letter-spacing:0;color:#f1ede4">Danke<br><span style="color:#dcc293">für Ihren Abend.</span></h1>
+  </td></tr>
+  <tr><td style="padding:34px clamp(22px,6vw,40px) 8px"><p style="margin:0 0 16px;font:400 21px/1.3 Georgia,'Times New Roman',Times,serif;color:#15221a">Lieber Herr Baumann</p><p style="margin:0 0 14px;font:400 16px/1.62 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#2b382f">Schön, dass Sie bei uns im Bachletten waren. Wir hoffen, der Abend begleitet Sie noch ein Stück.</p><p style="margin:0 0 14px;font:400 16px/1.62 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#2b382f">Das Essen im «roots» soll Freude und Spass machen. Uns macht es Freude, wenn es Ihnen Spass macht.</p><p style="margin:0 0 14px;font:400 16px/1.62 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#2b382f">Möchten Sie einen solchen Abend weiterschenken: Unsere Gutscheine gibt es in unserem Gutschein-Shop.</p></td></tr>
+  <tr><td style="padding:6px 28px 6px"><img decoding="sync" src="img/regal.jpg" width="544" alt="Das Regal im Saal mit Einmachgläsern, Korken und Kochbüchern" style="display:block;border:0;width:100%;height:auto;border-radius:14px;background:#e6e0d1"></td></tr>
+  <tr><td style="padding:10px 28px 6px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#0f3d27;border-radius:14px">
+    <tr><td style="padding:22px 26px 12px"><div style="font:400 16px/1.2 Georgia,'Times New Roman',Times,serif;color:#dcc293;padding-bottom:13px">Ihr Abend <span style="font:400 13px/1.2 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.04em;color:#9fb3a6">· Beispielwerte</span></div>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding:12px 12px 12px 0;border-top:1px solid #2e5a43;font:400 13px/1.35 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293;width:34%;vertical-align:top">Tag</td><td style="padding:11px 0;border-top:1px solid #2e5a43;font:400 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#f1ede4;vertical-align:top">Freitag, 27. November 2026</td></tr><tr><td style="padding:12px 12px 12px 0;border-top:1px solid #2e5a43;font:400 13px/1.35 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293;width:34%;vertical-align:top">Personen</td><td style="padding:11px 0;border-top:1px solid #2e5a43;font:400 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#f1ede4;vertical-align:top">4</td></tr><tr><td style="padding:12px 12px 12px 0;border-top:1px solid #2e5a43;font:400 13px/1.35 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293;width:34%;vertical-align:top">Menü</td><td style="padding:11px 0;border-top:1px solid #2e5a43;font:400 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#f1ede4;vertical-align:top">Dinner, neun Gänge</td></tr></table></td></tr></table></td></tr>
+  <tr><td align="center" style="padding:26px 40px 8px"><a href="https://shop.e-guma.ch/roots-basel/de/gutscheine" style="display:inline-block;padding:15px 30px;border-radius:999px;background:#0a2418;font:400 16px/1.1 Georgia,'Times New Roman',Times,serif;letter-spacing:.02em;color:#f1ede4;text-decoration:none">Einen Gutschein verschenken &nbsp;<span style="color:#dcc293">↗</span></a></td></tr>
+  <tr><td style="padding:14px 40px 30px"><p style="margin:0;font:400 15px/1.6 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#46534a;text-align:center">Jedes unserer Menüs ist von der Saison geprägt – deshalb verändern sich unsere Gerichte laufend.</p>
+    <img decoding="sync" src="img/pascal-dragan.jpg" width="520" alt="Pascal Steffen und Dragan Rapic vor der grünen Wand des Saals" style="display:block;border:0;width:100%;max-width:520px;height:auto;margin:26px auto 0;border-radius:14px;background:#e6e0d1">
+    <p style="margin:18px 0 0;font:400 18px/1.4 Georgia,'Times New Roman',Times,serif;color:#15221a;text-align:center">Herzlich, Pascal Steffen, Dragan Rapic, Jenny und das Team</p></td></tr>
+  <tr><td align="center" style="background:#061a10;padding:28px 30px"><div style="font:400 17px/1.2 Georgia,'Times New Roman',Times,serif;letter-spacing:.32em;margin-right:-.32em;color:#f1ede4">roots</div>
+    <div style="margin-top:10px;font:400 13px/1.6 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#dec9a9">Bachlettenstrasse 1 · 4054 Basel<br><span style="color:#dec9a9">+41 61 322 10 56</span> · <span style="color:#dec9a9">info@roots-basel.ch</span></div>
+    <div style="margin-top:12px;font:400 13px/1.5 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293">Zwei Michelin-Sterne · Grüner Michelin-Stern · 18 GaultMillau-Punkte</div></td></tr>
+</table>
+</td></tr></table>
+</div></div>
+  <p class="mb-ganz"><button type="button" class="mb-kn" aria-expanded="false"><span class="a">Ganze Mail</span><span class="z">Weniger zeigen</span><i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg></i></button></p>
+</article><article class="mb" data-a style="--vz:330ms">
+  <header class="mb-ueber"><span class="mb-nr">05</span><span class="mb-ueber__t"><b>Ein anderer Abend</b><small><span>Von</span> roots · info@roots-basel.ch</small><small><span>Wann</span> Wenn der Wunschabend ausgebucht ist</small><small><span>Betreff</span> Ihr Wunschabend im «roots»</small></span></header>
+  <div class="mb-blatt"><div class="mb-in">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#e6e0d1"><tr><td align="center" style="padding:24px 12px">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;background:#f1ede4;border-radius:22px;overflow:hidden">
+  <tr><td align="center" style="background:#0a2418;padding:36px 30px 34px">
+    <img decoding="sync" src="img/zeichen.png" width="56" alt="" style="display:block;border:0;width:56px;height:auto;margin:0 auto 14px">
+    <div style="font:400 22px/1.1 Georgia,'Times New Roman',Times,serif;letter-spacing:.32em;margin-right:-.32em;color:#f1ede4">roots</div>
+    <div style="margin-top:9px;font:400 12.5px/1.2 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;color:#dcc293">Bachletten · Basel</div>
+    <div style="width:44px;height:1px;margin:26px auto 0;background:#c8a36b;font-size:0;line-height:0">&nbsp;</div>
+    <h1 style="margin:24px 0 0;font:400 clamp(28px,7.6vw,38px)/1.18 Georgia,'Times New Roman',Times,serif;letter-spacing:0;color:#f1ede4">Ein anderer<br><span style="color:#dcc293">Abend?</span></h1>
+  </td></tr>
+  <tr><td style="padding:34px clamp(22px,6vw,40px) 8px"><p style="margin:0 0 16px;font:400 21px/1.3 Georgia,'Times New Roman',Times,serif;color:#15221a">Lieber Herr Baumann</p><p style="margin:0 0 14px;font:400 16px/1.62 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#2b382f">Danke für Ihre Anfrage. Am Samstag, 12. Dezember, sind alle Tische vergeben.</p><p style="margin:0 0 14px;font:400 16px/1.62 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#2b382f">Gern schlagen wir Ihnen einen anderen Abend vor: Wir sind Dienstag bis Samstag ab 18.30 Uhr für Sie da, donnerstags auch mittags zum Businesslunch.</p><p style="margin:0 0 14px;font:400 16px/1.62 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#2b382f">Eine Antwort auf diese Mail genügt, wir melden uns persönlich.</p></td></tr>
+  <tr><td style="padding:6px 28px 6px"><img decoding="sync" src="img/tisch-leuchte.jpg" width="544" alt="Runder Tisch vor dem Regal unter einer Hängeleuchte" style="display:block;border:0;width:100%;height:auto;border-radius:14px;background:#e6e0d1"></td></tr>
+  <tr><td style="padding:10px 28px 6px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#0f3d27;border-radius:14px">
+    <tr><td style="padding:22px 26px 12px"><div style="font:400 16px/1.2 Georgia,'Times New Roman',Times,serif;color:#dcc293;padding-bottom:13px">Ihre Anfrage <span style="font:400 13px/1.2 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.04em;color:#9fb3a6">· Beispielwerte</span></div>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding:12px 12px 12px 0;border-top:1px solid #2e5a43;font:400 13px/1.35 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293;width:34%;vertical-align:top">Tag</td><td style="padding:11px 0;border-top:1px solid #2e5a43;font:400 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#f1ede4;vertical-align:top">Samstag, 12. Dezember 2026</td></tr><tr><td style="padding:12px 12px 12px 0;border-top:1px solid #2e5a43;font:400 13px/1.35 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293;width:34%;vertical-align:top">Uhrzeit</td><td style="padding:11px 0;border-top:1px solid #2e5a43;font:400 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#f1ede4;vertical-align:top">19.00 Uhr</td></tr><tr><td style="padding:12px 12px 12px 0;border-top:1px solid #2e5a43;font:400 13px/1.35 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293;width:34%;vertical-align:top">Personen</td><td style="padding:11px 0;border-top:1px solid #2e5a43;font:400 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#f1ede4;vertical-align:top">4</td></tr></table></td></tr></table></td></tr>
+  <tr><td align="center" style="padding:26px 40px 8px"><a href="../kontakt.html" style="display:inline-block;padding:15px 30px;border-radius:999px;background:#0a2418;font:400 16px/1.1 Georgia,'Times New Roman',Times,serif;letter-spacing:.02em;color:#f1ede4;text-decoration:none">Tisch reservieren &nbsp;<span style="color:#dcc293">↗</span></a></td></tr>
+  <tr><td style="padding:14px 40px 30px"><p style="margin:0;font:400 15px/1.6 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#46534a;text-align:center">Dienstag bis Samstag, 18.30 bis 24.00 Uhr. Donnerstag, Businesslunch, 12.00 bis 14.30 Uhr. Sonntag und Montag geschlossen.</p>
+    <img decoding="sync" src="img/pascal-dragan.jpg" width="520" alt="Pascal Steffen und Dragan Rapic vor der grünen Wand des Saals" style="display:block;border:0;width:100%;max-width:520px;height:auto;margin:26px auto 0;border-radius:14px;background:#e6e0d1">
+    <p style="margin:18px 0 0;font:400 18px/1.4 Georgia,'Times New Roman',Times,serif;color:#15221a;text-align:center">Herzlich, Pascal Steffen, Dragan Rapic, Jenny und das Team</p></td></tr>
+  <tr><td align="center" style="background:#061a10;padding:28px 30px"><div style="font:400 17px/1.2 Georgia,'Times New Roman',Times,serif;letter-spacing:.32em;margin-right:-.32em;color:#f1ede4">roots</div>
+    <div style="margin-top:10px;font:400 13px/1.6 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#dec9a9">Bachlettenstrasse 1 · 4054 Basel<br><span style="color:#dec9a9">+41 61 322 10 56</span> · <span style="color:#dec9a9">info@roots-basel.ch</span></div>
+    <div style="margin-top:12px;font:400 13px/1.5 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293">Zwei Michelin-Sterne · Grüner Michelin-Stern · 18 GaultMillau-Punkte</div></td></tr>
+</table>
+</td></tr></table>
+</div></div>
+  <p class="mb-ganz"><button type="button" class="mb-kn" aria-expanded="false"><span class="a">Ganze Mail</span><span class="z">Weniger zeigen</span><i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg></i></button></p>
+</article><article class="mb" data-a style="--vz:330ms">
+  <header class="mb-ueber"><span class="mb-nr">06</span><span class="mb-ueber__t"><b>Ihre Gesellschaft</b><small><span>Von</span> roots · info@roots-basel.ch</small><small><span>Wann</span> Nach der Anfrage für eine Gruppe ab sechs Personen</small><small><span>Betreff</span> Ihre Anfrage für eine Gesellschaft</small></span></header>
+  <div class="mb-blatt"><div class="mb-in">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#e6e0d1"><tr><td align="center" style="padding:24px 12px">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;background:#f1ede4;border-radius:22px;overflow:hidden">
+  <tr><td align="center" style="background:#0a2418;padding:36px 30px 34px">
+    <img decoding="sync" src="img/zeichen.png" width="56" alt="" style="display:block;border:0;width:56px;height:auto;margin:0 auto 14px">
+    <div style="font:400 22px/1.1 Georgia,'Times New Roman',Times,serif;letter-spacing:.32em;margin-right:-.32em;color:#f1ede4">roots</div>
+    <div style="margin-top:9px;font:400 12.5px/1.2 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;color:#dcc293">Bachletten · Basel</div>
+    <div style="width:44px;height:1px;margin:26px auto 0;background:#c8a36b;font-size:0;line-height:0">&nbsp;</div>
+    <h1 style="margin:24px 0 0;font:400 clamp(28px,7.6vw,38px)/1.18 Georgia,'Times New Roman',Times,serif;letter-spacing:0;color:#f1ede4">Für Ihre<br><span style="color:#dcc293">Gesellschaft.</span></h1>
+  </td></tr>
+  <tr><td style="padding:34px clamp(22px,6vw,40px) 8px"><p style="margin:0 0 16px;font:400 21px/1.3 Georgia,'Times New Roman',Times,serif;color:#15221a">Liebe Frau Meier</p><p style="margin:0 0 14px;font:400 16px/1.62 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#2b382f">Herzlichen Dank für Ihre Anfrage. Für Ihre Gesellschaft nehmen wir uns gern Zeit und melden uns persönlich, um den Abend mit Ihnen zu besprechen.</p><p style="margin:0 0 14px;font:400 16px/1.62 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#2b382f">Bei uns dürfen Sie sich wohlfühlen wie im eigenen Wohnzimmer.</p><p style="margin:0 0 14px;font:400 16px/1.62 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#2b382f">Gibt es Allergien, Unverträglichkeiten oder einen besonderen Anlass, schreiben Sie es uns gern schon jetzt.</p></td></tr>
+  <tr><td style="padding:6px 28px 6px"><img decoding="sync" src="img/tisch-paar.jpg" width="544" alt="Zwei gedeckte Tische vor der grünen Wand" style="display:block;border:0;width:100%;height:auto;border-radius:14px;background:#e6e0d1"></td></tr>
+  <tr><td style="padding:10px 28px 6px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#0f3d27;border-radius:14px">
+    <tr><td style="padding:22px 26px 12px"><div style="font:400 16px/1.2 Georgia,'Times New Roman',Times,serif;color:#dcc293;padding-bottom:13px">Ihre Anfrage <span style="font:400 13px/1.2 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.04em;color:#9fb3a6">· Beispielwerte</span></div>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding:12px 12px 12px 0;border-top:1px solid #2e5a43;font:400 13px/1.35 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293;width:34%;vertical-align:top">Tag</td><td style="padding:11px 0;border-top:1px solid #2e5a43;font:400 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#f1ede4;vertical-align:top">Freitag, 22. Januar 2027</td></tr><tr><td style="padding:12px 12px 12px 0;border-top:1px solid #2e5a43;font:400 13px/1.35 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293;width:34%;vertical-align:top">Uhrzeit</td><td style="padding:11px 0;border-top:1px solid #2e5a43;font:400 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#f1ede4;vertical-align:top">19.00 Uhr</td></tr><tr><td style="padding:12px 12px 12px 0;border-top:1px solid #2e5a43;font:400 13px/1.35 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293;width:34%;vertical-align:top">Personen</td><td style="padding:11px 0;border-top:1px solid #2e5a43;font:400 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#f1ede4;vertical-align:top">12</td></tr><tr><td style="padding:12px 12px 12px 0;border-top:1px solid #2e5a43;font:400 13px/1.35 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293;width:34%;vertical-align:top">Art</td><td style="padding:11px 0;border-top:1px solid #2e5a43;font:400 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#f1ede4;vertical-align:top">Geschlossene Gesellschaft</td></tr></table></td></tr></table></td></tr>
+  <tr><td align="center" style="padding:26px 40px 8px"><a href="../karte.html" style="display:inline-block;padding:15px 30px;border-radius:999px;background:#0a2418;font:400 16px/1.1 Georgia,'Times New Roman',Times,serif;letter-spacing:.02em;color:#f1ede4;text-decoration:none">Die Karte ansehen &nbsp;<span style="color:#dcc293">↗</span></a></td></tr>
+  <tr><td style="padding:14px 40px 30px"><p style="margin:0;font:400 15px/1.6 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#46534a;text-align:center">Für Fragen erreichen Sie uns unter +41 61 322 10 56.</p>
+    <img decoding="sync" src="img/pascal-dragan.jpg" width="520" alt="Pascal Steffen und Dragan Rapic vor der grünen Wand des Saals" style="display:block;border:0;width:100%;max-width:520px;height:auto;margin:26px auto 0;border-radius:14px;background:#e6e0d1">
+    <p style="margin:18px 0 0;font:400 18px/1.4 Georgia,'Times New Roman',Times,serif;color:#15221a;text-align:center">Herzlich, Pascal Steffen, Dragan Rapic, Jenny und das Team</p></td></tr>
+  <tr><td align="center" style="background:#061a10;padding:28px 30px"><div style="font:400 17px/1.2 Georgia,'Times New Roman',Times,serif;letter-spacing:.32em;margin-right:-.32em;color:#f1ede4">roots</div>
+    <div style="margin-top:10px;font:400 13px/1.6 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#dec9a9">Bachlettenstrasse 1 · 4054 Basel<br><span style="color:#dec9a9">+41 61 322 10 56</span> · <span style="color:#dec9a9">info@roots-basel.ch</span></div>
+    <div style="margin-top:12px;font:400 13px/1.5 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293">Zwei Michelin-Sterne · Grüner Michelin-Stern · 18 GaultMillau-Punkte</div></td></tr>
+</table>
+</td></tr></table>
+</div></div>
+  <p class="mb-ganz"><button type="button" class="mb-kn" aria-expanded="false"><span class="a">Ganze Mail</span><span class="z">Weniger zeigen</span><i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg></i></button></p>
+</article><article class="mb" data-a style="--vz:330ms">
+  <header class="mb-ueber"><span class="mb-nr">07</span><span class="mb-ueber__t"><b>Ihr Businesslunch</b><small><span>Von</span> roots · info@roots-basel.ch</small><small><span>Wann</span> Wenn ein Tisch zum Businesslunch reserviert ist</small><small><span>Betreff</span> Ihr Businesslunch am Donnerstag</small></span></header>
+  <div class="mb-blatt"><div class="mb-in">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#e6e0d1"><tr><td align="center" style="padding:24px 12px">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;background:#f1ede4;border-radius:22px;overflow:hidden">
+  <tr><td align="center" style="background:#0a2418;padding:36px 30px 34px">
+    <img decoding="sync" src="img/zeichen.png" width="56" alt="" style="display:block;border:0;width:56px;height:auto;margin:0 auto 14px">
+    <div style="font:400 22px/1.1 Georgia,'Times New Roman',Times,serif;letter-spacing:.32em;margin-right:-.32em;color:#f1ede4">roots</div>
+    <div style="margin-top:9px;font:400 12.5px/1.2 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;color:#dcc293">Bachletten · Basel</div>
+    <div style="width:44px;height:1px;margin:26px auto 0;background:#c8a36b;font-size:0;line-height:0">&nbsp;</div>
+    <h1 style="margin:24px 0 0;font:400 clamp(28px,7.6vw,38px)/1.18 Georgia,'Times New Roman',Times,serif;letter-spacing:0;color:#f1ede4">Donnerstag,<br><span style="color:#dcc293">Businesslunch.</span></h1>
+  </td></tr>
+  <tr><td style="padding:34px clamp(22px,6vw,40px) 8px"><p style="margin:0 0 16px;font:400 21px/1.3 Georgia,'Times New Roman',Times,serif;color:#15221a">Lieber Herr Baumann</p><p style="margin:0 0 14px;font:400 16px/1.62 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#2b382f">Ihr Tisch zum Businesslunch ist reserviert. Jeweils donnerstags, 12.00 bis 14.30 Uhr, sind wir mittags für Sie da.</p><p style="margin:0 0 14px;font:400 16px/1.62 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#2b382f">Den Businesslunch gibt es mit drei, vier oder fünf Gängen, ganz so, wie es Ihr Nachmittag erlaubt.</p><p style="margin:0 0 14px;font:400 16px/1.62 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#2b382f">Kommt jemand dazu, ein kurzer Anruf unter +41 61 322 10 56 genügt.</p></td></tr>
+  <tr><td style="padding:6px 28px 6px"><img decoding="sync" src="img/teller-salat.jpg" width="544" alt="Gemüse, Blätter und Blüten auf einem gesprenkelten Teller" style="display:block;border:0;width:100%;height:auto;border-radius:14px;background:#e6e0d1"></td></tr>
+  <tr><td style="padding:10px 28px 6px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#0f3d27;border-radius:14px">
+    <tr><td style="padding:22px 26px 12px"><div style="font:400 16px/1.2 Georgia,'Times New Roman',Times,serif;color:#dcc293;padding-bottom:13px">Ihr Tisch <span style="font:400 13px/1.2 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.04em;color:#9fb3a6">· Beispielwerte</span></div>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding:12px 12px 12px 0;border-top:1px solid #2e5a43;font:400 13px/1.35 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293;width:34%;vertical-align:top">Tag</td><td style="padding:11px 0;border-top:1px solid #2e5a43;font:400 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#f1ede4;vertical-align:top">Donnerstag, 3. Dezember 2026</td></tr><tr><td style="padding:12px 12px 12px 0;border-top:1px solid #2e5a43;font:400 13px/1.35 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293;width:34%;vertical-align:top">Uhrzeit</td><td style="padding:11px 0;border-top:1px solid #2e5a43;font:400 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#f1ede4;vertical-align:top">12.00 Uhr</td></tr><tr><td style="padding:12px 12px 12px 0;border-top:1px solid #2e5a43;font:400 13px/1.35 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293;width:34%;vertical-align:top">Personen</td><td style="padding:11px 0;border-top:1px solid #2e5a43;font:400 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#f1ede4;vertical-align:top">4</td></tr><tr><td style="padding:12px 12px 12px 0;border-top:1px solid #2e5a43;font:400 13px/1.35 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293;width:34%;vertical-align:top">Menü</td><td style="padding:11px 0;border-top:1px solid #2e5a43;font:400 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#f1ede4;vertical-align:top">Businesslunch, vier Gänge</td></tr></table></td></tr></table></td></tr>
+  <tr><td align="center" style="padding:26px 40px 8px"><a href="../karte.html" style="display:inline-block;padding:15px 30px;border-radius:999px;background:#0a2418;font:400 16px/1.1 Georgia,'Times New Roman',Times,serif;letter-spacing:.02em;color:#f1ede4;text-decoration:none">Die Karte ansehen &nbsp;<span style="color:#dcc293">↗</span></a></td></tr>
+  <tr><td style="padding:14px 40px 30px"><p style="margin:0;font:400 15px/1.6 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#46534a;text-align:center">Ab Bahnhof SBB vom Centralbahnplatz mit Tram 1 oder Tram 8 bis «Zoo Bachletten».</p>
+    <img decoding="sync" src="img/pascal-dragan.jpg" width="520" alt="Pascal Steffen und Dragan Rapic vor der grünen Wand des Saals" style="display:block;border:0;width:100%;max-width:520px;height:auto;margin:26px auto 0;border-radius:14px;background:#e6e0d1">
+    <p style="margin:18px 0 0;font:400 18px/1.4 Georgia,'Times New Roman',Times,serif;color:#15221a;text-align:center">Herzlich, Pascal Steffen, Dragan Rapic, Jenny und das Team</p></td></tr>
+  <tr><td align="center" style="background:#061a10;padding:28px 30px"><div style="font:400 17px/1.2 Georgia,'Times New Roman',Times,serif;letter-spacing:.32em;margin-right:-.32em;color:#f1ede4">roots</div>
+    <div style="margin-top:10px;font:400 13px/1.6 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#dec9a9">Bachlettenstrasse 1 · 4054 Basel<br><span style="color:#dec9a9">+41 61 322 10 56</span> · <span style="color:#dec9a9">info@roots-basel.ch</span></div>
+    <div style="margin-top:12px;font:400 13px/1.5 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293">Zwei Michelin-Sterne · Grüner Michelin-Stern · 18 GaultMillau-Punkte</div></td></tr>
+</table>
+</td></tr></table>
+</div></div>
+  <p class="mb-ganz"><button type="button" class="mb-kn" aria-expanded="false"><span class="a">Ganze Mail</span><span class="z">Weniger zeigen</span><i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg></i></button></p>
+</article><article class="mb" data-a style="--vz:330ms">
+  <header class="mb-ueber"><span class="mb-nr">08</span><span class="mb-ueber__t"><b>Zu jedem Gang ein Glas</b><small><span>Von</span> roots · info@roots-basel.ch</small><small><span>Wann</span> Nach einer Frage zur Getränkebegleitung</small><small><span>Betreff</span> Die Getränkebegleitung im «roots»</small></span></header>
+  <div class="mb-blatt"><div class="mb-in">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#e6e0d1"><tr><td align="center" style="padding:24px 12px">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;background:#f1ede4;border-radius:22px;overflow:hidden">
+  <tr><td align="center" style="background:#0a2418;padding:36px 30px 34px">
+    <img decoding="sync" src="img/zeichen.png" width="56" alt="" style="display:block;border:0;width:56px;height:auto;margin:0 auto 14px">
+    <div style="font:400 22px/1.1 Georgia,'Times New Roman',Times,serif;letter-spacing:.32em;margin-right:-.32em;color:#f1ede4">roots</div>
+    <div style="margin-top:9px;font:400 12.5px/1.2 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;color:#dcc293">Bachletten · Basel</div>
+    <div style="width:44px;height:1px;margin:26px auto 0;background:#c8a36b;font-size:0;line-height:0">&nbsp;</div>
+    <h1 style="margin:24px 0 0;font:400 clamp(28px,7.6vw,38px)/1.18 Georgia,'Times New Roman',Times,serif;letter-spacing:0;color:#f1ede4">Zu jedem Gang<br><span style="color:#dcc293">ein Glas.</span></h1>
+  </td></tr>
+  <tr><td style="padding:34px clamp(22px,6vw,40px) 8px"><p style="margin:0 0 16px;font:400 21px/1.3 Georgia,'Times New Roman',Times,serif;color:#15221a">Lieber Herr Baumann</p><p style="margin:0 0 14px;font:400 16px/1.62 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#2b382f">Danke für Ihre Frage. Zu jedem Gang schenken wir Ihnen ein Glas ein, mit oder ohne Alkohol.</p><p style="margin:0 0 14px;font:400 16px/1.62 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#2b382f">287 Weine. Unsere Restaurantleiterin Jenny prägt mit ihrer Expertise die Auswahl.</p><p style="margin:0 0 14px;font:400 16px/1.62 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#2b382f">Die alkoholfreien Begleiter macht das Haus selbst: Apfel und Hibiskus, Kapuziner und Sauerampfer, Kirsche und Miso.</p></td></tr>
+  <tr><td style="padding:6px 28px 6px"><img decoding="sync" src="img/p-jenny-wein.jpg" width="544" alt="Jenny, Restaurantleiterin, schenkt Wein ein" style="display:block;border:0;width:100%;height:auto;border-radius:14px;background:#e6e0d1"></td></tr>
+  <tr><td style="padding:10px 28px 6px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#0f3d27;border-radius:14px">
+    <tr><td style="padding:22px 26px 12px"><div style="font:400 16px/1.2 Georgia,'Times New Roman',Times,serif;color:#dcc293;padding-bottom:13px">Ihr Tisch <span style="font:400 13px/1.2 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.04em;color:#9fb3a6">· Beispielwerte</span></div>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding:12px 12px 12px 0;border-top:1px solid #2e5a43;font:400 13px/1.35 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293;width:34%;vertical-align:top">Tag</td><td style="padding:11px 0;border-top:1px solid #2e5a43;font:400 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#f1ede4;vertical-align:top">Samstag, 5. Dezember 2026</td></tr><tr><td style="padding:12px 12px 12px 0;border-top:1px solid #2e5a43;font:400 13px/1.35 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293;width:34%;vertical-align:top">Uhrzeit</td><td style="padding:11px 0;border-top:1px solid #2e5a43;font:400 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#f1ede4;vertical-align:top">19.00 Uhr</td></tr><tr><td style="padding:12px 12px 12px 0;border-top:1px solid #2e5a43;font:400 13px/1.35 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293;width:34%;vertical-align:top">Personen</td><td style="padding:11px 0;border-top:1px solid #2e5a43;font:400 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#f1ede4;vertical-align:top">2</td></tr><tr><td style="padding:12px 12px 12px 0;border-top:1px solid #2e5a43;font:400 13px/1.35 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293;width:34%;vertical-align:top">Wunsch</td><td style="padding:11px 0;border-top:1px solid #2e5a43;font:400 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#f1ede4;vertical-align:top">Begleitung ohne Alkohol</td></tr></table></td></tr></table></td></tr>
+  <tr><td align="center" style="padding:26px 40px 8px"><a href="../weinkarte.html" style="display:inline-block;padding:15px 30px;border-radius:999px;background:#0a2418;font:400 16px/1.1 Georgia,'Times New Roman',Times,serif;letter-spacing:.02em;color:#f1ede4;text-decoration:none">Die Weinkarte ansehen &nbsp;<span style="color:#dcc293">↗</span></a></td></tr>
+  <tr><td style="padding:14px 40px 30px"><p style="margin:0;font:400 15px/1.6 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#46534a;text-align:center">Dienstag bis Samstag, 18.30 bis 24.00 Uhr. Donnerstag, Businesslunch, 12.00 bis 14.30 Uhr. Sonntag und Montag geschlossen.</p>
+    <img decoding="sync" src="img/pascal-dragan.jpg" width="520" alt="Pascal Steffen und Dragan Rapic vor der grünen Wand des Saals" style="display:block;border:0;width:100%;max-width:520px;height:auto;margin:26px auto 0;border-radius:14px;background:#e6e0d1">
+    <p style="margin:18px 0 0;font:400 18px/1.4 Georgia,'Times New Roman',Times,serif;color:#15221a;text-align:center">Herzlich, Pascal Steffen, Dragan Rapic, Jenny und das Team</p></td></tr>
+  <tr><td align="center" style="background:#061a10;padding:28px 30px"><div style="font:400 17px/1.2 Georgia,'Times New Roman',Times,serif;letter-spacing:.32em;margin-right:-.32em;color:#f1ede4">roots</div>
+    <div style="margin-top:10px;font:400 13px/1.6 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#dec9a9">Bachlettenstrasse 1 · 4054 Basel<br><span style="color:#dec9a9">+41 61 322 10 56</span> · <span style="color:#dec9a9">info@roots-basel.ch</span></div>
+    <div style="margin-top:12px;font:400 13px/1.5 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293">Zwei Michelin-Sterne · Grüner Michelin-Stern · 18 GaultMillau-Punkte</div></td></tr>
+</table>
+</td></tr></table>
+</div></div>
+  <p class="mb-ganz"><button type="button" class="mb-kn" aria-expanded="false"><span class="a">Ganze Mail</span><span class="z">Weniger zeigen</span><i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg></i></button></p>
+</article><article class="mb" data-a style="--vz:330ms">
+  <header class="mb-ueber"><span class="mb-nr">09</span><span class="mb-ueber__t"><b>Ihr Gutschein</b><small><span>Von</span> roots · info@roots-basel.ch</small><small><span>Wann</span> Nach der Bestellung im Gutschein-Shop</small><small><span>Betreff</span> Ihr Gutschein für das «roots»</small></span></header>
+  <div class="mb-blatt"><div class="mb-in">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#e6e0d1"><tr><td align="center" style="padding:24px 12px">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;background:#f1ede4;border-radius:22px;overflow:hidden">
+  <tr><td align="center" style="background:#0a2418;padding:36px 30px 34px">
+    <img decoding="sync" src="img/zeichen.png" width="56" alt="" style="display:block;border:0;width:56px;height:auto;margin:0 auto 14px">
+    <div style="font:400 22px/1.1 Georgia,'Times New Roman',Times,serif;letter-spacing:.32em;margin-right:-.32em;color:#f1ede4">roots</div>
+    <div style="margin-top:9px;font:400 12.5px/1.2 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;color:#dcc293">Bachletten · Basel</div>
+    <div style="width:44px;height:1px;margin:26px auto 0;background:#c8a36b;font-size:0;line-height:0">&nbsp;</div>
+    <h1 style="margin:24px 0 0;font:400 clamp(28px,7.6vw,38px)/1.18 Georgia,'Times New Roman',Times,serif;letter-spacing:0;color:#f1ede4">Ihr Gutschein<br><span style="color:#dcc293">für das «roots».</span></h1>
+  </td></tr>
+  <tr><td style="padding:34px clamp(22px,6vw,40px) 8px"><p style="margin:0 0 16px;font:400 21px/1.3 Georgia,'Times New Roman',Times,serif;color:#15221a">Liebe Frau Meier</p><p style="margin:0 0 14px;font:400 16px/1.62 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#2b382f">Herzlichen Dank, dass Sie einen Abend im «roots» verschenken. Ihren Gutschein erhalten Sie aus unserem Gutschein-Shop, zum Ausdrucken oder Weiterschicken.</p><p style="margin:0 0 14px;font:400 16px/1.62 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#2b382f">Eingelöst wird er bei uns an der Bachlettenstrasse 1 in Basel. In unmittelbarer Nachbarschaft zum Basler Zoo.</p></td></tr>
+  <tr><td style="padding:6px 28px 6px"><img decoding="sync" src="img/stich.jpg" width="544" alt="Gezeichnetes Gemüse auf der Tischkarte des Hauses" style="display:block;border:0;width:100%;height:auto;border-radius:14px;background:#e6e0d1"></td></tr>
+  <tr><td style="padding:10px 28px 6px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#0f3d27;border-radius:14px">
+    <tr><td style="padding:22px 26px 12px"><div style="font:400 16px/1.2 Georgia,'Times New Roman',Times,serif;color:#dcc293;padding-bottom:13px">Ihr Gutschein <span style="font:400 13px/1.2 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.04em;color:#9fb3a6">· Beispielwerte</span></div>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding:12px 12px 12px 0;border-top:1px solid #2e5a43;font:400 13px/1.35 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293;width:34%;vertical-align:top">Für</td><td style="padding:11px 0;border-top:1px solid #2e5a43;font:400 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#f1ede4;vertical-align:top">Lea und Marc</td></tr><tr><td style="padding:12px 12px 12px 0;border-top:1px solid #2e5a43;font:400 13px/1.35 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293;width:34%;vertical-align:top">Von</td><td style="padding:11px 0;border-top:1px solid #2e5a43;font:400 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#f1ede4;vertical-align:top">Anna</td></tr><tr><td style="padding:12px 12px 12px 0;border-top:1px solid #2e5a43;font:400 13px/1.35 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293;width:34%;vertical-align:top">Anlass</td><td style="padding:11px 0;border-top:1px solid #2e5a43;font:400 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#f1ede4;vertical-align:top">Zum Hochzeitstag</td></tr></table></td></tr></table></td></tr>
+  <tr><td align="center" style="padding:26px 40px 8px"><a href="https://shop.e-guma.ch/roots-basel/de/gutscheine" style="display:inline-block;padding:15px 30px;border-radius:999px;background:#0a2418;font:400 16px/1.1 Georgia,'Times New Roman',Times,serif;letter-spacing:.02em;color:#f1ede4;text-decoration:none">Zum Gutschein-Shop &nbsp;<span style="color:#dcc293">↗</span></a></td></tr>
+  <tr><td style="padding:14px 40px 30px"><p style="margin:0;font:400 15px/1.6 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#46534a;text-align:center">Für Fragen erreichen Sie uns unter +41 61 322 10 56.</p>
+    <img decoding="sync" src="img/pascal-dragan.jpg" width="520" alt="Pascal Steffen und Dragan Rapic vor der grünen Wand des Saals" style="display:block;border:0;width:100%;max-width:520px;height:auto;margin:26px auto 0;border-radius:14px;background:#e6e0d1">
+    <p style="margin:18px 0 0;font:400 18px/1.4 Georgia,'Times New Roman',Times,serif;color:#15221a;text-align:center">Herzlich, Pascal Steffen, Dragan Rapic, Jenny und das Team</p></td></tr>
+  <tr><td align="center" style="background:#061a10;padding:28px 30px"><div style="font:400 17px/1.2 Georgia,'Times New Roman',Times,serif;letter-spacing:.32em;margin-right:-.32em;color:#f1ede4">roots</div>
+    <div style="margin-top:10px;font:400 13px/1.6 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#dec9a9">Bachlettenstrasse 1 · 4054 Basel<br><span style="color:#dec9a9">+41 61 322 10 56</span> · <span style="color:#dec9a9">info@roots-basel.ch</span></div>
+    <div style="margin-top:12px;font:400 13px/1.5 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293">Zwei Michelin-Sterne · Grüner Michelin-Stern · 18 GaultMillau-Punkte</div></td></tr>
+</table>
+</td></tr></table>
+</div></div>
+  <p class="mb-ganz"><button type="button" class="mb-kn" aria-expanded="false"><span class="a">Ganze Mail</span><span class="z">Weniger zeigen</span><i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg></i></button></p>
+</article><article class="mb" data-a style="--vz:330ms">
+  <header class="mb-ueber"><span class="mb-nr">10</span><span class="mb-ueber__t"><b>Danke für deine Bewerbung</b><small><span>Von</span> roots · info@roots-basel.ch</small><small><span>Wann</span> Nach einer Bewerbung über die Jobs-Seite</small><small><span>Betreff</span> Deine Bewerbung im «roots»</small></span></header>
+  <div class="mb-blatt"><div class="mb-in">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#e6e0d1"><tr><td align="center" style="padding:24px 12px">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;background:#f1ede4;border-radius:22px;overflow:hidden">
+  <tr><td align="center" style="background:#0a2418;padding:36px 30px 34px">
+    <img decoding="sync" src="img/zeichen.png" width="56" alt="" style="display:block;border:0;width:56px;height:auto;margin:0 auto 14px">
+    <div style="font:400 22px/1.1 Georgia,'Times New Roman',Times,serif;letter-spacing:.32em;margin-right:-.32em;color:#f1ede4">roots</div>
+    <div style="margin-top:9px;font:400 12.5px/1.2 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;color:#dcc293">Bachletten · Basel</div>
+    <div style="width:44px;height:1px;margin:26px auto 0;background:#c8a36b;font-size:0;line-height:0">&nbsp;</div>
+    <h1 style="margin:24px 0 0;font:400 clamp(28px,7.6vw,38px)/1.18 Georgia,'Times New Roman',Times,serif;letter-spacing:0;color:#f1ede4">Danke<br><span style="color:#dcc293">für deine Bewerbung.</span></h1>
+  </td></tr>
+  <tr><td style="padding:34px clamp(22px,6vw,40px) 8px"><p style="margin:0 0 16px;font:400 21px/1.3 Georgia,'Times New Roman',Times,serif;color:#15221a">Lieber Luca</p><p style="margin:0 0 14px;font:400 16px/1.62 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#2b382f">Danke für deine Bewerbung als Chef de Rang, sie ist bei uns angekommen.</p><p style="margin:0 0 14px;font:400 16px/1.62 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#2b382f">Lebenslauf und Foto gehen an unseren Managing Director Dragan Rapic. Wir melden uns bei dir.</p><p style="margin:0 0 14px;font:400 16px/1.62 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#2b382f">Wir sind immer auf der Suche nach enthusiastischen Teammitgliedern.</p></td></tr>
+  <tr><td style="padding:6px 28px 6px"><img decoding="sync" src="img/pascal-kueche.jpg" width="544" alt="Pascal Steffen in der Küche des «roots»" style="display:block;border:0;width:100%;height:auto;border-radius:14px;background:#e6e0d1"></td></tr>
+  <tr><td style="padding:10px 28px 6px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#0f3d27;border-radius:14px">
+    <tr><td style="padding:22px 26px 12px"><div style="font:400 16px/1.2 Georgia,'Times New Roman',Times,serif;color:#dcc293;padding-bottom:13px">Deine Bewerbung <span style="font:400 13px/1.2 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.04em;color:#9fb3a6">· Beispielwerte</span></div>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding:12px 12px 12px 0;border-top:1px solid #2e5a43;font:400 13px/1.35 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293;width:34%;vertical-align:top">Stelle</td><td style="padding:11px 0;border-top:1px solid #2e5a43;font:400 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#f1ede4;vertical-align:top">Chef de Rang (w/m), 100 %</td></tr><tr><td style="padding:12px 12px 12px 0;border-top:1px solid #2e5a43;font:400 13px/1.35 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293;width:34%;vertical-align:top">Eingang</td><td style="padding:11px 0;border-top:1px solid #2e5a43;font:400 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#f1ede4;vertical-align:top">Montag, 9. November 2026</td></tr><tr><td style="padding:12px 12px 12px 0;border-top:1px solid #2e5a43;font:400 13px/1.35 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293;width:34%;vertical-align:top">Unterlagen</td><td style="padding:11px 0;border-top:1px solid #2e5a43;font:400 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#f1ede4;vertical-align:top">Lebenslauf, Foto, Motivationsschreiben</td></tr></table></td></tr></table></td></tr>
+  <tr><td align="center" style="padding:26px 40px 8px"><a href="../jobs.html" style="display:inline-block;padding:15px 30px;border-radius:999px;background:#0a2418;font:400 16px/1.1 Georgia,'Times New Roman',Times,serif;letter-spacing:.02em;color:#f1ede4;text-decoration:none">Zu den Jobs &nbsp;<span style="color:#dcc293">↗</span></a></td></tr>
+  <tr><td style="padding:14px 40px 30px"><p style="margin:0;font:400 15px/1.6 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#46534a;text-align:center">Kompetent kommt nicht von kompliziert.</p>
+    <img decoding="sync" src="img/pascal-dragan.jpg" width="520" alt="Pascal Steffen und Dragan Rapic vor der grünen Wand des Saals" style="display:block;border:0;width:100%;max-width:520px;height:auto;margin:26px auto 0;border-radius:14px;background:#e6e0d1">
+    <p style="margin:18px 0 0;font:400 18px/1.4 Georgia,'Times New Roman',Times,serif;color:#15221a;text-align:center">Herzlich, Dragan Rapic und das Team</p></td></tr>
+  <tr><td align="center" style="background:#061a10;padding:28px 30px"><div style="font:400 17px/1.2 Georgia,'Times New Roman',Times,serif;letter-spacing:.32em;margin-right:-.32em;color:#f1ede4">roots</div>
+    <div style="margin-top:10px;font:400 13px/1.6 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#dec9a9">Bachlettenstrasse 1 · 4054 Basel<br><span style="color:#dec9a9">+41 61 322 10 56</span> · <span style="color:#dec9a9">info@roots-basel.ch</span></div>
+    <div style="margin-top:12px;font:400 13px/1.5 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.03em;color:#dcc293">Zwei Michelin-Sterne · Grüner Michelin-Stern · 18 GaultMillau-Punkte</div></td></tr>
+</table>
+</td></tr></table>
+</div></div>
+  <p class="mb-ganz"><button type="button" class="mb-kn" aria-expanded="false"><span class="a">Ganze Mail</span><span class="z">Weniger zeigen</span><i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg></i></button></p>
+</article></div>
+<div class="pfeile" data-a><button type="button" class="pf" data-r="-1" aria-label="Vorige Mail"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 5 8l5 5"/></svg></button><button type="button" class="pf" data-r="1" aria-label="Nächste Mail"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m6 3 5 5-5 5"/></svg></button></div></main>
+<footer data-a><span>Entwurf von Robert Reff, Tasty Studios. Stand 09.11.2026. Gebaut, nie verschickt.</span><a class="zurueck" href="../werkbank/index.html#mails">Alles auf einen Blick<i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 5 8l5 5"/></svg></i></a></footer>
+<script>
+(function () {
+  var H = document.documentElement;
+  /* erster Blick komplett: die Seite zeigt sich erst, wenn alle Bilder im ersten Bild geladen sind (nur load, nie decode) */
+  var auf = [].slice.call(document.querySelectorAll('[data-a]'));
+  function zeigeSichtbare() { auf.forEach(function (e) { if (!e.classList.contains('da') && e.getBoundingClientRect().top < innerHeight * .92) e.classList.add('da'); }); }
+  function los() {
+    if (!H.classList.contains('lade')) return;
+    H.classList.add('sofort'); zeigeSichtbare(); H.classList.remove('lade');
+    requestAnimationFrame(function () { requestAnimationFrame(function () { H.classList.remove('sofort'); }); });
+  }
+  var erste = [].filter.call(document.images, function (i) { var r = i.getBoundingClientRect(); return r.top < innerHeight && r.bottom > 0 && r.left < innerWidth && r.right > 0; });
+  var offen = erste.filter(function (i) { return !i.complete; }).length;
+  if (!offen) los(); else erste.forEach(function (i) { if (!i.complete) { var f = function () { if (--offen <= 0) los(); }; i.addEventListener('load', f, { once: true }); i.addEventListener('error', f, { once: true }); } });
+  setTimeout(los, 2500);
+  var st = 0; addEventListener('scroll', function () { if (!st) st = requestAnimationFrame(function () { st = 0; zeigeSichtbare(); }); }, { passive: true });
+  addEventListener('load', zeigeSichtbare);
+
+  /* die Mail steht in der Seite; zu sieht man den oberen Teil, auf die ganze Mail, sofort */
+  var ms = [].slice.call(document.querySelectorAll('.mb'));
+  function lage(m) { var bl = m.querySelector('.mb-blatt'), i = bl.querySelector('.mb-in'); bl.style.height = (m.classList.contains('auf') ? i.scrollHeight : Math.min(640, i.scrollHeight)) + 'px'; }
+  ms.forEach(function (m) {
+    var k = m.querySelector('.mb-kn');
+    [].forEach.call(m.querySelectorAll('img'), function (im) { if (!im.complete) im.addEventListener('load', function () { lage(m); }, { once: true }); });
+    lage(m);
+    k.addEventListener('click', function () { var a = m.classList.toggle('auf'); k.setAttribute('aria-expanded', a); lage(m); if (!a) m.scrollIntoView({ block: 'nearest' }); zeigeSichtbare(); });
+  });
+  var rt = 0; addEventListener('resize', function () { clearTimeout(rt); rt = setTimeout(function () { ms.forEach(lage); kl(); zeigeSichtbare(); }, 120); });
+  /* Pfeile am Laptop blättern das Band um eine Mail */
+  var b = document.getElementById('mband'), p = document.querySelectorAll('.pf');
+  function schritt() { return ms[0].getBoundingClientRect().width + parseFloat(getComputedStyle(b).columnGap || 0); }
+  function kl() { p[0].disabled = b.scrollLeft < 4; p[1].disabled = b.scrollLeft > b.scrollWidth - b.clientWidth - 4; }
+  [].forEach.call(p, function (x) { x.addEventListener('click', function () { b.scrollBy({ left: +x.dataset.r * schritt(), behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' }); }); });
+  b.addEventListener('scroll', kl, { passive: true }); kl();
+})();
+</script>
+<script id="ruecksprung">/* Rücksprung (Robert 1.11.2026): Zurück/Vor im Browser landet auf der alten Höhe der Seite, nie ganz oben.
+   Merkt je Seite in sessionStorage (rs:<Pfad>) die Höhe und das Inhaltsstück am oberen Fensterrand (beim Scrollen, beim Klick auf einen Link, bei pagehide).
+   Kommt man mit Zurück/Vor wieder (Navigation «back_forward»), richtet sich die Seite nach dem Aufbau an diesem Stück aus, nicht nur an der Pixelzahl:
+   Abschnitte mit content-visibility:auto stehen nach dem Laden als 1400-px-Platzhalter da, dieselbe Pixelhöhe zeigt sonst anderen Inhalt.
+   Für den Moment des Sprungs: alles einmal gezeichnet, keine Übergänge, keine Auftakt-Bewegung (rs-sofort); alles bis zum Fensterrand gilt als gezeigt (.da).
+   Aus dem bfcache (Seite aus dem Speicher des Browsers) richtet pageshow die Seite ebenso aus (Safari stellt die Höhe dort nicht selbst her). Keine unload-Handler. Seiten mit eigenem Rückweg (#rh-zurueck, «wb-y») und Rahmen bleiben unberührt, ausser der Rückweg trägt data-rs (dann führt er nur ?y= aus, Zurück/Vor macht der Rücksprung).
+   Merkpunkt: das nächste feststehende Stück auf einem Drittel der Höhe; liegt dort eine mitlaufende Bühne (sticky), gilt der Abschnitt, der sie trägt (Robert 1.11.2026, Werkbänke mit Handy-/Laptop-Bühnen). */
+(function () {
+  var RH = document.getElementById('rh-zurueck');   /* eigener Rückweg: nur wenn er Zurück/Vor ausdrücklich dem Rücksprung überlässt (data-rs) */
+  if (RH && !RH.hasAttribute('data-rs')) return;
+  try { if (window.top !== window) return; } catch (e) { return; }
+  var K = 'rs:' + location.pathname, H = document.documentElement, sperre = false, t = 0;
+  var SEL = 'h1,h2,h3,h4,h5,p,li,figure,img,picture,video,blockquote,table,tr,section,article,header,footer,div';
+  function festAb(e) {   /* das äusserste mitlaufende (fixed/sticky) Element über e, sonst null */
+    var f = null; for (; e && e !== document.body && e !== H; e = e.parentElement) { var p = getComputedStyle(e).position; if (p === 'fixed' || p === 'sticky') f = e; } return f;
+  }
+  function stand(e) {   /* das nächste feststehende Inhaltsstück: in einer mitlaufenden Bühne (sticky) gilt der Abschnitt, der sie trägt; schwebende Leisten (fixed) nie */
+    for (var n = 0; e && n < 30; n++) {
+      var c = e.closest && e.closest(SEL); if (!c || c === document.body || c === H) return null;
+      var f = festAb(c); if (!f) return c;
+      if (getComputedStyle(f).position === 'fixed') return null;
+      e = f.parentElement;
+    }
+    return null;
+  }
+  function text(e) { return (e.textContent || e.getAttribute('src') || '').replace(/\s+/g, ' ').trim().slice(0, 40); }
+  function anker() {   /* das Inhaltsstück auf einem Drittel der Fensterhöhe (nicht die schwebende Leiste) */
+    if (!document.elementsFromPoint) return null;
+    var l = null, xs = [.5, .25, .75];
+    for (var k = 0; k < xs.length; k++) {
+      var st = document.elementsFromPoint(innerWidth * xs[k], innerHeight * .3);
+      for (var j = 0; j < st.length; j++) { var c = stand(st[j]); if (c) { l = c; break; } }
+      if (l) break;
+    }
+    if (!l) return null;
+    /* lieber der Abschnitt drumherum (section, article, Kopf, Fuss, Stück mit id): bewegte Teile darin (Chat, Film, Bühne) verrutschen, der Abschnitt nicht */
+    var g = l.closest('section,article,header,footer,[id]');
+    if (g && g !== document.body && g !== H && g.tagName !== 'MAIN' && g.matches(SEL) && !festAb(g) && g.getBoundingClientRect().height <= innerHeight * 4) l = g;
+    var alle = document.querySelectorAll(SEL), i = [].indexOf.call(alle, l);
+    return i < 0 ? null : { i: i, d: l.id || '', n: l.tagName, t: text(l), o: Math.round(l.getBoundingClientRect().top) };
+  }
+  function merk(mitAnker) {
+    if (sperre) return;
+    var w = { y: Math.round(window.scrollY || 0) };
+    if (mitAnker) { try { var a = anker(); if (a) w.a = a; } catch (e) {} }
+    else { try { var alt = JSON.parse(sessionStorage.getItem(K) || '{}'); if (alt.a && Math.abs(alt.y - w.y) < 2) w.a = alt.a; } catch (e) {} }
+    try { sessionStorage.setItem(K, JSON.stringify(w)); } catch (e) {}
+  }
+  addEventListener('scroll', function () { if (!t) t = setTimeout(function () { t = 0; merk(false); }, 150); }, { passive: true });
+  document.addEventListener('click', function (ev) { if (ev.target.closest && ev.target.closest('a[href]')) merk(true); }, true);
+  addEventListener('pagehide', function () {   /* beim Verlassen übernimmt der Rücksprung die Höhe ganz: sonst setzt Chrome beim Zurück die alte Pixelhöhe noch mehrmals nach */
+    try { history.scrollRestoration = 'manual'; } catch (e) {}
+    merk(true);
+  });
+
+  /* Zurück aus dem Speicher des Browsers (bfcache): Safari stellt die Höhe dann nicht selbst her, weil pagehide oben scrollRestoration
+     auf «manual» setzt, und es läuft kein Skript neu; die Seite stand ganz oben (Robert 09.11.2026, Schlössli: Speisekarten, Zurück-Pfeil).
+     Darum richtet pageshow mit persisted die Seite genauso am gemerkten Stück aus wie ein neues Laden mit Zurück/Vor. */
+  var w = null, weg = false, st = null;
+  function lies() { try { var x = JSON.parse(sessionStorage.getItem(K)); return x && typeof x.y === 'number' && x.y >= 2 ? x : null; } catch (e) { return null; } }
+  function fertig() { sperre = false; H.classList.remove('rs-ganz'); }
+  ['wheel', 'touchstart', 'keydown', 'mousedown'].forEach(function (k) { addEventListener(k, function () { if (sperre) { weg = true; fertig(); } }, { passive: true }); });
+  function stueck() {   /* das gemerkte Stück wiederfinden: über seine id, sonst gleiche Stelle, sonst gleiche Art mit gleichem Anfang, die nächste zur alten Stelle
+                           (Seiten bauen nach dem Laden noch Teile dazu, z. B. Chat-Vorführungen: die Stelle im Aufbau verschiebt sich) */
+    var a = w.a; if (!a) return null;
+    if (stueck.e && stueck.e.isConnected) return stueck.e;
+    var e = a.d && document.getElementById(a.d);
+    if (e && e.tagName === a.n) return e;
+    var alle = document.querySelectorAll(SEL); e = alle[a.i];
+    if (e && e.tagName === a.n && text(e) === a.t) return e;
+    var best = null, bd = 1e9;
+    for (var k = 0; k < alle.length; k++) { var x = alle[k]; if (x.tagName === a.n && Math.abs(k - a.i) < bd && text(x) === a.t) { best = x; bd = Math.abs(k - a.i); } }
+    return (stueck.e = best);
+  }
+  function ziel() { var e = stueck(); return e ? Math.max(0, Math.round(window.scrollY + e.getBoundingClientRect().top - w.a.o)) : w.y; }
+  function zeig() {
+    var g = window.scrollY + innerHeight;
+    [].forEach.call(document.querySelectorAll('[data-a],.odo,.zt,.roll,img.ld'), function (e) {
+      if (!e.classList.contains('da') && e.getBoundingClientRect().top + window.scrollY < g) e.classList.add('da');
+    });
+  }
+  function geh() { if (weg) return; var y = ziel(); if (Math.abs(window.scrollY - y) > 2) window.scrollTo(0, y); zeig(); }
+  function los() {
+    geh();
+    requestAnimationFrame(function () { geh(); requestAnimationFrame(function () { geh(); H.classList.remove('rs-sofort'); }); });
+    var n = 0, iv = setInterval(function () {
+      n++; geh();
+      if (n >= 16 || weg) { clearInterval(iv); geh(); fertig(); requestAnimationFrame(function () { geh(); merk(true); }); }
+    }, 150);
+  }
+  function zurueck(x) {
+    w = x; weg = false; stueck.e = null; sperre = true;
+    try { history.scrollRestoration = 'manual'; } catch (e) {}
+    if (!st) {
+      st = document.createElement('style');
+      st.textContent = 'html.rs-sofort,html.rs-sofort *{transition:none!important;animation-duration:0s!important;animation-delay:0s!important;scroll-behavior:auto!important}'
+        + 'html.rs-ganz *{content-visibility:visible!important}';
+      (document.head || H).appendChild(st);
+    }
+    H.classList.add('rs-sofort', 'rs-ganz');
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', los); else los();
+  }
+  addEventListener('pageshow', function (e) { if (!e.persisted) return; var x = lies(); if (x) zurueck(x); });
+  addEventListener('load', function () { if (sperre) geh(); });
+
+  var nav; try { nav = performance.getEntriesByType('navigation')[0]; } catch (e) {}
+  if (!nav || (nav.type !== 'back_forward' && nav.type !== 'reload')) return;   /* Zurück/Vor und Neuladen landen an der alten Stelle */
+  var x0 = lies(); if (x0) zurueck(x0);
+})();</script>
+<script id="auftritte-seite-js">(function(){if(!("IntersectionObserver" in window)||matchMedia("(prefers-reduced-motion: reduce)").matches)return;var d=document.documentElement;function los(){var H=innerHeight,n=0,io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("as-da");io.unobserve(e.target)}})},{rootMargin:"0px 0px -6% 0px"});[].forEach.call(document.querySelectorAll('main .band>*,main .pfeile,body>footer'),function(e){var r=e.getBoundingClientRect();if(r.top+scrollY>H*1.02&&r.height>8&&!e.hasAttribute("data-a")&&!e.closest(".as-k")){e.classList.add("as-k");e.style.setProperty("--as-v",(n++%3)*90+"ms");io.observe(e)}});d.classList.add("as-an")}if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",los);else los()})();</script><script src="../besuch.js" defer></script>
+</body></html>
