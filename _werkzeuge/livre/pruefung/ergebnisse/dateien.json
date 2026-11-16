@@ -1,0 +1,27 @@
+[
+ {
+  "t": "1 Farben (12) = roots.css, CSS, JSON, ASE",
+  "ok": true,
+  "m": "gleich"
+ },
+ {
+  "t": "2 Schriften und Auszeichnungen Byte für Byte wie die Website",
+  "ok": true,
+  "m": "4 Schriften, 3 Auszeichnungen"
+ },
+ {
+  "t": "3 Marken-ZIP = Einzeldateien, ohne sich selbst, unter 40 MB",
+  "ok": true,
+  "m": "37 Dateien, 1.2 MB"
+ },
+ {
+  "t": "4 Alle 43 Fotos in vier Grössen, Druck aus dem Original",
+  "ok": true,
+  "m": "172 Downloads"
+ },
+ {
+  "t": "5 Markenprüfung mit KI aus: Probe, kein Schlüssel, nichts nach aussen",
+  "ok": true,
+  "m": "100 % in den Farben des Hauses"
+ }
+]

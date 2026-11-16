@@ -1,0 +1,146 @@
+[
+ {
+  "name": "Nacht",
+  "hex": "#0a2418",
+  "rgb": [
+   10,
+   36,
+   24
+  ],
+  "rolle": "Grund der dunklen Flächen: Kopf, Fuss, dunkle Kapitel",
+  "gruppe": "gruen",
+  "woher": "Wert der Website (roots.css --nacht)"
+ },
+ {
+  "name": "Flaschengrün",
+  "hex": "#0f3d27",
+  "rgb": [
+   15,
+   61,
+   39
+  ],
+  "rolle": "die Wand des Saals im Licht: grüne Flächen, Knöpfe auf Hell",
+  "gruppe": "gruen",
+  "woher": "Wert der Website (roots.css --wald)"
+ },
+ {
+  "name": "Tief",
+  "hex": "#061a10",
+  "rgb": [
+   6,
+   26,
+   16
+  ],
+  "rolle": "die tiefste Fläche, Schatten unter Nacht",
+  "gruppe": "gruen",
+  "woher": "Wert der Website (roots.css --tief)"
+ },
+ {
+  "name": "Moos",
+  "hex": "#14472f",
+  "rgb": [
+   20,
+   71,
+   47
+  ],
+  "rolle": "Betonung in Titeln auf Hell, Orte und Zeiten",
+  "gruppe": "gruen",
+  "woher": "Wert der Website (roots.css --moos)"
+ },
+ {
+  "name": "Leinen",
+  "hex": "#f1ede4",
+  "rgb": [
+   241,
+   237,
+   228
+  ],
+  "rolle": "Grund der hellen Flächen, wie die Tischtücher",
+  "gruppe": "hell",
+  "woher": "Wert der Website (roots.css --leinen)"
+ },
+ {
+  "name": "Täfer",
+  "hex": "#e4dfd3",
+  "rgb": [
+   228,
+   223,
+   211
+  ],
+  "rolle": "zweite helle Fläche, Platten und Felder",
+  "gruppe": "hell",
+  "woher": "Wert der Website (roots.css --taefer)"
+ },
+ {
+  "name": "Papier",
+  "hex": "#f7f4ee",
+  "rgb": [
+   247,
+   244,
+   238
+  ],
+  "rolle": "ruhige helle Flächen, Karten und Tafeln",
+  "gruppe": "hell",
+  "woher": "Wert der Website (roots.css --papier)"
+ },
+ {
+  "name": "Messing",
+  "hex": "#c8a36b",
+  "rgb": [
+   200,
+   163,
+   107
+  ],
+  "rolle": "Linie und Zeichen auf Dunkel, wie die Hängeleuchten",
+  "gruppe": "messing",
+  "woher": "Wert der Website (roots.css --messing)"
+ },
+ {
+  "name": "Messing hell",
+  "hex": "#dcc293",
+  "rgb": [
+   220,
+   194,
+   147
+  ],
+  "rolle": "Betonung in Titeln auf Dunkel",
+  "gruppe": "messing",
+  "woher": "Wert der Website (roots.css --messing-hell)"
+ },
+ {
+  "name": "Tinte",
+  "hex": "#15221a",
+  "rgb": [
+   21,
+   34,
+   26
+  ],
+  "rolle": "Schrift auf hellen Flächen, nie reines Schwarz",
+  "gruppe": "schrift",
+  "woher": "Wert der Website (roots.css --tinte)"
+ },
+ {
+  "name": "Tinte leise",
+  "hex": "#3b4a40",
+  "rgb": [
+   59,
+   74,
+   64
+  ],
+  "rolle": "Lesetext und leise Angaben auf Hell",
+  "gruppe": "schrift",
+  "woher": "Wert der Website (roots.css --tinte-2)"
+ },
+ {
+  "name": "Holz",
+  "hex": "#1d1813",
+  "rgb": [
+   29,
+   24,
+   19
+  ],
+  "rolle": "das dunkle Holz des Regals, nur als Fuge zwischen Bildern",
+  "gruppe": "holz",
+  "woher": "Wert der Website (roots.css --holz)"
+ }
+]

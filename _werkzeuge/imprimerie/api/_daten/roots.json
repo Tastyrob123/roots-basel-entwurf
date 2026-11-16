@@ -1,0 +1,193 @@
+{
+"key": "roots",
+"name": "roots",
+"voll": "roots",
+"ort": "Basel",
+"welt": "land",
+"zeile": "Das Gemüse als Lebensmittelpunkt.",
+"satz": "Küchenchef Pascal Steffen stellt das Gemüse in den Mittelpunkt, wobei Fleisch und Fisch zur krönenden Beilage werden.",
+"adr": "Bachlettenstrasse 1 · 4054 Basel",
+"tel": "+41 61 322 10 56",
+"mail": "info@roots-basel.ch",
+"web": "www.roots-basel.ch",
+"farben": {
+"navy": "#0f3d27",
+"nacht": "#0a2418",
+"blau": "#14472f",
+"tinte": "#15221a",
+"papier": "#f1ede4",
+"creme": "#e4dfd3",
+"weiss": "#f7f4ee",
+"gold": "#dcc293",
+"taupe": "#3b4a40",
+"messing": "#c8a36b",
+"tanne": "#14472f",
+"kander": "#dcc293",
+"laden": "#c8a36b"
+},
+"farbnamen": {
+"navy": "Flaschengrün",
+"nacht": "Nacht",
+"blau": "Moos",
+"tinte": "Tinte",
+"papier": "Leinen",
+"creme": "Täfer",
+"weiss": "Papier",
+"gold": "Messing hell",
+"taupe": "Tinte leise",
+"messing": "Messing",
+"tanne": "Moos",
+"kander": "Messing hell",
+"laden": "Messing"
+},
+"toene": {
+"dunkel": {
+"grund": "navy",
+"tapete": "dunkel",
+"titel": "weiss",
+"text": "papier",
+"mono": "gold",
+"linie": "gold",
+"zeichen": "papier",
+"schild": "papier",
+"schild_text": "navy"
+},
+"hell": {
+"grund": "papier",
+"tapete": null,
+"titel": "navy",
+"text": "tinte",
+"mono": "taupe",
+"linie": "messing",
+"zeichen": "navy",
+"schild": "navy",
+"schild_text": "papier"
+},
+"creme": {
+"grund": "creme",
+"tapete": "hell",
+"titel": "navy",
+"text": "tinte",
+"mono": "taupe",
+"linie": "messing",
+"zeichen": "navy",
+"schild": "navy",
+"schild_text": "papier"
+}
+},
+"schriften": {
+"titel": {
+"familie": "Newsreader",
+"datei": "Newsreader-Regular.ttf",
+"wofuer": "Titel und Namen, Newsreader 400 wie die Website: normale Schreibung, nur «roots» klein, nie fett, nie kursiv"
+},
+"kapitale": {
+"familie": "Newsreader",
+"datei": "Newsreader-Regular.ttf",
+"wofuer": "Namen in der Titelschrift, nie in Versalien"
+},
+"text": {
+"familie": "Instrument Sans",
+"datei": "InstrumentSans-Regular.ttf",
+"wofuer": "Fliesstext"
+},
+"kursiv": {
+"familie": "Instrument Sans Medium",
+"datei": "InstrumentSans-Medium.ttf",
+"wofuer": "Einleitung; die Website setzt nicht kursiv, Betonung über Farbe"
+},
+"mono": {
+"familie": "Instrument Sans Medium",
+"datei": "InstrumentSans-Medium.ttf",
+"wofuer": "Kleine Zeilen (Ort, Zeit, Name), Instrument Sans 500 in normaler Schreibung"
+}
+},
+"tapete": {
+"dunkel": "tapete-dunkel.webp",
+"hell": "tapete-hell.webp",
+"rapport_mm": 26
+},
+"betriebe": [
+[
+"Das Restaurant",
+"Dienstag bis Samstag, 18.30 bis 24.00 Uhr"
+],
+[
+"Businesslunch",
+"Donnerstag, 12.00 bis 14.30 Uhr"
+],
+[
+"Die Karte",
+"Dinner mit 7, 8, 9 oder 10 Gängen"
+],
+[
+"Getränkebegleitung",
+"mit Alkohol oder ohne Alkohol"
+],
+[
+"Weinkarte",
+"287 Weine, vom Klassiker bis zum Newcomer"
+],
+[
+"Gruppen",
+"ab sechs Personen oder als geschlossene Gesellschaft"
+]
+],
+"regeln": [
+"Anrede «Sie», freundschaftlich warm und unkompliziert, wie das Haus schreibt («Formalität ist Staub von gestern.»). Nie werblich laut.",
+"Name immer klein: «roots» (in Sätzen in «…» wie auf der Website); alle übrigen Texte in normaler Gross- und Kleinschreibung.",
+"Schweizer Schreibung: ss statt ß, Anführungszeichen «…», Zeiten wie auf der Website («18.30 bis 24.00 Uhr»).",
+"Keine Preise auf Drucksachen des Studios: Preise stehen nur auf den Karten des Hauses.",
+"Gemüse in der Hauptrolle, Fisch und Fleisch in der Nebenrolle. Zutaten wie auf der «momentaufnahme», klein und ohne Beschreibung.",
+"Titel in Newsreader 400, kurz, höchstens fünf Wörter, nie fett, nie kursiv, nie in Versalien. Keine Ausrufezeichen im Titel.",
+"Dunkle Flächen in Flaschengrün, gern mit dem Wurzelwerk als leiser Tapete. Messing nur für Linien, Zeichen und kleine Zeilen.",
+"Betonung über Farbe, nie kursiv.",
+"Das Haus heisst «roots», liegt an der Bachlettenstrasse 1 in Basel, neben dem Zoo. Kein Hotel, keine Zimmer."
+],
+"raus": [],
+"bilder": [
+"durch-die-tuer | quer | Blick durch die Tür in den abendlichen Saal",
+"regal | quer | Das Regal im Saal mit Einmachgläsern, Korken und Kochbüchern",
+"saal | quer | Der Saal des «roots» in Flaschengrün, weisse Wurzeln hängen von der Decke",
+"stich | quer | Gezeichnetes Gemüse auf der Tischkarte des Hauses",
+"tisch-hoch | hoch | Gedeckter Tisch unter einer Hängeleuchte vor der grünen Wand",
+"tisch-leuchte | hoch | Runder Tisch vor dem Regal unter einer Hängeleuchte",
+"tisch-paar | quer | Zwei gedeckte Tische, weisse Sessel, grüne Wand",
+"tisch-regal | quer | Gedeckter Tisch vor dem Regal im Saal",
+"tisch-wand | quer | Gedeckter Tisch unter zwei Hängeleuchten vor der grünen Wand",
+"gemuese-schale | quer | Gemüse in der Mitte einer hellen Schale auf grünem Grund",
+"teller-blau | quer | Glace, Frucht und Crumble in einer blauen Schale",
+"teller-dessert | quer | Dessert in einem hellen Teller von oben",
+"teller-dunkel | quer | Blüten und Gemüse in einer dunklen Schale",
+"teller-ei | quer | Ei mit Sud in einer hellen Schale",
+"teller-erdbeer | quer | Erdbeeren, Glace und Crumble auf einem hellen Teller",
+"teller-fisch | quer | Fisch auf hellem Teller mit hauchdünnem Gemüse",
+"teller-fleisch | quer | Reh mit Tomate, die Sauce wird am Tisch angegossen",
+"teller-fleisch-besteck | quer | Gang mit Fleisch und Besteck",
+"teller-giessen | quer | Sauce wird am Tisch über einen Gang gegossen",
+"teller-gruen | quer | Grüner Gang von oben in einer hellen Schale",
+"teller-kraeuter | quer | Kräutersud in einer flachen Schale",
+"teller-nudeln | quer | Gemüsestreifen mit Sauce in einer grauen Schale",
+"teller-oel | quer | Öl wird über einen Gang in einer kupferfarbenen Schale gegossen",
+"teller-porzellan | quer | Kräuterkranz auf weissem Porzellan mit blauem Muster",
+"teller-reiben | quer | Am Tisch wird über einen Gang gerieben",
+"teller-salat | quer | Gemüse, Blätter und Blüten auf einem gesprenkelten Teller",
+"teller-salat-seite | quer | Gemüse und Blüten auf einem gesprenkelten Teller, von der Seite",
+"teller-schale | quer | Gemüse mit Kräutern in einer tiefen Schale",
+"teller-tofu | quer | Würfel, Tomate und Crumble auf einem grünen Teller",
+"teller-truffel | quer | Trüffel und Gemüse in einer gewellten Schale",
+"p-dragan | quadratisch | Dragan, Managing Director",
+"p-erik | quadratisch | Erik, Chef de Partie",
+"p-felicia | quadratisch | Félicia, Cheffe de Rang",
+"p-jenny | quadratisch | Jenny, Head Waitress",
+"p-jenny-wein | quadratisch | Jenny, Restaurantleiterin, schenkt Wein ein",
+"p-malko | quadratisch | Malko, Chef de Partie",
+"p-pascal | quadratisch | Pascal, Head Chef",
+"p-valentin | quadratisch | Valentin, Chef de Partie",
+"p-vanessa | quadratisch | Vanessa, Patisserie",
+"p-zsombor | quadratisch | Zsombor, Chef de Rang, vor der grünen Wand",
+"pascal-dragan | quer | Pascal Steffen und Dragan Rapic vor der grünen Wand des Saals",
+"pascal-kueche | quer | Pascal Steffen in der Küche des «roots»",
+"dinner-meeting | quer | Pascal Steffen am Telefon im Büro des Dinner Meeting, Art Basel 2026"
+]
+}

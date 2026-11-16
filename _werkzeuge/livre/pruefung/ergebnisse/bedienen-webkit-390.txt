@@ -1,0 +1,63 @@
+Markenbuch (marke) · roots · webkit 390 × 844 · 9.11.2026, 15:55:24
+ok    1 Übersicht lädt mit Gruss nach Tageszeit
+ok    2 Zahlen: 43 Fotos, 38 Dateien im Kopf
+ok    3 Vier Kacheln Fotos, Logo & Dateien, Markenprüfung, Markenbuch
+ok    4 Kein seitliches Verrutschen (Übersicht)
+ok    5 Zweck-Namen: Markenbuch, Kontrollpanel; keine Namen der Vorlage · Markenbuch · roots Basel
+ok    6 Rand → Fotos: Ansicht und Titel wechseln, Menü schliesst
+ok    7 Rand → Logo & Dateien: Ansicht und Titel wechseln, Menü schliesst
+ok    8 Rand → Markenprüfung: Ansicht und Titel wechseln, Menü schliesst
+ok    9 Rand → Übersicht: Ansicht und Titel wechseln, Menü schliesst
+ok   10 Alle Wege in Kopf, Rand und Leiste antworten · 12 Wege
+ok   11 ZIP mit allen Dateien lädt · roots-basel-marke.zip, 1.2 MB
+ok   12 Raster zeigt zuerst 43 Kacheln · 43
+ok   13 Nachladen beim Scrollen bis alle 43 da sind · 43
+ok   14 Alle 43 Vorschaubilder laden · 0 fehlen
+ok   15 Suche «saal» filtert, Zähler stimmt · 10
+ok   16 Suche mit <script>, Emoji, Umlauten: Hinweis statt Kacheln, nichts ausgeführt
+ok   17 Suche mit 5000 Zeichen wird auf 200 begrenzt
+ok   18 «Filter zurücksetzen» zeigt wieder alle
+ok   19 Filter Bereich: 5 Knöpfe, jeder trifft, «Alle» löst · 9/21/2/10/1
+ok   20 Filter Saison: nur eine Wahl im Haus, darum nicht gezeigt
+ok   21 Filter Format: 2 Knöpfe, jeder trifft, «Alle» löst · 2/41
+ok   22 Filter Herkunft: nur eine Wahl im Haus, darum nicht gezeigt
+ok   23 Foto öffnet gross mit Titel, Quelle und Weg zur Quelle
+ok   24 Vier Grössen Instagram, Story, Website, Druck
+ok   25 Download instagram: 1080 × 1350 · roots-basel-tisch-hoch-instagram-1080x1350.jpg 1080×1350
+ok   26 Download story: 1080 × 1920 · roots-basel-tisch-hoch-story-1080x1920.jpg 1080×1920
+ok   27 Download web: 1334 × 2000 · roots-basel-tisch-hoch-web-1334x2000.jpg 1334×2000
+ok   28 Download druck: 1707 × 2560 · roots-basel-tisch-hoch-druck-1707x2560.jpg 1707×2560
+ok   29 Zwei Wege in Drucksachen & Feed mit Foto, Haus und Ausschnitt
+ok   30 Esc schliesst das Fenster
+ok   31 Nur Fotos des Hauses: keine fremden Rechte, keine KI, keine Kennzeichen
+ok   32 Porträt öffnet mit Fotograf in der Quelle
+ok   33 Kreuz schliesst das Fenster
+ok   34 Teller: Druck aus dem Original in voller Grösse · roots-basel-teller-oel-druck-1920x1438.jpg
+ok   35 Klick neben das Fenster schliesst es
+ok   36 Ohne Nachschärfung keine Vorher-Knöpfe
+ok   37 Jede Datei der Ansicht ist abrufbar · 39 Dateien
+ok   38 Blöcke Zeichen, r und Wurzel, Logo, Name, Tapete, Farben, Schriften, Original, Auszeichnungen · 9
+ok   39 Jede Farbgruppe mit einem eigenen Foto (keins doppelt), Farbkarten ohne Foto, jede Schrift mit Bild · 5 Gruppen
+ok   40 Keine doppelten Fotos im Archiv, keine Raumfotos aus dem Rhypark
+ok   41 Auszeichnungen nur als Auszeichnungen: unverändert wie die Website, eigener Block
+ok   42 Farbe antippen meldet «Kopiert» mit dem Wert
+ok   43 Alle Bilder der Ansicht laden · 0
+ok   44 Kein seitliches Verrutschen (Dateien)
+ok   45 Unter dem leeren Feld steht schon ein Beispiel
+ok   46 Falscher Dateityp wird abgewiesen
+ok   47 Gewählte Datei: Name und «Prüfen»
+ok   48 Prüfung endet mit Ergebnis: gemessene Farben, KI aus und Probe deutlich beschriftet
+ok   49 «Ergebnis sichern» legt eine HTML-Datei ab · markenbuch-pruefung-entwurf.html
+ok   50 «Als Text kopieren» meldet sich
+ok   51 «Neuen Entwurf prüfen» setzt das Feld zurück
+ok   52 «Beispiel ansehen»: als Beispiel beschriftet, «passt nicht» zuerst
+ok   53 Netz weg beim Prüfen: Meldung, Datei bleibt gewählt
+ok   54 Neuladen bleibt in der Ansicht
+ok   55 Markenbuch: neun Kapitel, «Als PDF sichern» öffnet den Druck
+ok   56 Markenbuch: alle Bilder laden
+ok   57 Kein seitliches Verrutschen (Markenbuch)
+ok   58 Markenbuch: nichts Internes (Station, Tasty, andere Häuser, verworfene Wahl)
+ok   59 Logo richtig und falsch: Seite und Bilder laden, Weg zurück ins Markenbuch · 0
+ok   60 Anleitung: neun Kapitel, Bilder laden
+ok   61 Keine Fehler in der Konsole, keine toten Anfragen
+61 von 61 ok

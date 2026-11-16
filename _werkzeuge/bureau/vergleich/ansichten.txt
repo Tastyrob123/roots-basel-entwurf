@@ -1,0 +1,12 @@
+# Website bearbeiten (roots, 9302) gegen die laufende Vorlage Wirtschaft am Schlössli (9035). name | vorlage | neu
+# Ein offenes Fenster lässt sich nicht über die Adresse öffnen (Foto tauschen, Vorher/nachher, Veröffentlichen): Bilder dazu aus dem Bedien-Lauf in democheck/bilder/ (07, 12, 13).
+uebersicht | http://127.0.0.1:9035/_werkzeuge/bureau/?ansicht=start | /_werkzeuge/bureau/?ansicht=start
+bereich-start | http://127.0.0.1:9035/_werkzeuge/bureau/?ansicht=b:start | /_werkzeuge/bureau/?ansicht=b:start
+bereich-karte | http://127.0.0.1:9035/_werkzeuge/bureau/?ansicht=b:essen | /_werkzeuge/bureau/?ansicht=b:karte
+zeiten-preise | http://127.0.0.1:9035/_werkzeuge/bureau/?ansicht=zahlen | /_werkzeuge/bureau/?ansicht=zahlen
+hinweis | http://127.0.0.1:9035/_werkzeuge/bureau/?ansicht=hinweis | /_werkzeuge/bureau/?ansicht=hinweis
+liste-anlaesse | http://127.0.0.1:9035/_werkzeuge/bureau/?ansicht=haus:anlaesse | /_werkzeuge/bureau/?ansicht=haus:anlaesse
+team | http://127.0.0.1:9035/_werkzeuge/bureau/?ansicht=haus:team | /_werkzeuge/bureau/?ansicht=haus:team
+entwurf | http://127.0.0.1:9035/_werkzeuge/bureau/?ansicht=entwurf | /_werkzeuge/bureau/?ansicht=entwurf
+fruehere-fassungen | http://127.0.0.1:9035/_werkzeuge/bureau/?ansicht=verlauf | /_werkzeuge/bureau/?ansicht=verlauf
+pruefseite | http://127.0.0.1:9035/werkzeuge/website/pruefung.html?haus=schloessli | /werkzeuge/website/pruefung.html?haus=roots

@@ -1,0 +1,15 @@
+/* roots, Basel · Farben der Marke (Markenbuch, 09.11.2026), Werte der Website (assets/css/roots.css) */
+:root{
+  --nacht:#0a2418; /* Nacht: Grund der dunklen Flächen: Kopf, Fuss, dunkle Kapitel */
+  --wald:#0f3d27; /* Flaschengrün: die Wand des Saals im Licht: grüne Flächen, Knöpfe auf Hell */
+  --tief:#061a10; /* Tief: die tiefste Fläche, Schatten unter Nacht */
+  --moos:#14472f; /* Moos: Betonung in Titeln auf Hell, Orte und Zeiten */
+  --leinen:#f1ede4; /* Leinen: Grund der hellen Flächen, wie die Tischtücher */
+  --taefer:#e4dfd3; /* Täfer: zweite helle Fläche, Platten und Felder */
+  --papier:#f7f4ee; /* Papier: ruhige helle Flächen, Karten und Tafeln */
+  --messing:#c8a36b; /* Messing: Linie und Zeichen auf Dunkel, wie die Hängeleuchten */
+  --messing-hell:#dcc293; /* Messing hell: Betonung in Titeln auf Dunkel */
+  --tinte:#15221a; /* Tinte: Schrift auf hellen Flächen, nie reines Schwarz */
+  --tinte-2:#3b4a40; /* Tinte leise: Lesetext und leise Angaben auf Hell */
+  --holz:#1d1813; /* Holz: das dunkle Holz des Regals, nur als Fuge zwischen Bildern */
+}

@@ -1,0 +1,7 @@
+# name | Vorlage (Kartenpult, Port 9031) | neues Werkzeug (Speisekarten, roots, Port 9303)
+start | http://127.0.0.1:9031/_werkzeuge/carte/#speisekarte | /_werkzeuge/carte/#momentaufnahme
+weinkarte | http://127.0.0.1:9031/_werkzeuge/carte/#weinkarte | /_werkzeuge/carte/#weinkarte
+zweite-karte | http://127.0.0.1:9031/_werkzeuge/carte/#bankett | /_werkzeuge/carte/#menue
+rundgang-fenster | http://127.0.0.1:9031/_werkzeuge/carte/?rundgang#speisekarte | /_werkzeuge/carte/?rundgang#momentaufnahme
+anleitung | http://127.0.0.1:9031/_werkzeuge/carte/anleitung.html | /_werkzeuge/carte/anleitung.html
+pruefung | http://127.0.0.1:9031/_werkzeuge/carte/pruefung.html | /_werkzeuge/carte/pruefung.html

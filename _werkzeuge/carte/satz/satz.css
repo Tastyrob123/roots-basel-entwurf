@@ -1,0 +1,52 @@
+@font-face{font-family:'Newsreader Titel';font-style:normal;font-weight:400;src:url('../fonts/Newsreader-Titel-400.ttf') format('truetype')}
+@font-face{font-family:'Newsreader Text';font-style:normal;font-weight:400;src:url('../fonts/Newsreader-Text-400.ttf') format('truetype')}
+@font-face{font-family:'Instrument Sans';font-style:normal;font-weight:400;src:url('../fonts/InstrumentSans-400.ttf') format('truetype')}
+@font-face{font-family:'Instrument Sans';font-style:normal;font-weight:500;src:url('../fonts/InstrumentSans-500.ttf') format('truetype')}
+/* Satz der Karten von roots (satz_roots.py, 09.11.2026). Farben und Schrift der neuen Website (CHARAKTER.md): Leinen der Tischtücher als Papier,
+   Flaschengrün der Wände für Köpfe, Messing der Hängeleuchten als feine Linie, Tinte für den Text. Titel Newsreader 400, nie fett, nie kursiv,
+   nie in Versalien; Lesetext Instrument Sans. Masse in mm, Schrift in pt über --s (je Seite eingepasst, damit nichts überläuft). Keine Sperrung
+   über .08em (pdftotext liest sonst Buchstaben einzeln). Schriften als feste Schnitte (TrueType aus den variablen Schriften des Hauses). */
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#5d665f;-webkit-print-color-adjust:exact;print-color-adjust:exact;counter-reset:rtseite}
+.blatt{--s:1;position:relative;overflow:hidden;margin:8mm auto;background:#FBFAF6;color:#15221A;display:flex;flex-direction:column;font-family:'Instrument Sans',Arial,sans-serif;font-size:calc(9pt*var(--s));line-height:1.38;page-break-after:always;break-after:page;counter-increment:rtseite;font-feature-settings:'locl' 0}
+:where(.blatt) :where(h1,h2,h3,h4,p){margin:0;padding:0;font-weight:400}
+.inhalt{flex:1 0 auto;min-height:0;height:0;padding:16mm 22mm 6mm;display:flex;flex-direction:column}
+.ufuss2{flex:none;margin:0 22mm;padding:3mm 0 8mm;border-top:.2mm solid rgba(200,163,107,.7);font-family:'Instrument Sans',Arial,sans-serif;font-size:7.5pt;text-align:center;color:#4F5A52}
+.ufuss2::after{content:counter(rtseite)}
+/* Kopf eines Kapitels: Newsreader Titel im Flaschengrün, darunter die Messinglinie */
+.sb-wart{font-family:'Newsreader Titel',Georgia,serif;font-size:calc(21pt*var(--s));line-height:1.1;color:#0F3D27;margin:calc(7mm*var(--s)) 0 calc(4mm*var(--s));padding-bottom:calc(2.6mm*var(--s));border-bottom:.25mm solid #C8A36B;break-after:avoid}
+.inhalt>.sb-wart:first-child,.rt-mark+.sb-wart{margin-top:0}
+.sb-land{font-family:'Newsreader Titel',Georgia,serif;font-size:calc(13pt*var(--s));line-height:1.2;color:#0F3D27;margin:calc(4.6mm*var(--s)) 0 calc(1.4mm*var(--s))}
+.sb-wart+.sb-land{margin-top:0}
+.sb-region{font-family:'Instrument Sans',Arial,sans-serif;font-weight:500;font-size:calc(8pt*var(--s));letter-spacing:.04em;color:#8a6a35;margin:calc(2.8mm*var(--s)) 0 calc(.8mm*var(--s))}
+.sb-land+.sb-region,.sb-wart+.sb-region{margin-top:calc(1.2mm*var(--s))}
+/* Ein Wein (oder ein Block mit mehreren Jahrgängen): Name und Preis je Zeile, darunter Lage und Weingut leise */
+.sb-wein{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:6mm;align-items:baseline;padding:calc(1.15mm*var(--s)) 0;break-inside:avoid}
+.sb-wein .n{grid-column:1;font-family:'Newsreader Text',Georgia,serif;font-size:calc(10.4pt*var(--s));line-height:1.25;color:#15221A}
+.sb-wein .p{grid-column:2;font-family:'Newsreader Text',Georgia,serif;font-size:calc(10.4pt*var(--s));text-align:right;color:#15221A;font-variant-numeric:lining-nums tabular-nums}
+.sb-wein .f{grid-column:2;grid-row:1;display:none}
+.sb-wein .f+.p{}
+.sb-wein .d{grid-column:1;font-size:calc(8.2pt*var(--s));line-height:1.3;color:#4F5A52}
+.sb-wein .n~.n{margin-top:calc(.6mm*var(--s))}
+/* Seite 1 der Weinkarte: das «r» mit Wurzelwerk, der Inhalt, der Hinweis zu den Preisen */
+.rt-mark{color:#0F3D27;margin:0 0 calc(10mm*var(--s))}
+.rt-z{display:block;width:calc(13mm*var(--s));height:auto}
+.rt-wk--inhalt .inhalt{justify-content:center}
+.rt-inh{display:flex;flex-direction:column;gap:calc(3.2mm*var(--s));margin-bottom:calc(14mm*var(--s))}
+.rt-inh__z{display:flex;justify-content:space-between;align-items:baseline;gap:6mm;font-family:'Newsreader Titel',Georgia,serif;font-size:calc(15pt*var(--s));color:#0F3D27;padding-bottom:calc(2.2mm*var(--s));border-bottom:.2mm solid rgba(200,163,107,.55)}
+.rt-inh__z span+span{font-family:'Newsreader Text',Georgia,serif;font-size:calc(11pt*var(--s));color:#15221A}
+.rt-hinweis{font-size:calc(8.4pt*var(--s));color:#4F5A52;margin:calc(3mm*var(--s)) 0 calc(2mm*var(--s))}
+.rt-hm{font-size:calc(8.2pt*var(--s));color:#4F5A52;margin:calc(-.6mm*var(--s)) 0 calc(2mm*var(--s))}
+/* Menüs und Preise: eine Seite, mittig, mit CHF vor dem Preis */
+.rt-me .inhalt{justify-content:center}
+.rt-me .sb-wein{grid-template-columns:minmax(0,1fr) auto calc(13mm*var(--s));column-gap:calc(2.4mm*var(--s))}
+.rt-me .sb-wein .f{display:block;grid-column:2;grid-row:auto;font-size:calc(8.2pt*var(--s));color:#4F5A52}
+.rt-me .sb-wein .p{grid-column:3}
+/* Momentaufnahme: die Wortwolke des Hauses, Zeile für Zeile versetzt wie im Original (Abstand zweier Wörter in einer Zeile = zwei Spalten) */
+.rt-mo{background:#FBFAF6}
+.rt-mo .inhalt{padding:0;justify-content:center}
+.rt-wolke{display:flex;flex-direction:column;gap:calc(2.6mm*var(--s));padding:0 9%}
+.rt-reihe{display:flex;justify-content:center}
+.rt-wort{flex:none;width:28.94%;text-align:center;padding:calc(.4mm*var(--s)) 0}
+.rt-wort h4{display:inline-block;font-family:'Newsreader Text',Georgia,serif;font-size:calc(13pt*var(--s));line-height:1.2;color:#15221A}
+@media print{html,body{background:none}.blatt{margin:0}}

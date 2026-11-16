@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="de-CH">
+<head><script data-wurzel>/* Wurzel-Weiche: Seite laeuft an der Wurzel einer Adresse oder in einem Unterordner (github.io/<repo>/) */(function(){var D=2,p=location.pathname.split('/');p.splice(p.length-1-D,D+1);var W=p.join('/')+'/';window.__W=W;if(W==='/')return;var O=location.origin;
+function f(u){if(typeof u!=='string')return u;if(u.indexOf(O+'/')===0)return O+f(u.slice(O.length));if(u.charAt(0)!=='/'||u.charAt(1)==='/'||u.indexOf(W)===0||u+'/'===W)return u;return W+u.slice(1)}
+function s(v){return typeof v!=='string'?v:v.replace(/(^|,)(\s*)(\S+)/g,function(m,a,b,u){return a+b+f(u)})}
+function c(v){return typeof v!=='string'?v:v.replace(/url\(\s*(['"]?)([^'")]+)/g,function(m,q,u){return 'url('+q+f(u)})}
+function h(v){return typeof v!=='string'?v:c(v.replace(/(\s(?:src|href|poster|action|data-src|data-href)\s*=\s*)(["'])([^"']*)\2/gi,function(m,a,q,u){return a+q+f(u)+q}).replace(/(\s(?:srcset|imagesrcset|data-srcset)\s*=\s*)(["'])([^"']*)\2/gi,function(m,a,q,u){return a+q+s(u)+q}))}
+function d(K,k,g){K=window[K];if(!K)return;var x=Object.getOwnPropertyDescriptor(K.prototype,k);if(!x||!x.set)return;Object.defineProperty(K.prototype,k,{configurable:true,enumerable:x.enumerable,get:x.get,set:function(v){x.set.call(this,g(v))}})}
+[['HTMLImageElement','src'],['HTMLScriptElement','src'],['HTMLLinkElement','href'],['HTMLIFrameElement','src'],['HTMLSourceElement','src'],['HTMLMediaElement','src'],['HTMLVideoElement','poster'],['HTMLAnchorElement','href'],['HTMLAreaElement','href'],['HTMLFormElement','action'],['HTMLEmbedElement','src'],['HTMLObjectElement','data']].forEach(function(z){d(z[0],z[1],f)});
+[['HTMLImageElement','srcset'],['HTMLSourceElement','srcset'],['HTMLLinkElement','imageSrcset']].forEach(function(z){d(z[0],z[1],s)});
+d('Element','innerHTML',h);d('Element','outerHTML',h);var iah=Element.prototype.insertAdjacentHTML;Element.prototype.insertAdjacentHTML=function(w,v){return iah.call(this,w,h(v))};
+var sa=Element.prototype.setAttribute;Element.prototype.setAttribute=function(n,v){var l=String(n).toLowerCase();if(/^(src|href|poster|action|data|data-src|data-href)$/.test(l))v=f(v);else if(/srcset$/.test(l))v=s(v);else if(l==='style')v=c(v);return sa.call(this,n,v)};
+var st=CSSStyleDeclaration.prototype,sp=st.setProperty;st.setProperty=function(n,v,q){return sp.call(this,n,c(v),q)};['background','backgroundImage','cssText','maskImage','webkitMaskImage','listStyleImage','borderImageSource','content'].forEach(function(k){var x=Object.getOwnPropertyDescriptor(st,k);if(x&&x.set)Object.defineProperty(st,k,{configurable:true,enumerable:x.enumerable,get:x.get,set:function(v){x.set.call(this,c(v))}})});
+var F=window.fetch;if(F)window.fetch=function(i,o){if(typeof i==='string')i=f(i);else if(i instanceof URL)i=f(i.href);return F.call(this,i,o)};
+var XO=XMLHttpRequest.prototype.open;XMLHttpRequest.prototype.open=function(){var a=[].slice.call(arguments);a[1]=f(a[1] instanceof URL?a[1].href:a[1]);return XO.apply(this,a)};
+if(navigator.sendBeacon){var B=navigator.sendBeacon;navigator.sendBeacon=function(u,x){return B.call(navigator,f(u),x)}}
+var wo=window.open;window.open=function(u){var a=[].slice.call(arguments);a[0]=f(u);return wo.apply(window,a)};
+var dw=document.write,dl=document.writeln;document.write=function(){return dw.apply(document,[].map.call(arguments,h))};document.writeln=function(){return dl.apply(document,[].map.call(arguments,h))};
+['pushState','replaceState'].forEach(function(k){var o=history[k];history[k]=function(a,b,u){return o.call(history,a,b,u==null?u:f(String(u)))}});
+function e(el){if(!el||el.nodeType!==1)return;['src','href','poster','action'].forEach(function(a){var v=el.getAttribute(a);if(v&&v.charAt(0)==='/'){var z=f(v);if(z!==v)sa.call(el,a,z)}});var t=el.getAttribute('srcset');if(t&&/(^|,)\s*\/[^\/]/.test(t)){var z=s(t);if(z!==t)sa.call(el,'srcset',z)}t=el.getAttribute('style');if(t&&/url\(\s*['"]?\/[^\/]/.test(t)){z=c(t);if(z!==t)sa.call(el,'style',z)}}
+new MutationObserver(function(ms){ms.forEach(function(m){if(m.type==='attributes')e(m.target);else m.addedNodes.forEach(function(n){if(n.nodeType!==1)return;e(n);var l=n.querySelectorAll('[src],[href],[srcset],[poster],[action],[style]');for(var i=0;i<l.length;i++)e(l[i])})})}).observe(document.documentElement,{childList:true,subtree:true,attributes:true,attributeFilter:['src','href','srcset','poster','action','style']})})();</script><!--demo-weiche--><script src="../../_demo/karte.js"></script><script src="../../_demo/shim.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anleitung · Markenbuch · roots Basel</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0a2418">
+<link rel="icon" href="dateien/roots-basel-zeichen-nacht.svg" type="image/svg+xml">
+<link rel="preload" href="../../assets/fonts/newsreader-titel-400.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face{font-family:'Newsreader Titel';font-style:normal;font-weight:400;font-display:swap;src:url('../../assets/fonts/newsreader-titel-400.woff2') format('woff2')}
+@font-face{font-family:'Instrument Sans';font-style:normal;font-weight:400;font-display:swap;src:url('../../assets/fonts/instrument-400.woff2') format('woff2')}
+@font-face{font-family:'DM Mono';font-style:normal;font-weight:400;font-display:swap;src:url('../../assets/oberflaeche/schrift/DMMono-normal-400.woff2') format('woff2')}
+:root{--nacht:#0a2418;--navy:#0a2418;--blau:#0f3d27;--papier:#f1ede4;--weiss:#f7f4ee;--gold:#c8a36b;--taupe:#15221a;--tinte:#15221a;--blatt:#f7f4ee;--linie:rgba(21,34,26,.12);--leise:rgba(21,34,26,.64);
+  --serif:'Newsreader Titel',Georgia,serif;--sans:'Instrument Sans',system-ui,sans-serif;--mono:'DM Mono',ui-monospace,monospace;--e1:cubic-bezier(.16,1,.3,1);--e2:cubic-bezier(.32,.72,0,1)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--papier);color:var(--tinte);font:16px/1.6 var(--sans);-webkit-font-smoothing:antialiased}
+h1,h2,h3,p,ol,ul,figure{margin:0;padding:0}ol,ul{list-style:none}a{color:inherit;text-decoration:none}button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+h1,h2,h3{font-family:var(--serif);font-weight:400}h1,h2{letter-spacing:-.012em}
+:focus-visible{outline:1.5px solid var(--taupe);outline-offset:3px;border-radius:6px}
+.mono{font-family:var(--mono);font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:var(--taupe)}
+.kn{position:relative;display:inline-flex;align-items:center;gap:12px;height:48px;padding:0 6px 0 22px;border-radius:999px;font:13px var(--mono);letter-spacing:.15em;text-transform:uppercase;color:#fff;background:linear-gradient(180deg,#0f3d27,#0f3d27 46%,#15221a);box-shadow:inset 0 1px 0 rgba(255,255,255,.26),inset 0 -3px 0 rgba(0,0,0,.55),0 14px 22px -14px rgba(10,36,24,.55);transition:transform .5s var(--e2)}
+.kn:hover{transform:translateY(-2px)}
+.kn i{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(180deg,#f7f4ee,#e4dfd3);color:var(--tinte);box-shadow:inset 0 1px 0 rgba(255,255,255,.9),inset 0 -2px 0 rgba(0,0,0,.22)}
+.kn svg{width:13px;height:13px;stroke:currentColor;fill:none;stroke-width:1.3}
+.kn--hell{background:linear-gradient(180deg,#f7f4ee,#e4dfd3 50%,#e4dfd3);color:var(--tinte);box-shadow:inset 0 1px 0 rgba(255,255,255,.9),inset 0 -3px 0 rgba(17,61,136,.38),0 14px 22px -14px rgba(0,0,0,.5)}
+.kn--hell i{background:linear-gradient(180deg,#0f3d27,#0a2418);color:var(--weiss)}
+/* Kopf */
+.kopf{position:relative;isolation:isolate;color:var(--weiss);background-color:var(--navy);background-image:url(dateien/roots-basel-tapete-dunkel.webp);background-size:180px 94px;background-position:0 0;border-radius:0 0 34px 34px;overflow:hidden}
+.kopf::after{content:'';position:absolute;inset:auto 0 0 0;height:60%;z-index:-1;background:linear-gradient(0deg,rgba(10,36,24,.8),transparent)}
+.kopf__in{max-width:1180px;margin:0 auto;padding:36px 28px 74px}
+.kopf nav{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:56px;font:13px var(--mono);letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
+.kopf nav a:hover{color:#fff}
+.kopf h1{font-size:clamp(2.6rem,6vw,5.2rem);line-height:1.02;max-width:14ch}.kopf h1 em{font-style:normal;color:var(--gold)}
+.kopf p{margin-top:22px;max-width:56ch;font-size:1.08rem;color:rgba(242,245,248,.84)}
+.kopf .kn{margin-top:30px}
+.kopf .kn+.kn{margin-left:10px}
+/* Inhalt */
+main{max-width:1180px;margin:0 auto;padding:0 28px 120px}
+.inhalt{margin:58px 0 70px}
+.inhalt h2{font-size:clamp(2rem,3.6vw,3rem);line-height:1.08;margin:8px 0 8px}.inhalt h2 em{font-style:normal;color:var(--taupe)}
+.inhalt>p{max-width:60ch;color:var(--leise)}
+.themen{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:30px}
+.thema{background:var(--blatt);border-radius:22px;box-shadow:inset 0 0 0 1px var(--linie);padding:22px 24px}
+.thema h3{font-size:1.35rem;line-height:1.15;display:grid;gap:3px}.thema h3 small{font:13px var(--mono);letter-spacing:.2em;text-transform:uppercase;color:var(--taupe)}.thema h3 em{font:13px var(--mono);font-style:normal;color:var(--leise)}
+.thema ol{margin-top:12px;display:grid;gap:2px}
+.thema a{display:grid;grid-template-columns:34px minmax(0,1fr) auto;gap:10px;align-items:baseline;padding:9px 6px;border-radius:12px;transition:background-color .3s}
+.thema a:hover{background:rgba(255,255,255,.7)}.thema a b{font:13px var(--mono);color:var(--taupe)}.thema a span{font-family:var(--serif)}.thema a i{font:13px var(--mono);font-style:normal;letter-spacing:.14em;text-transform:uppercase;color:var(--leise)}
+/* Kapitel */
+.kap{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(24px,4vw,60px);align-items:start;padding:54px 0;border-top:1px solid var(--linie);scroll-margin-top:20px}
+.kap:nth-of-type(even) .kap__t{order:2}
+.kap h2{font-size:clamp(1.9rem,3.2vw,2.8rem);line-height:1.08;margin:12px 0 14px;text-wrap:balance}
+.einl{color:rgba(10,36,24,.78);max-width:54ch}
+.schritte{display:grid;gap:12px;margin:22px 0}
+.schritte li{display:grid;grid-template-columns:30px minmax(0,1fr);gap:14px;align-items:start}
+.schritte li span{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:var(--navy);color:var(--gold);font:13px var(--mono)}
+.schritte p{padding-top:3px}
+.wissen{padding:16px 18px;border-radius:16px;background:rgba(200,163,107,.34);font-size:14.5px;color:var(--tinte)}.wissen b{display:block;margin-bottom:3px;font:13px var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--tinte)}
+.kap__b{position:sticky;top:20px}
+.bild{display:block;width:100%;border-radius:20px;overflow:hidden;background:var(--navy);box-shadow:0 30px 50px -28px rgba(10,36,24,.6),inset 0 0 0 1px rgba(200,163,107,.3);cursor:zoom-in;transition:transform .6s var(--e2)}
+.bild:hover{transform:translateY(-3px)}.bild img{display:block;width:100%;height:auto}
+figcaption{display:flex;justify-content:space-between;gap:12px;margin-top:10px;font:13px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--leise)}
+/* Bild gross */
+.gross{position:fixed;inset:0;z-index:50;display:grid;place-items:center;padding:3vmin;background:rgba(21,34,26,.88);cursor:zoom-out;animation:auf .35s var(--e1) both}
+.gross[hidden]{display:none}.gross img{max-width:100%;max-height:100%;border-radius:14px;box-shadow:0 40px 80px -30px #000}.gross small{position:absolute;bottom:14px;left:0;right:0;text-align:center;font:13px var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+@keyframes auf{from{opacity:0}}
+.fuss{margin-top:20px;padding:34px 0 0;border-top:1px solid var(--linie);display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;color:var(--leise);font-size:14px}
+@media (max-width:900px){.themen{grid-template-columns:1fr}.kap{grid-template-columns:1fr;padding:40px 0}.kap:nth-of-type(even) .kap__t{order:0}.kap__b{position:static}.kopf__in{padding:26px 18px 54px}.kopf nav{margin-bottom:36px}main{padding:0 18px 80px}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+.zurueck{border-bottom:1px solid currentColor}
+</style>
+</head>
+<body>
+<!-- Anleitung Markenbuch · roots Basel: gebaut von anleitung_bau.py aus dieser Vorlage (Aufbau wie die Anleitung der Vorlage, Wirtschaft am Schlössli) -->
+<header class="kopf"><div class="kopf__in">
+  <nav><span>Anleitung · roots Basel</span><a href="./">Markenbuch öffnen</a></nav>
+  <h1>Fotos, Dateien <em>und die Prüfung.</em></h1>
+  <p>9 kurze Kapitel. Wie Sie ein Foto in der richtigen Grösse laden, wo Logo und Farben für die Agentur liegen und wie das Markenbuch einen Entwurf prüft.</p>
+  <a class="kn" href="./">Markenbuch öffnen<i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M5.5 4H12v6.5"/></svg></i></a><a class="kn kn--hell" href="#inhalt">Zu den Kapiteln<i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v10M4 9l4 4 4-4"/></svg></i></a>
+</div></header>
+<main>
+  <section class="inhalt" id="inhalt"><span class="mono">00 · Inhalt</span><h2>9 Kapitel, <em>fünf Themen.</em></h2><p>Jedes Kapitel zeigt den Bereich und nennt die Schritte. Ein Klick macht das Bild gross, ein zweiter oder Esc bringt es zurück.</p>
+    <div class="themen"><section class="thema"><h3><small>Grundlagen</small>So geht das Markenbuch<em>1 Kapitel</em></h3><ol><li><a href="#k01"><b>01</b><span>So ist das Markenbuch aufgebaut.</span><i>Übersicht</i></a></li></ol></section><section class="thema"><h3><small>Fotos</small>Finden, laden, Herkunft<em>3 Kapitel</em></h3><ol><li><a href="#k02"><b>02</b><span>Ein Foto finden.</span><i>Fotos</i></a></li><li><a href="#k03"><b>03</b><span>In der richtigen Grösse laden.</span><i>Fotos</i></a></li><li><a href="#k04"><b>04</b><span>Woher ein Foto kommt.</span><i>Fotos</i></a></li></ol></section><section class="thema"><h3><small>Logo &amp; Dateien</small>Dateien und Farben<em>2 Kapitel</em></h3><ol><li><a href="#k05"><b>05</b><span>Zeichen und Logo für die Agentur.</span><i>Logo &amp; Dateien</i></a></li><li><a href="#k06"><b>06</b><span>Farbwerte kopieren.</span><i>Logo &amp; Dateien</i></a></li></ol></section><section class="thema"><h3><small>Markenprüfung</small>Prüfen und lesen<em>2 Kapitel</em></h3><ol><li><a href="#k07"><b>07</b><span>Einen Entwurf prüfen.</span><i>Markenprüfung</i></a></li><li><a href="#k08"><b>08</b><span>Die Rückmeldung lesen.</span><i>Markenprüfung</i></a></li></ol></section><section class="thema"><h3><small>Nachschlagen</small>Das Buch der Marke<em>1 Kapitel</em></h3><ol><li><a href="#k09"><b>09</b><span>Im Buch der Marke nachschlagen.</span><i>Markenbuch</i></a></li></ol></section></div></section>
+<article class="kap" id="k01">
+  <div class="kap__t"><span class="mono">01 · Übersicht</span><h2>So ist das Markenbuch aufgebaut.</h2><p class="einl">Markenbuch ist die Marke des Hauses zum Arbeiten. Drei Teile für den Alltag, dazu das Buch der Marke zum Nachschlagen.</p>
+    <ol class="schritte"><li><span>1</span><p>Links die Teile: «Fotos», «Logo &amp; Dateien» und «Markenprüfung». Darunter das Buch der Marke.</p></li><li><span>2</span><p>Oben rechts stehen «Anleitung», «Kontrollpanel» und «Website ansehen». Unten steht immer der Hinweis zu den Bildrechten, daneben laden Sie alle Dateien der Marke auf einmal.</p></li><li><span>3</span><p>Auf dem Handy öffnet der Knopf «Bereiche» die Teile als Menü und schliesst sich nach der Wahl.</p></li></ol>
+    <p class="wissen"><b>Gut zu wissen</b>Markenbuch speichert nichts. Was Sie laden, landet auf Ihrem Rechner, was Sie prüfen, ist nach der Prüfung wieder weg.</p></div>
+  <figure class="kap__b"><button type="button" class="bild" aria-label="Bild gross ansehen: So ist das Markenbuch aufgebaut."><img src="anleitung/k01.jpg" width="1200" height="714" loading="lazy" decoding="async" alt="Markenbuch, Übersicht: So ist das Markenbuch aufgebaut."></button>
+    <figcaption><span>markenbuch / übersicht</span><span>Grösser ansehen</span></figcaption></figure>
+</article>
+<article class="kap" id="k02">
+  <div class="kap__t"><span class="mono">02 · Fotos</span><h2>Ein Foto finden.</h2><p class="einl">Alle Fotos der Website liegen unter «Fotos», jedes mit Bereich, Format und Herkunft.</p>
+    <ol class="schritte"><li><span>1</span><p>Oben ins Suchfeld schreiben, zum Beispiel «Saal», «Gemüse» oder «Pascal».</p></li><li><span>2</span><p>Darunter eingrenzen: Saal &amp; Tisch, Teller, Küche, Team oder Anlässe, dazu Hoch- oder Querformat.</p></li><li><span>3</span><p>Über der Liste steht, wie viele Fotos passen. «Filter zurücksetzen» zeigt wieder alle.</p></li></ol>
+    <p class="wissen"><b>Gut zu wissen</b>Für einen Instagram-Beitrag eignen sich Hochformate und die quadratischen Porträts am besten: dann wird am wenigsten weggeschnitten.</p></div>
+  <figure class="kap__b"><button type="button" class="bild" aria-label="Bild gross ansehen: Ein Foto finden."><img src="anleitung/k02.jpg" width="1200" height="714" loading="lazy" decoding="async" alt="Markenbuch, Fotos: Ein Foto finden."></button>
+    <figcaption><span>markenbuch / fotos</span><span>Grösser ansehen</span></figcaption></figure>
+</article>
+<article class="kap" id="k03">
+  <div class="kap__t"><span class="mono">03 · Fotos</span><h2>In der richtigen Grösse laden.</h2><p class="einl">Ein Klick auf ein Foto öffnet es gross. Rechts stehen vier fertige Grössen.</p>
+    <ol class="schritte"><li><span>1</span><p>«Instagram-Beitrag» (1080 × 1350) oder «Story» (1080 × 1920) mit der Maus berühren. Im Bild erscheint der Ausschnitt.</p></li><li><span>2</span><p>Den Rahmen im Bild an die Stelle ziehen, die zu sehen sein soll. Der Knopf «Laden» nimmt genau diesen Ausschnitt.</p></li><li><span>3</span><p>«Website» lädt das Foto mit 2000 Pixel an der längsten Seite, «Druck» in voller Auflösung aus dem Original. Zwei Wege öffnen das Foto direkt in Drucksachen &amp; Feed, mit demselben Ausschnitt.</p></li></ol>
+    <p class="wissen"><b>Gut zu wissen</b>Ist das Foto für eine Story etwas zu klein, steht im Dateinamen «hochgerechnet». Jedes Foto hat sein Original für den Druck.</p></div>
+  <figure class="kap__b"><button type="button" class="bild" aria-label="Bild gross ansehen: In der richtigen Grösse laden."><img src="anleitung/k03.jpg" width="1200" height="714" loading="lazy" decoding="async" alt="Markenbuch, Fotos: In der richtigen Grösse laden."></button>
+    <figcaption><span>markenbuch / fotos</span><span>Grösser ansehen</span></figcaption></figure>
+</article>
+<article class="kap" id="k04">
+  <div class="kap__t"><span class="mono">04 · Fotos</span><h2>Woher ein Foto kommt.</h2><p class="einl">Alle Fotos stammen vom Haus: von seiner Website, aufgenommen von Digitale Massarbeit, Claudia Link, Adrian Ehrbar und weiteren Fotografen. Erzeugte Bilder gibt es keine.</p>
+    <ol class="schritte"><li><span>1</span><p>Unter «Quelle» steht, woher das Foto kommt, mit dem Namen des Fotografen und einem Weg zur Quelle auf roots-basel.ch.</p></li><li><span>2</span><p>Raumfotos zeigen nur den heutigen Saal an der Bachlettenstrasse. Teller gibt es auch aus früheren Jahren: sie zeigen die Küche, nicht den Ort.</p></li><li><span>3</span><p>Für Werbung und Presse den Fotografen nennen, wenn er unter «Quelle» steht.</p></li></ol>
+    <p class="wissen"><b>Gut zu wissen</b>Die Zeichen der Auszeichnungen (Michelin, GaultMillau) sind keine Fotos des Hauses. Sie liegen unter «Logo &amp; Dateien» und gehören den Auszeichnungen.</p></div>
+  <figure class="kap__b"><button type="button" class="bild" aria-label="Bild gross ansehen: Woher ein Foto kommt."><img src="anleitung/k04.jpg" width="1200" height="714" loading="lazy" decoding="async" alt="Markenbuch, Fotos: Woher ein Foto kommt."></button>
+    <figcaption><span>markenbuch / fotos</span><span>Grösser ansehen</span></figcaption></figure>
+</article>
+<article class="kap" id="k05">
+  <div class="kap__t"><span class="mono">05 · Logo &amp; Dateien</span><h2>Zeichen und Logo für die Agentur.</h2><p class="einl">Unter «Logo &amp; Dateien» liegt alles, was eine Agentur oder eine Druckerei vom Haus braucht.</p>
+    <ol class="schritte"><li><span>1</span><p>Das Zeichen, das kleine «r» mit dem Wurzelwerk, gibt es in Nacht, Flaschengrün, Messing und Leinen, das «r» und die Wurzel auch allein, das Logo in Nacht, Schwarz, Leinen und Messing, den Namen allein in Newsreader.</p></li><li><span>2</span><p>«SVG» bleibt in jeder Grösse scharf. «PNG» hat einen durchsichtigen Grund, für Präsentationen und Office. Das Logo selbst gibt es nur als PNG, weil das Haus keinen Vektor hat.</p></li><li><span>3</span><p>Die Wurzel-Tapete liegt als Kachel bei, die Zeichen der Auszeichnungen unverändert. «Alle Dateien (ZIP)» lädt alles auf einmal, mit den Schriften.</p></li></ol>
+    <p class="wissen"><b>Gut zu wissen</b>Was mit dem Zeichen nie geschieht (drehen, verzerren, umfärben), steht im Buch der Marke unter «Logo richtig und falsch».</p></div>
+  <figure class="kap__b"><button type="button" class="bild" aria-label="Bild gross ansehen: Zeichen und Logo für die Agentur."><img src="anleitung/k05.jpg" width="1200" height="714" loading="lazy" decoding="async" alt="Markenbuch, Logo &amp; Dateien: Zeichen und Logo für die Agentur."></button>
+    <figcaption><span>markenbuch / logo &amp; dateien</span><span>Grösser ansehen</span></figcaption></figure>
+</article>
+<article class="kap" id="k06">
+  <div class="kap__t"><span class="mono">06 · Logo &amp; Dateien</span><h2>Farbwerte kopieren.</h2><p class="einl">Die Farben des Hauses stehen mit Namen und Rolle da: Flaschengrün, Leinen und Täfer, Messing, die Schrift und das Holz des Regals. Ein Klick genügt.</p>
+    <ol class="schritte"><li><span>1</span><p>Auf eine Farbe klicken: der Wert (zum Beispiel #0A2418 für Nacht) liegt in der Zwischenablage.</p></li><li><span>2</span><p>Ein Klick auf die RGB-Zeile kopiert die RGB-Werte.</p></li><li><span>3</span><p>Darunter laden Sie die Farben als CSS, JSON oder ASE (für InDesign und Illustrator) und die Schriften als WOFF2 oder als Paket mit TTF.</p></li></ol>
+    <p class="wissen"><b>Gut zu wissen</b>Messing zeichnet und schreibt nie den Lesetext und ist nie eine Fläche. Geschrieben wird in Tinte, nie in reinem Schwarz.</p></div>
+  <figure class="kap__b"><button type="button" class="bild" aria-label="Bild gross ansehen: Farbwerte kopieren."><img src="anleitung/k06.jpg" width="1200" height="714" loading="lazy" decoding="async" alt="Markenbuch, Logo &amp; Dateien: Farbwerte kopieren."></button>
+    <figcaption><span>markenbuch / logo &amp; dateien</span><span>Grösser ansehen</span></figcaption></figure>
+</article>
+<article class="kap" id="k07">
+  <div class="kap__t"><span class="mono">07 · Markenprüfung</span><h2>Einen Entwurf prüfen.</h2><p class="einl">Schickt eine Agentur ein Plakat, einen Flyer oder einen Beitrag, prüfen Sie hier, ob er zum Haus passt.</p>
+    <ol class="schritte"><li><span>1</span><p>Den Entwurf in das Feld ziehen oder «Datei wählen». Bild (JPG, PNG, WebP) oder PDF, bis 30 MB.</p></li><li><span>2</span><p>«Prüfen» drücken. Markenbuch misst zuerst die Farben, dann sieht die KI sich den Entwurf an, sobald sie eingeschaltet ist.</p></li><li><span>3</span><p>Nach kurzer Zeit steht die Rückmeldung da. Unter dem leeren Feld steht schon ein Beispiel.</p></li></ol>
+    <p class="wissen"><b>Gut zu wissen</b>Die KI ist ausgeschaltet: die Farben sind gemessen, der Rest ist sichtbar als Probe beschriftet. Eingeschaltet wird sie nur auf Wunsch des Hauses.</p></div>
+  <figure class="kap__b"><button type="button" class="bild" aria-label="Bild gross ansehen: Einen Entwurf prüfen."><img src="anleitung/k07.jpg" width="1200" height="714" loading="lazy" decoding="async" alt="Markenbuch, Markenprüfung: Einen Entwurf prüfen."></button>
+    <figcaption><span>markenbuch / markenprüfung</span><span>Grösser ansehen</span></figcaption></figure>
+</article>
+<article class="kap" id="k08">
+  <div class="kap__t"><span class="mono">08 · Markenprüfung</span><h2>Die Rückmeldung lesen.</h2><p class="einl">Oben ein Satz, wie nah der Entwurf am Haus ist. Darunter Punkt für Punkt: Farben, Schrift, Zeichen, Abstand, Bild und Ton.</p>
+    <ol class="schritte"><li><span>1</span><p>Jeder Punkt hat ein Urteil: «passt», «achten» oder «passt nicht». Was nicht passt, steht oben.</p></li><li><span>2</span><p>Links die gemessenen Farben: wie viel der Fläche in den Farben des Hauses liegt, und welche Töne fremd sind. Diese Messung macht keine KI.</p></li><li><span>3</span><p>«Als Text kopieren» gibt Ihnen die Rückmeldung für die Mail an die Agentur. «Ergebnis sichern» legt sie als Datei auf Ihren Rechner, nur wenn Sie es wollen.</p></li></ol>
+    <p class="wissen"><b>Gut zu wissen</b>Das Beispiel ist eigens gezeichnet. Die Farben darin sind wirklich gemessen; die Urteile zu Schrift, Zeichen, Bild und Ton sind ein Beispiel, so wie die Prüfung antwortet.</p></div>
+  <figure class="kap__b"><button type="button" class="bild" aria-label="Bild gross ansehen: Die Rückmeldung lesen."><img src="anleitung/k08.jpg" width="1200" height="714" loading="lazy" decoding="async" alt="Markenbuch, Markenprüfung: Die Rückmeldung lesen."></button>
+    <figcaption><span>markenbuch / markenprüfung</span><span>Grösser ansehen</span></figcaption></figure>
+</article>
+<article class="kap" id="k09">
+  <div class="kap__t"><span class="mono">09 · Markenbuch</span><h2>Im Buch der Marke nachschlagen.</h2><p class="einl">Das Buch erklärt in neun Kapiteln, wie das Haus aussieht: Zeichen, Wortmarke, Schriften, Farben und ihre Herkunft im Foto, Farbwelt, Logo richtig und falsch, Auszeichnungen, Ton und eigene Welt.</p>
+    <ol class="schritte"><li><span>1</span><p>Links «Markenbuch» oder auf der Übersicht «Lesen» drücken.</p></li><li><span>2</span><p>Oben im Buch springen Sie zu jedem Kapitel. «Als PDF sichern» legt es als PDF ab, je Kapitel eine Seite.</p></li></ol>
+    <p class="wissen"><b>Gut zu wissen</b>Die Markenprüfung prüft nach denselben Regeln. Ändert sich etwas an der Marke, wird beides zusammen neu gebaut.</p></div>
+  <figure class="kap__b"><button type="button" class="bild" aria-label="Bild gross ansehen: Im Buch der Marke nachschlagen."><img src="anleitung/k09.jpg" width="1200" height="714" loading="lazy" decoding="async" alt="Markenbuch, Markenbuch: Im Buch der Marke nachschlagen."></button>
+    <figcaption><span>markenbuch / markenbuch</span><span>Grösser ansehen</span></figcaption></figure>
+</article>
+  <div class="fuss"><span>Markenbuch · roots, Basel</span><a class="zurueck" href="./">Zurück</a></div>
+</main>
+<div class="gross" id="gross" hidden role="dialog" aria-modal="true" aria-label="Bild gross"><img alt=""><small>Klick oder Esc zum Schliessen</small></div>
+<script src="anleitung.js"></script>
+</body>
+</html>

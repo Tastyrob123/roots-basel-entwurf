@@ -1,0 +1,9 @@
+# Drucksachen & Feed · roots (rechts) gegen die Hausdruckerei der Wirtschaft am Schlössli (links, Vorlage)
+Übersicht | http://localhost:9053/_werkzeuge/imprimerie/ | /_werkzeuge/imprimerie/
+Editor mit Drucksache | http://localhost:9053/_werkzeuge/imprimerie/?demo=1 | /_werkzeuge/imprimerie/?demo=1
+Führung (Fenster) | http://localhost:9053/_werkzeuge/imprimerie/?hilfe=fuehrung | /_werkzeuge/imprimerie/?hilfe=fuehrung
+Demo-Video (Fenster) | http://localhost:9053/_werkzeuge/imprimerie/?hilfe=video | /_werkzeuge/imprimerie/?hilfe=video
+Aus dem Markenbuch: fünf Gestaltungen zu einem Foto | http://localhost:9053/_werkzeuge/imprimerie/?foto=start&art=insta | /_werkzeuge/imprimerie/?foto=saal&art=insta
+Newsletter-Baukasten | http://localhost:9053/_werkzeuge/imprimerie/mail.html | /_werkzeuge/imprimerie/mail.html
+Newsletter, Vorlage Lunch | http://localhost:9053/_werkzeuge/imprimerie/mail.html?vorlage=lunch | /_werkzeuge/imprimerie/mail.html?vorlage=lunch
+Prüfseite | http://localhost:9053/_werkzeuge/imprimerie/pruefung.html | /_werkzeuge/imprimerie/pruefung.html

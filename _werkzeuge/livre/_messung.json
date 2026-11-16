@@ -1,0 +1,98 @@
+{
+ "nacht": {
+  "key": "tisch-paar",
+  "de": 0.6,
+  "x": 68.4,
+  "y": 47.2,
+  "gemessen": "#0C2418",
+  "median": "#0D281A",
+  "bild": "buch/bilder/k-nacht.webp",
+  "fest": false
+ },
+ "wald": {
+  "key": "tisch-paar",
+  "de": 0.5,
+  "x": 65.9,
+  "y": 34.1,
+  "gemessen": "#0C3C25",
+  "median": "#0C3C25",
+  "bild": "buch/bilder/k-wald.webp",
+  "fest": false
+ },
+ "tief": {
+  "key": "saal",
+  "de": 0.6,
+  "x": 6.6,
+  "y": 27.6,
+  "gemessen": "#081A0F",
+  "median": "#0A160D",
+  "bild": "buch/bilder/k-tief.webp",
+  "fest": false
+ },
+ "moos": {
+  "key": "saal",
+  "de": 1.1,
+  "x": 12.2,
+  "y": 21.0,
+  "gemessen": "#0E4930",
+  "median": "#0B5A39",
+  "bild": "buch/bilder/k-moos.webp",
+  "fest": false
+ },
+ "leinen": {
+  "key": "tisch-hoch",
+  "de": 2.7,
+  "x": 72.4,
+  "y": 53.4,
+  "gemessen": "#EAEBE5",
+  "median": "#EAEBE5",
+  "bild": "buch/bilder/k-leinen.webp",
+  "fest": false
+ },
+ "taefer": {
+  "key": "durch-die-tuer",
+  "de": 1.5,
+  "x": 45.3,
+  "y": 60.3,
+  "gemessen": "#DEDBD1",
+  "median": "#DFDDD4",
+  "bild": "buch/bilder/k-taefer.webp",
+  "fest": false
+ },
+ "messing": {
+  "key": "tisch-leuchte",
+  "de": 6.7,
+  "x": 6.1,
+  "y": 9.7,
+  "gemessen": "#B28D56",
+  "median": "#E0B16A",
+  "bild": "buch/bilder/k-messing.webp",
+  "fest": true,
+  "bild_key": "saal",
+  "bx": 50.8,
+  "by": 16
+ },
+ "messing-hell": {
+  "key": "saal",
+  "de": 9.6,
+  "x": 51.6,
+  "y": 22.0,
+  "gemessen": "#B8AC95",
+  "median": "#D5C19E",
+  "bild": "buch/bilder/k-messing-hell.webp",
+  "fest": true,
+  "bild_key": "tisch-hoch",
+  "bx": 47,
+  "by": 27
+ },
+ "holz": {
+  "key": "regal",
+  "de": 0.2,
+  "x": 49.7,
+  "y": 23.8,
+  "gemessen": "#1D1813",
+  "median": "#241B15",
+  "bild": "buch/bilder/k-holz.webp",
+  "fest": false
+ }
+}

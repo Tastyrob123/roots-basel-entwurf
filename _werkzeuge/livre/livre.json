@@ -1,0 +1,1509 @@
+{
+ "haus": "roots",
+ "ort": "Basel",
+ "fotos": [
+  {
+   "k": "saal",
+   "t": {
+    "de": "Der Saal unter den Wurzel-Leuchtern"
+   },
+   "b": "saal",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2560,
+   "h": 1707,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Foto Digitale Massarbeit; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2025/01/Roots_2025-01-11_©DigitaleMassarbeit_061-1-scaled.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/saal-2560.webp",
+   "fm": "../../assets/img/saal-1400.webp",
+   "fs": "../../assets/img/saal-760.webp"
+  },
+  {
+   "k": "regal",
+   "t": {
+    "de": "Das Regal im Saal mit Einmachgläsern, Korken und Kochbüchern"
+   },
+   "b": "saal",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2560,
+   "h": 1707,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Foto Digitale Massarbeit; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2025/01/Roots_2025-01-11_©DigitaleMassarbeit_057-2-scaled.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/regal-2560.webp",
+   "fm": "../../assets/img/regal-1400.webp",
+   "fs": "../../assets/img/regal-760.webp"
+  },
+  {
+   "k": "tisch-regal",
+   "t": {
+    "de": "Gedeckter Tisch vor dem Regal im Saal"
+   },
+   "b": "saal",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2560,
+   "h": 1707,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Foto Digitale Massarbeit; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2020/03/Roots_2025-01-11_©DigitaleMassarbeit_018-scaled.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/tisch-regal-2400.webp",
+   "fm": "../../assets/img/tisch-regal-1400.webp",
+   "fs": "../../assets/img/tisch-regal-760.webp"
+  },
+  {
+   "k": "tisch-leuchte",
+   "t": {
+    "de": "Tisch unter der Leuchte"
+   },
+   "b": "saal",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 1707,
+   "h": 2560,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Foto Digitale Massarbeit; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2025/01/Roots_2025-01-11_©DigitaleMassarbeit_021-scaled.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/tisch-leuchte-1707.webp",
+   "fm": "../../assets/img/tisch-leuchte-1400.webp",
+   "fs": "../../assets/img/tisch-leuchte-760.webp"
+  },
+  {
+   "k": "tisch-wand",
+   "t": {
+    "de": "Gedeckter Tisch vor der grünen Wand im Saal des «roots»"
+   },
+   "b": "saal",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2560,
+   "h": 1707,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Foto Digitale Massarbeit; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2025/01/Roots_2025-01-11_©DigitaleMassarbeit_029-1-scaled.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/tisch-wand-2560.webp",
+   "fm": "../../assets/img/tisch-wand-1400.webp",
+   "fs": "../../assets/img/tisch-wand-760.webp"
+  },
+  {
+   "k": "tisch-paar",
+   "t": {
+    "de": "Zwei gedeckte Tische, weisse Sessel, grüne Wand"
+   },
+   "b": "saal",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2560,
+   "h": 1707,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Foto Digitale Massarbeit; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2025/01/Roots_2025-01-11_©DigitaleMassarbeit_044-1-scaled.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/tisch-paar-2560.webp",
+   "fm": "../../assets/img/tisch-paar-1400.webp",
+   "fs": "../../assets/img/tisch-paar-760.webp"
+  },
+  {
+   "k": "tisch-hoch",
+   "t": {
+    "de": "Gedeckter Tisch unter einer Hängeleuchte vor der grünen Wand"
+   },
+   "b": "saal",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 1707,
+   "h": 2560,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Foto Digitale Massarbeit; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2025/01/Roots_2025-01-11_©DigitaleMassarbeit_062-scaled.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/tisch-hoch-1707.webp",
+   "fm": "../../assets/img/tisch-hoch-1400.webp",
+   "fs": "../../assets/img/tisch-hoch-760.webp"
+  },
+  {
+   "k": "durch-die-tuer",
+   "t": {
+    "de": "Blick durch die Tür in den abendlichen Saal"
+   },
+   "b": "saal",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2560,
+   "h": 1707,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Foto Digitale Massarbeit; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2025/01/Roots_2025-01-11_©DigitaleMassarbeit_063-scaled.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/durch-die-tuer-2560.webp",
+   "fm": "../../assets/img/durch-die-tuer-1400.webp",
+   "fs": "../../assets/img/durch-die-tuer-760.webp"
+  },
+  {
+   "k": "stich",
+   "t": {
+    "de": "Gezeichnetes Gemüse auf der Tischkarte des Hauses"
+   },
+   "b": "saal",
+   "s": "jahr",
+   "f": "quer",
+   "w": 3600,
+   "h": 2400,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Foto Digitale Massarbeit; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2025/01/Roots_2025-01-11_©DigitaleMassarbeit_066-1.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/stich-2400.webp",
+   "fm": "../../assets/img/stich-1400.webp",
+   "fs": "../../assets/img/stich-760.webp"
+  },
+  {
+   "k": "gemuese-schale",
+   "t": {
+    "de": "Gemüse in der Mitte einer hellen Schale auf grünem Grund"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2400,
+   "h": 1601,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Foto Claudia Link (GaultMillau Channel); Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2020/03/GMC_PascalSteffen_Roots_10_@Claudia-Link.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/gemuese-schale-2400.webp",
+   "fm": "../../assets/img/gemuese-schale-1400.webp",
+   "fs": "../../assets/img/gemuese-schale-760.webp"
+  },
+  {
+   "k": "teller-gruen",
+   "t": {
+    "de": "Grüner Gang von oben in einer hellen Schale"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Fotograf nicht genannt; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2020/03/rhypark-food-2152.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/teller-gruen-1920.webp",
+   "fm": "../../assets/img/teller-gruen-1400.webp",
+   "fs": "../../assets/img/teller-gruen-760.webp"
+  },
+  {
+   "k": "teller-schale",
+   "t": {
+    "de": "Gemüse mit Kräutern in einer tiefen Schale"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Fotograf nicht genannt; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2020/03/rhypark-food-2205.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/teller-schale-1920.webp",
+   "fm": "../../assets/img/teller-schale-1400.webp",
+   "fs": "../../assets/img/teller-schale-760.webp"
+  },
+  {
+   "k": "teller-dessert",
+   "t": {
+    "de": "Dessert auf hellem Teller"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Fotograf nicht genannt; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2020/03/rhypark-food-2287.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/teller-dessert-1920.webp",
+   "fm": "../../assets/img/teller-dessert-1400.webp",
+   "fs": "../../assets/img/teller-dessert-760.webp"
+  },
+  {
+   "k": "teller-giessen",
+   "t": {
+    "de": "Sud wird über Blüten und Gemüse gegossen"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1440,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Fotograf nicht genannt; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2020/03/roots-02-20_682.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/teller-giessen-1920.webp",
+   "fm": "../../assets/img/teller-giessen-1400.webp",
+   "fs": "../../assets/img/teller-giessen-760.webp"
+  },
+  {
+   "k": "teller-tofu",
+   "t": {
+    "de": "Würfel, Tomate und Crumble auf einem grünen Teller"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1438,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Fotograf nicht genannt; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2023/02/roots-02-20_683.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/teller-tofu-1920.webp",
+   "fm": "../../assets/img/teller-tofu-1400.webp",
+   "fs": "../../assets/img/teller-tofu-760.webp"
+  },
+  {
+   "k": "teller-nudeln",
+   "t": {
+    "de": "Gemüsestreifen mit Sauce in einer grauen Schale"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1439,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Fotograf nicht genannt; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2020/03/roots-02-20_685.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/teller-nudeln-1920.webp",
+   "fm": "../../assets/img/teller-nudeln-1400.webp",
+   "fs": "../../assets/img/teller-nudeln-760.webp"
+  },
+  {
+   "k": "teller-dunkel",
+   "t": {
+    "de": "Blüten und Gemüse in einer dunklen Schale"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1438,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Fotograf nicht genannt; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2020/03/roots-02-20_687.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/teller-dunkel-1920.webp",
+   "fm": "../../assets/img/teller-dunkel-1400.webp",
+   "fs": "../../assets/img/teller-dunkel-760.webp"
+  },
+  {
+   "k": "teller-fleisch-besteck",
+   "t": {
+    "de": "Gang mit Fleisch und Besteck"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1438,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Fotograf nicht genannt; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2023/01/roots-02-20_696.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/teller-fleisch-besteck-1920.webp",
+   "fm": "../../assets/img/teller-fleisch-besteck-1400.webp",
+   "fs": "../../assets/img/teller-fleisch-besteck-760.webp"
+  },
+  {
+   "k": "teller-blau",
+   "t": {
+    "de": "Glace, Frucht und Crumble in einer blauen Schale"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1438,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Fotograf nicht genannt; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2020/03/roots_05-19_171.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/teller-blau-1920.webp",
+   "fm": "../../assets/img/teller-blau-1400.webp",
+   "fs": "../../assets/img/teller-blau-760.webp"
+  },
+  {
+   "k": "teller-reiben",
+   "t": {
+    "de": "Am Tisch wird über einen Gang gerieben"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1439,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Fotograf nicht genannt; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2023/02/roots_2023-2370.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/teller-reiben-1920.webp",
+   "fm": "../../assets/img/teller-reiben-1400.webp",
+   "fs": "../../assets/img/teller-reiben-760.webp"
+  },
+  {
+   "k": "teller-truffel",
+   "t": {
+    "de": "Trüffel und Gemüse in einer gewellten Schale"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1439,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Fotograf nicht genannt; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2023/01/roots_2023-2372.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/teller-truffel-1920.webp",
+   "fm": "../../assets/img/teller-truffel-1400.webp",
+   "fs": "../../assets/img/teller-truffel-760.webp"
+  },
+  {
+   "k": "teller-oel",
+   "t": {
+    "de": "Öl wird über einen Gang in einer kupferfarbenen Schale gegossen"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1438,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Fotograf nicht genannt; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2023/02/roots_2023-2378.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/teller-oel-1920.webp",
+   "fm": "../../assets/img/teller-oel-1400.webp",
+   "fs": "../../assets/img/teller-oel-760.webp"
+  },
+  {
+   "k": "teller-salat-seite",
+   "t": {
+    "de": "teller-salat-seite"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1438,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Fotograf nicht genannt; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2023/02/roots_2023-2383.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/teller-salat-seite-1920.webp",
+   "fm": "../../assets/img/teller-salat-seite-1400.webp",
+   "fs": "../../assets/img/teller-salat-seite-760.webp"
+  },
+  {
+   "k": "teller-salat",
+   "t": {
+    "de": "Gemüse, Blätter und Blüten auf einem gesprenkelten Teller"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1438,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Fotograf nicht genannt; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2023/01/roots_2023-2384.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/teller-salat-1920.webp",
+   "fm": "../../assets/img/teller-salat-1400.webp",
+   "fs": "../../assets/img/teller-salat-760.webp"
+  },
+  {
+   "k": "teller-ei",
+   "t": {
+    "de": "Ei mit Sud in einer hellen Schale"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1438,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Fotograf nicht genannt; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2023/02/roots_2023-2404.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/teller-ei-1920.webp",
+   "fm": "../../assets/img/teller-ei-1400.webp",
+   "fs": "../../assets/img/teller-ei-760.webp"
+  },
+  {
+   "k": "teller-porzellan",
+   "t": {
+    "de": "Kräuterkranz auf weissem Porzellan mit blauem Muster"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1438,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Fotograf nicht genannt; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2023/01/roots_food-507.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/teller-porzellan-1920.webp",
+   "fm": "../../assets/img/teller-porzellan-1400.webp",
+   "fs": "../../assets/img/teller-porzellan-760.webp"
+  },
+  {
+   "k": "teller-kraeuter",
+   "t": {
+    "de": "Kräutersud in einer flachen Schale"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1438,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Fotograf nicht genannt; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2023/02/roots_food-520.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/teller-kraeuter-1920.webp",
+   "fm": "../../assets/img/teller-kraeuter-1400.webp",
+   "fs": "../../assets/img/teller-kraeuter-760.webp"
+  },
+  {
+   "k": "teller-fleisch",
+   "t": {
+    "de": "Reh mit Tomate, die Sauce wird am Tisch angegossen"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1438,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Fotograf nicht genannt; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2023/02/roots_food-529.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/teller-fleisch-1920.webp",
+   "fm": "../../assets/img/teller-fleisch-1400.webp",
+   "fs": "../../assets/img/teller-fleisch-760.webp"
+  },
+  {
+   "k": "teller-fisch",
+   "t": {
+    "de": "Fisch auf hellem Teller mit hauchdünnem Gemüse"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1439,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Fotograf nicht genannt; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2023/02/roots_food-533.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/teller-fisch-1920.webp",
+   "fm": "../../assets/img/teller-fisch-1400.webp",
+   "fs": "../../assets/img/teller-fisch-760.webp"
+  },
+  {
+   "k": "teller-erdbeer",
+   "t": {
+    "de": "Erdbeeren, Glace und Crumble auf einem hellen Teller"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1439,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Fotograf nicht genannt; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2023/01/roots_food-543.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/teller-erdbeer-1920.webp",
+   "fm": "../../assets/img/teller-erdbeer-1400.webp",
+   "fs": "../../assets/img/teller-erdbeer-760.webp"
+  },
+  {
+   "k": "pascal-kueche",
+   "t": {
+    "de": "Pascal Steffen in der Küche des «roots»"
+   },
+   "b": "kueche",
+   "s": "jahr",
+   "f": "quer",
+   "w": 3600,
+   "h": 2400,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Foto Digitale Massarbeit; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2025/01/Roots_2025-01-11_©DigitaleMassarbeit_076-1.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/pascal-kueche-2400.webp",
+   "fm": "../../assets/img/pascal-kueche-1400.webp",
+   "fs": "../../assets/img/pascal-kueche-760.webp"
+  },
+  {
+   "k": "pascal-dragan",
+   "t": {
+    "de": "Pascal Steffen und Dragan Rapic vor der grünen Wand des Saals"
+   },
+   "b": "kueche",
+   "s": "jahr",
+   "f": "quer",
+   "w": 3600,
+   "h": 2400,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Foto Digitale Massarbeit; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2024/09/Roots_2024-09-09_©DigitaleMassarbeit_073.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/pascal-dragan-2400.webp",
+   "fm": "../../assets/img/pascal-dragan-1400.webp",
+   "fs": "../../assets/img/pascal-dragan-760.webp"
+  },
+  {
+   "k": "p-pascal",
+   "t": {
+    "de": "Pascal, Head Chef"
+   },
+   "b": "team",
+   "s": "jahr",
+   "f": "quadrat",
+   "w": 2083,
+   "h": 2083,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Fotograf nicht genannt; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2023/01/pascal_team_roots-2.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/p-pascal-2083.webp",
+   "fm": "../../assets/img/p-pascal-1400.webp",
+   "fs": "../../assets/img/p-pascal-760.webp"
+  },
+  {
+   "k": "p-dragan",
+   "t": {
+    "de": "Dragan, Managing Director"
+   },
+   "b": "team",
+   "s": "jahr",
+   "f": "quadrat",
+   "w": 2083,
+   "h": 2083,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Fotograf nicht genannt; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2023/01/dado_team_roots-2.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/p-dragan-2083.webp",
+   "fm": "../../assets/img/p-dragan-1400.webp",
+   "fs": "../../assets/img/p-dragan-760.webp"
+  },
+  {
+   "k": "p-jenny",
+   "t": {
+    "de": "Jenny, Head Waitress"
+   },
+   "b": "team",
+   "s": "jahr",
+   "f": "quadrat",
+   "w": 1920,
+   "h": 1920,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Foto Adrian Ehrbar Photography; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2026/03/1-Roots_Basel_MA26©Adrian_Ehrbar_Photography-1.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/p-jenny-1920.webp",
+   "fm": "../../assets/img/p-jenny-1400.webp",
+   "fs": "../../assets/img/p-jenny-760.webp"
+  },
+  {
+   "k": "p-jenny-wein",
+   "t": {
+    "de": "Jenny, Restaurantleiterin, schenkt Wein ein"
+   },
+   "b": "team",
+   "s": "jahr",
+   "f": "quadrat",
+   "w": 1920,
+   "h": 1920,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Foto Adrian Ehrbar Photography; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2026/03/3-Roots_Basel_MA26©Adrian_Ehrbar_Photography-1.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/p-jenny-wein-1920.webp",
+   "fm": "../../assets/img/p-jenny-wein-1400.webp",
+   "fs": "../../assets/img/p-jenny-wein-760.webp"
+  },
+  {
+   "k": "p-malko",
+   "t": {
+    "de": "Malko, Chef de Partie"
+   },
+   "b": "team",
+   "s": "jahr",
+   "f": "quadrat",
+   "w": 1920,
+   "h": 1920,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Foto Adrian Ehrbar Photography; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2026/03/5-Roots_Basel_MA26©Adrian_Ehrbar_Photography-1.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/p-malko-1920.webp",
+   "fm": "../../assets/img/p-malko-1400.webp",
+   "fs": "../../assets/img/p-malko-760.webp"
+  },
+  {
+   "k": "p-vanessa",
+   "t": {
+    "de": "Vanessa, Patisserie"
+   },
+   "b": "team",
+   "s": "jahr",
+   "f": "quadrat",
+   "w": 2083,
+   "h": 2083,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Fotograf nicht genannt; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2023/01/vanessa_team_roots.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/p-vanessa-2083.webp",
+   "fm": "../../assets/img/p-vanessa-1400.webp",
+   "fs": "../../assets/img/p-vanessa-760.webp"
+  },
+  {
+   "k": "p-valentin",
+   "t": {
+    "de": "Valentin, Chef de Partie"
+   },
+   "b": "team",
+   "s": "jahr",
+   "f": "quadrat",
+   "w": 2083,
+   "h": 2083,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Fotograf nicht genannt; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2025/06/valentin_team_roots.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/p-valentin-2083.webp",
+   "fm": "../../assets/img/p-valentin-1400.webp",
+   "fs": "../../assets/img/p-valentin-760.webp"
+  },
+  {
+   "k": "p-erik",
+   "t": {
+    "de": "Erik, Chef de Partie"
+   },
+   "b": "team",
+   "s": "jahr",
+   "f": "quadrat",
+   "w": 2083,
+   "h": 2083,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Fotograf nicht genannt; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2025/01/erik_team_roots.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/p-erik-2083.webp",
+   "fm": "../../assets/img/p-erik-1400.webp",
+   "fs": "../../assets/img/p-erik-760.webp"
+  },
+  {
+   "k": "p-felicia",
+   "t": {
+    "de": "Félicia, Cheffe de Rang"
+   },
+   "b": "team",
+   "s": "jahr",
+   "f": "quadrat",
+   "w": 2083,
+   "h": 2083,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Fotograf nicht genannt; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2025/01/felicia_team_roots.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/p-felicia-2083.webp",
+   "fm": "../../assets/img/p-felicia-1400.webp",
+   "fs": "../../assets/img/p-felicia-760.webp"
+  },
+  {
+   "k": "p-zsombor",
+   "t": {
+    "de": "Zsombor, Chef de Rang, vor der grünen Wand"
+   },
+   "b": "team",
+   "s": "jahr",
+   "f": "quadrat",
+   "w": 2083,
+   "h": 2083,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Fotograf nicht genannt; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2025/01/zsombor_team_roots.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/p-zsombor-2083.webp",
+   "fm": "../../assets/img/p-zsombor-1400.webp",
+   "fs": "../../assets/img/p-zsombor-760.webp"
+  },
+  {
+   "k": "dinner-meeting",
+   "t": {
+    "de": "Pascal Steffen am Telefon im Büro des Dinner Meeting, Art Basel 2026"
+   },
+   "b": "anlaesse",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1080,
+   "art": "haus",
+   "q": "Website des Hauses (roots-basel.ch), Foto Tim Stauffer und Severin Fischer; Rechte beim Haus und beim Fotografen",
+   "u": "https://roots-basel.ch/wp-content/uploads/2026/03/roots-x-BSC_DinnerMeeting_©-Tim-Stauffer-Severin-Fischer3q.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/dinner-meeting-1920.webp",
+   "fm": "../../assets/img/dinner-meeting-1400.webp",
+   "fs": "../../assets/img/dinner-meeting-760.webp"
+  }
+ ],
+ "dateien": [
+  {
+   "k": "zeichen",
+   "var": [
+    {
+     "k": "nacht",
+     "grund": "hell",
+     "dateien": [
+      "roots-basel-zeichen-nacht.svg",
+      "roots-basel-zeichen-nacht.png"
+     ],
+     "px": [
+      1200,
+      1157
+     ]
+    },
+    {
+     "k": "wald",
+     "grund": "hell",
+     "dateien": [
+      "roots-basel-zeichen-wald.svg",
+      "roots-basel-zeichen-wald.png"
+     ],
+     "px": [
+      1200,
+      1157
+     ]
+    },
+    {
+     "k": "messing",
+     "grund": "dunkel",
+     "dateien": [
+      "roots-basel-zeichen-messing.svg",
+      "roots-basel-zeichen-messing.png"
+     ],
+     "px": [
+      1200,
+      1157
+     ]
+    },
+    {
+     "k": "leinen",
+     "grund": "dunkel",
+     "dateien": [
+      "roots-basel-zeichen-leinen.svg",
+      "roots-basel-zeichen-leinen.png"
+     ],
+     "px": [
+      1200,
+      1157
+     ]
+    }
+   ]
+  },
+  {
+   "k": "zeiger",
+   "var": [
+    {
+     "k": "r-nacht",
+     "grund": "hell",
+     "dateien": [
+      "roots-basel-r-nacht.png"
+     ],
+     "px": [
+      451,
+      200
+     ]
+    },
+    {
+     "k": "r-leinen",
+     "grund": "dunkel",
+     "dateien": [
+      "roots-basel-r-leinen.png"
+     ],
+     "px": [
+      451,
+      200
+     ]
+    },
+    {
+     "k": "wurzel-nacht",
+     "grund": "hell",
+     "dateien": [
+      "roots-basel-wurzel-nacht.png"
+     ],
+     "px": [
+      451,
+      235
+     ]
+    },
+    {
+     "k": "wurzel-leinen",
+     "grund": "dunkel",
+     "dateien": [
+      "roots-basel-wurzel-leinen.png"
+     ],
+     "px": [
+      451,
+      235
+     ]
+    }
+   ]
+  },
+  {
+   "k": "logo",
+   "var": [
+    {
+     "k": "nacht",
+     "grund": "hell",
+     "dateien": [
+      "roots-basel-logo-nacht.png"
+     ],
+     "px": [
+      286,
+      340
+     ]
+    },
+    {
+     "k": "schwarz",
+     "grund": "hell",
+     "dateien": [
+      "roots-basel-logo-schwarz.png"
+     ],
+     "px": [
+      286,
+      340
+     ]
+    },
+    {
+     "k": "leinen",
+     "grund": "dunkel",
+     "dateien": [
+      "roots-basel-logo-leinen.png"
+     ],
+     "px": [
+      286,
+      340
+     ]
+    },
+    {
+     "k": "messing",
+     "grund": "dunkel",
+     "dateien": [
+      "roots-basel-logo-messing.png"
+     ],
+     "px": [
+      286,
+      340
+     ]
+    }
+   ]
+  },
+  {
+   "k": "name",
+   "var": [
+    {
+     "k": "nacht",
+     "grund": "hell",
+     "dateien": [
+      "roots-basel-name-nacht.svg",
+      "roots-basel-name-nacht.png"
+     ],
+     "px": [
+      1402,
+      306
+     ]
+    },
+    {
+     "k": "leinen",
+     "grund": "dunkel",
+     "dateien": [
+      "roots-basel-name-leinen.svg",
+      "roots-basel-name-leinen.png"
+     ],
+     "px": [
+      1402,
+      306
+     ]
+    },
+    {
+     "k": "messing",
+     "grund": "dunkel",
+     "dateien": [
+      "roots-basel-name-messing.svg",
+      "roots-basel-name-messing.png"
+     ],
+     "px": [
+      1402,
+      306
+     ]
+    }
+   ]
+  },
+  {
+   "k": "website",
+   "var": [
+    {
+     "k": "original",
+     "grund": "hell",
+     "dateien": [
+      "roots-basel-logo-original.png"
+     ],
+     "px": [
+      286,
+      340
+     ]
+    },
+    {
+     "k": "heute",
+     "grund": "dunkel",
+     "dateien": [
+      "roots-basel-icon-website-heute.png"
+     ],
+     "px": [
+      512,
+      512
+     ]
+    }
+   ]
+  },
+  {
+   "k": "tapete",
+   "var": [
+    {
+     "k": "dunkel",
+     "grund": "dunkel",
+     "dateien": [
+      "roots-basel-tapete-dunkel.png",
+      "roots-basel-tapete-dunkel.svg",
+      "roots-basel-tapete-dunkel.webp"
+     ],
+     "px": [
+      180,
+      94
+     ],
+     "farbe": "#0a2418"
+    },
+    {
+     "k": "hell",
+     "grund": "hell",
+     "dateien": [
+      "roots-basel-tapete-hell.png",
+      "roots-basel-tapete-hell.svg",
+      "roots-basel-tapete-hell.webp"
+     ],
+     "px": [
+      180,
+      94
+     ],
+     "farbe": "#f1ede4"
+    }
+   ]
+  },
+  {
+   "k": "ehre",
+   "var": [
+    {
+     "k": "michelin",
+     "grund": "dunkel",
+     "dateien": [
+      "roots-basel-auszeichnung-michelin.png"
+     ],
+     "px": [
+      560,
+      396
+     ]
+    },
+    {
+     "k": "gruener-stern",
+     "grund": "dunkel",
+     "dateien": [
+      "roots-basel-auszeichnung-gruener-stern.png"
+     ],
+     "px": [
+      260,
+      243
+     ]
+    },
+    {
+     "k": "gaultmillau",
+     "grund": "dunkel",
+     "dateien": [
+      "roots-basel-auszeichnung-gaultmillau.png"
+     ],
+     "px": [
+      300,
+      380
+     ]
+    }
+   ]
+  },
+  {
+   "k": "farben",
+   "var": [
+    {
+     "k": "alle",
+     "grund": "hell",
+     "dateien": [
+      "roots-basel-farben.css",
+      "roots-basel-farben.json",
+      "roots-basel-farben.ase"
+     ]
+    }
+   ]
+  },
+  {
+   "k": "schriften",
+   "var": [
+    {
+     "k": "alle",
+     "grund": "hell",
+     "dateien": [
+      "roots-basel-schriften.zip"
+     ]
+    }
+   ]
+  }
+ ],
+ "farben": [
+  {
+   "k": "nacht",
+   "n": "Nacht",
+   "h": "#0A2418",
+   "rgb": [
+    10,
+    36,
+    24
+   ],
+   "r": "Grund der dunklen Flächen: Kopf, Fuss, dunkle Kapitel",
+   "g": "gruen",
+   "woher": "Wert der Website (roots.css --nacht)"
+  },
+  {
+   "k": "wald",
+   "n": "Flaschengrün",
+   "h": "#0F3D27",
+   "rgb": [
+    15,
+    61,
+    39
+   ],
+   "r": "die Wand des Saals im Licht: grüne Flächen, Knöpfe auf Hell",
+   "g": "gruen",
+   "woher": "Wert der Website (roots.css --wald)"
+  },
+  {
+   "k": "tief",
+   "n": "Tief",
+   "h": "#061A10",
+   "rgb": [
+    6,
+    26,
+    16
+   ],
+   "r": "die tiefste Fläche, Schatten unter Nacht",
+   "g": "gruen",
+   "woher": "Wert der Website (roots.css --tief)"
+  },
+  {
+   "k": "moos",
+   "n": "Moos",
+   "h": "#14472F",
+   "rgb": [
+    20,
+    71,
+    47
+   ],
+   "r": "Betonung in Titeln auf Hell, Orte und Zeiten",
+   "g": "gruen",
+   "woher": "Wert der Website (roots.css --moos)"
+  },
+  {
+   "k": "leinen",
+   "n": "Leinen",
+   "h": "#F1EDE4",
+   "rgb": [
+    241,
+    237,
+    228
+   ],
+   "r": "Grund der hellen Flächen, wie die Tischtücher",
+   "g": "hell",
+   "woher": "Wert der Website (roots.css --leinen)"
+  },
+  {
+   "k": "taefer",
+   "n": "Täfer",
+   "h": "#E4DFD3",
+   "rgb": [
+    228,
+    223,
+    211
+   ],
+   "r": "zweite helle Fläche, Platten und Felder",
+   "g": "hell",
+   "woher": "Wert der Website (roots.css --taefer)"
+  },
+  {
+   "k": "papier",
+   "n": "Papier",
+   "h": "#F7F4EE",
+   "rgb": [
+    247,
+    244,
+    238
+   ],
+   "r": "ruhige helle Flächen, Karten und Tafeln",
+   "g": "hell",
+   "woher": "Wert der Website (roots.css --papier)"
+  },
+  {
+   "k": "messing",
+   "n": "Messing",
+   "h": "#C8A36B",
+   "rgb": [
+    200,
+    163,
+    107
+   ],
+   "r": "Linie und Zeichen auf Dunkel, wie die Hängeleuchten",
+   "g": "messing",
+   "woher": "Wert der Website (roots.css --messing)"
+  },
+  {
+   "k": "messing-hell",
+   "n": "Messing hell",
+   "h": "#DCC293",
+   "rgb": [
+    220,
+    194,
+    147
+   ],
+   "r": "Betonung in Titeln auf Dunkel",
+   "g": "messing",
+   "woher": "Wert der Website (roots.css --messing-hell)"
+  },
+  {
+   "k": "tinte",
+   "n": "Tinte",
+   "h": "#15221A",
+   "rgb": [
+    21,
+    34,
+    26
+   ],
+   "r": "Schrift auf hellen Flächen, nie reines Schwarz",
+   "g": "schrift",
+   "woher": "Wert der Website (roots.css --tinte)"
+  },
+  {
+   "k": "tinte-2",
+   "n": "Tinte leise",
+   "h": "#3B4A40",
+   "rgb": [
+    59,
+    74,
+    64
+   ],
+   "r": "Lesetext und leise Angaben auf Hell",
+   "g": "schrift",
+   "woher": "Wert der Website (roots.css --tinte-2)"
+  },
+  {
+   "k": "holz",
+   "n": "Holz",
+   "h": "#1D1813",
+   "rgb": [
+    29,
+    24,
+    19
+   ],
+   "r": "das dunkle Holz des Regals, nur als Fuge zwischen Bildern",
+   "g": "holz",
+   "woher": "Wert der Website (roots.css --holz)"
+  }
+ ],
+ "gruppen": [
+  {
+   "k": "gruen",
+   "n": "Flaschengrün",
+   "s": "Die Wände des Saals: dunkles Grün in vier Stufen. Es trägt die dunklen Flächen, Moos betont in Titeln auf Hell.",
+   "bild": "buch/bilder/k-wald.webp",
+   "bild_t": "Die grüne Wand des Saals unter den Wurzel-Leuchtern. Daraus kommen Flaschengrün, Nacht und Tief."
+  },
+  {
+   "k": "hell",
+   "n": "Leinen und Täfer",
+   "s": "Die Tischtücher und das helle Holz: die Flächen, auf denen gelesen wird.",
+   "bild": "buch/bilder/k-leinen.webp",
+   "bild_t": "Die hellen Stoffe am Tisch, Tischtuch und Sessel. Daraus kommen Leinen und Täfer."
+  },
+  {
+   "k": "messing",
+   "n": "Messing",
+   "s": "Das Messing der Hängeleuchten: Linie, Zeichen und Betonung auf Dunkel. Schreibt nie den Lesetext.",
+   "bild": "buch/bilder/k-messing.webp",
+   "bild_t": "Das Messing in der Leuchte unter den Wurzeln des Saals. Danach ist Messing gesetzt."
+  },
+  {
+   "k": "schrift",
+   "n": "Schrift",
+   "s": "Tinte für Titel und Text auf Hell, die leise Tinte für den Lesetext. Nie reines Schwarz.",
+   "bild": "listen/schrift-t.webp",
+   "bild_t": "So stehen Tinte und Moos auf der Website."
+  },
+  {
+   "k": "holz",
+   "n": "Holz",
+   "s": "Das dunkle Holz des Regals mit den Einmachgläsern, nur als Fuge zwischen den Bildern.",
+   "bild": "buch/bilder/k-holz.webp",
+   "bild_t": "Das Regal im Saal mit Einmachgläsern und Kochbüchern. Daraus kommt Holz."
+  }
+ ],
+ "glanz": [],
+ "groessen": {
+  "roots-basel-auszeichnung-gaultmillau.png": 31666,
+  "roots-basel-auszeichnung-gruener-stern.png": 28688,
+  "roots-basel-auszeichnung-michelin.png": 32928,
+  "roots-basel-farben.ase": 510,
+  "roots-basel-farben.css": 1092,
+  "roots-basel-farben.json": 2617,
+  "roots-basel-icon-website-heute.png": 39599,
+  "roots-basel-logo-leinen.png": 18960,
+  "roots-basel-logo-messing.png": 19080,
+  "roots-basel-logo-nacht.png": 19009,
+  "roots-basel-logo-original.png": 17977,
+  "roots-basel-logo-schwarz.png": 16229,
+  "roots-basel-marke.zip": 1205941,
+  "roots-basel-name-leinen.png": 25042,
+  "roots-basel-name-leinen.svg": 3087,
+  "roots-basel-name-messing.png": 25030,
+  "roots-basel-name-messing.svg": 3087,
+  "roots-basel-name-nacht.png": 25042,
+  "roots-basel-name-nacht.svg": 3087,
+  "roots-basel-r-leinen.png": 3325,
+  "roots-basel-r-nacht.png": 3369,
+  "roots-basel-schriften.zip": 242544,
+  "roots-basel-tapete-dunkel.png": 12256,
+  "roots-basel-tapete-dunkel.svg": 29690,
+  "roots-basel-tapete-dunkel.webp": 6216,
+  "roots-basel-tapete-hell.png": 13554,
+  "roots-basel-tapete-hell.svg": 29721,
+  "roots-basel-tapete-hell.webp": 6830,
+  "roots-basel-wurzel-leinen.png": 22082,
+  "roots-basel-wurzel-nacht.png": 22104,
+  "roots-basel-zeichen-leinen.png": 121786,
+  "roots-basel-zeichen-leinen.svg": 40991,
+  "roots-basel-zeichen-messing.png": 122142,
+  "roots-basel-zeichen-messing.svg": 40991,
+  "roots-basel-zeichen-nacht.png": 122141,
+  "roots-basel-zeichen-nacht.svg": 40991,
+  "roots-basel-zeichen-wald.png": 122099,
+  "roots-basel-zeichen-wald.svg": 40991
+ },
+ "bereiche": [
+  "saal",
+  "teller",
+  "kueche",
+  "team",
+  "anlaesse"
+ ],
+ "schriften": [
+  {
+   "k": "t",
+   "n": "Newsreader",
+   "d": "newsreader-titel-400.woff2",
+   "r": "Titel und Name, frei nach der Titelschrift des Hauses (DeVinne)",
+   "e": "400, normale Schreibung, nie fett, nie kursiv; Name 0,32 em gesperrt",
+   "p": "Das Gemüse als Lebensmittelpunkt.",
+   "w": 400,
+   "bild": "listen/schrift-t.webp"
+  },
+  {
+   "k": "n",
+   "n": "Newsreader Text",
+   "d": "newsreader-text-400.woff2",
+   "r": "Kleine Angaben: Orte, Zeiten, Knöpfe",
+   "e": "400, 0,04 bis 0,16 em gesperrt",
+   "p": "Bachlettenstrasse 1 · 4054 Basel",
+   "w": 400,
+   "bild": "listen/schrift-n.webp"
+  },
+  {
+   "k": "s",
+   "n": "Instrument Sans",
+   "d": "instrument-400.woff2",
+   "r": "Lesetext",
+   "e": "400 und 500, 18 px, Zeilenabstand 1,64",
+   "p": "Jedes unserer Menüs ist von der Saison geprägt.",
+   "w": 400,
+   "bild": "listen/schrift-s.webp"
+  }
+ ],
+ "namen": {
+  "zentrale": "Kontrollpanel",
+  "website": "Website bearbeiten",
+  "karten": "Karten & Preislisten",
+  "gaeste": "Anfragen & Chat",
+  "marke": "Markenbuch",
+  "besuche": "Besucher",
+  "druck": "Drucksachen & Feed"
+ },
+ "ton": {
+  "eigene_worte": [
+   "Das Gemüse als Lebensmittelpunkt",
+   "Fisch und Fleisch spielen eine Nebenrolle, wenn auch eine Oscar-verdächtige",
+   "Formalität ist Staub von gestern",
+   "wohlfühlen wie im eigenen Wohnzimmer",
+   "von der Saison geprägt",
+   "möglichst aus der Region",
+   "sorgfältig ausgesuchte Produkte",
+   "Kompetent kommt nicht von kompliziert",
+   "Zu jung, um mit dem Strom zu schwimmen",
+   "freundschaftlich warm und unkompliziert",
+   "Das Essen im «roots» soll Freude und Spass machen",
+   "Uns macht es Freude, wenn es Ihnen Spass macht"
+  ],
+  "nicht": [
+   "Gourmet-Tempel",
+   "Genuss pur",
+   "ein Fest für die Sinne",
+   "unvergesslich",
+   "Verwöhnprogramm",
+   "Stückzahlen als Pointe (Masse, Abfertigung)",
+   "alles klein geschrieben (nur «roots» bleibt klein)",
+   "«ß»",
+   "Du-Ansprache",
+   "Ausrufezeichen"
+  ]
+ },
+ "stand": {
+  "fotos": 43,
+  "haus": 43,
+  "frei": 0,
+  "ki": 0,
+  "fremd": 0,
+  "partner": 0,
+  "ue": 0,
+  "vn": 0,
+  "original": 43,
+  "dateien": 38,
+  "datum": "09.11.2026"
+ }
+}
