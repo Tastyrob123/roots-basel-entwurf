@@ -86,3 +86,6 @@
 
 /* Prüfung 20.11.2026: Ort und Besuchszeile werden nicht mit «…» gekürzt, sie brechen um (Robert: abgeschnittene Texte im Registre) */
 .besuch__n b,.besuch__n small{white-space:normal;overflow:visible;text-overflow:clip}
+
+/* Prüfung 20.11.2026: Zwischentitel schweben ohne Überschwingen herein, damit sie das Zeichen darüber nicht kreuzen (Prüfpunkt 21) */
+.zw[data-r].rg-da{animation-timing-function:cubic-bezier(.16,1,.3,1)!important}

@@ -358,3 +358,6 @@ html{font-synthesis:none}
 
 /* Prüfung 20.11.2026: Hinweis über dem Brief nicht mit «…» gekürzt, er bricht um */
 .gs-hinweis{white-space:normal}.gs-hinweis #gs-name{overflow:visible;text-overflow:clip;white-space:normal}
+
+/* Prüfung 20.11.2026: Zwischentitel schweben ohne Überschwingen herein, damit sie das Zeichen darüber nicht kreuzen (Prüfpunkt 21) */
+.wo-zw[data-sw].sw-da{animation-timing-function:cubic-bezier(.16,1,.3,1)!important}
