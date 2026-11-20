@@ -100,7 +100,7 @@ function rand() {
       .concat(S.wissenDa ? [e('wissen', 'Das weiss der Chat', S.wissenNeu || 0)] : []) }], WEGE);
   const w = $('#rand .wo-rand__wege'), pf = WO.ic('pfeil');
   if (w) {   // Wege: Reservation und Kontakt auf der Website, Anleitung, Prüfung, Kontrollpanel; dazu «Chat ausprobieren» fürs Handy
-    w.insertAdjacentHTML('afterbegin', `<a href="../../index.html#reservieren" target="_blank" rel="noopener">Reservation auf der Website${pf}</a><a href="../../kontakt.html" target="_blank" rel="noopener">Kontakt auf der Website${pf}</a>`);
+    w.insertAdjacentHTML('afterbegin', `<a href="../../website/index.html#reservieren" target="_blank" rel="noopener">Reservation auf der Website${pf}</a><a href="../../website/kontakt.html" target="_blank" rel="noopener">Kontakt auf der Website${pf}</a>`);
     w.insertAdjacentHTML('beforeend', `<a href="${STUBE}">${esc(WO.name('zentrale'))}${pf}</a><button class="wo-rand__probe" type="button" data-probe>Chat ausprobieren${WO.ic('chat')}</button>`);
   }
   $$('#rand [data-gehe]').forEach(b => b.onclick = () => gehe(b.dataset.gehe));
