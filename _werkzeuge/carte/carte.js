@@ -31,9 +31,9 @@ const ROLLEN = { kueche: 'Küche', service: 'Service', direktion: 'Direktion' };
 const NAME = (window.WO && WO.name('karten')) || 'Karten & Preislisten', STUBE = (window.WO && WO.name('zentrale')) || 'Kontrollpanel', SCHREIBTISCH = (window.WO && WO.name('website')) || 'Website bearbeiten';   // Namen aus kleid/roots.js (WO_HAUS.namen, Zweck-Namen)
 /* Die Website des Hauses: lokal über den Kette-Server (läuft immer), online auf derselben Adresse wie das Werkzeug */
 const HAUS_WURZEL = location.port ? '/' : '/';
-const HAUS = location.port ? HAUS_WURZEL + 'website/' : '/';
+const HAUS = location.port ? HAUS_WURZEL + 'website/' : '/website/';
 /* Die Originale des Hauses, aus denen die Karten gelesen sind (Weg «Original des Hauses») */
-const ORIGINAL = { momentaufnahme: '_quelle/pdf/2026_09.15_momentaufnahme_web.pdf', menue: '_quelle/html/de_menu-de_.html', weinkarte: '_quelle/pdf/09.2026_Weinkarte.pdf' };
+const ORIGINAL = { momentaufnahme: '_quelle/pdf/2026_09.15_momentaufnahme_web.pdf', menue: 'https://roots-basel.ch/de/menu-de/', weinkarte: '_quelle/pdf/09.2026_Weinkarte.pdf' };
 const API = '/_werkzeuge/carte/api/';   // lokal (serve.py) und online (vercel.json → api/carte.py) derselbe Weg
 /* Wo die Karte auf der Website steht (Seite und Abschnitt) */
 const SEITE_DER_KARTE = { momentaufnahme: 'index.html', menue: 'karte.html', weinkarte: 'weinkarte.html' };
@@ -213,7 +213,7 @@ function rand() {
   const karten = LISTE.map(k => `<li><button class="wo-rk kw" type="button" data-z="${k.ziel}" aria-current="${k.ziel === Z}"><span class="wo-rk__b" style="background-image:url('${fotoKlein(k.ziel)}')"></span><span class="wo-rk__t"><b>${h(k.name)}</b><small>${h(k.gruppe)} · ${k.seiten} ${k.seiten === 1 ? 'Seite' : 'Seiten'}</small></span>${k.entwurf || (k.ziel === Z && D && geaendert()) ? '<em class="wo-marke">Entwurf</em>' : ''}</button></li>`).join('');
   const wege = [
     { text: 'Frühere Fassungen', attr: 'data-akt="verlauf"' }, ...((LISTE.find(k => k.ziel === Z) || {}).pdf_zeit ? [{ text: 'Veröffentlichte PDF', href: `${API}pdf-${Z}.pdf`, attr: 'target="_blank" rel="noopener"' }] : []),   // roots: ohne PDF kein toter Weg (Menüs und Preise vor dem ersten Veröffentlichen)
-    { text: 'Original des Hauses', href: HAUS_WURZEL + (ORIGINAL[Z] || ORIGINAL.weinkarte), attr: 'target="_blank" rel="noopener"' }, { text: 'Zur Werkbank', href: `${HAUS}werkbank/index.html`, attr: 'target="_blank" rel="noopener" data-zw' },
+    { text: 'Original des Hauses', href: (/^https?:/.test(ORIGINAL[Z] || '') ? ORIGINAL[Z] : HAUS_WURZEL + (ORIGINAL[Z] || ORIGINAL.weinkarte)), attr: 'target="_blank" rel="noopener"' }, { text: 'Zur Werkbank', href: `${HAUS}werkbank/index.html`, attr: 'target="_blank" rel="noopener" data-zw' },
     { text: `${ORT_DER_KARTE[SEITE_DER_KARTE[Z]] || 'Karte'} auf der Website`, href: webAdresse(Z), attr: 'target="_blank" rel="noopener"' },
     { text: SCHREIBTISCH, href: (WO.haus.wege || {}).website || `${HAUS}studio/`, attr: 'target="_blank" rel="noopener"' },
     { text: 'Anschluss an die Website', attr: 'data-akt="einst"' }, { text: 'Kurzer Rundgang', attr: 'data-akt="rundgang"' }];
