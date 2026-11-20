@@ -199,3 +199,8 @@ textarea::placeholder,input::placeholder{font-style:normal!important}
 
 /* Prüfung 09.11.2026: nach Mindestschrift 13 px lief der Kopf am Handy 7 px über */
 @media (max-width:430px){.kopf .kopf__werk{gap:2px}.kopf #btnSpeichern{letter-spacing:0;padding-left:10px}}
+
+/* Prüfung 20.11.2026: Beispiel im Eingabefeld zweizeilig ganz sichtbar; Datum auf der Anlass-Karte bricht um statt «…»; Punkte des Ü in der Seitenleiste nicht gekappt */
+#startFrei{height:60px!important;line-height:1.2!important;padding-top:10px!important;padding-bottom:10px!important}
+.wo__k .wo__datum{white-space:normal!important;overflow:visible!important;text-overflow:clip!important}
+.ms-nav .an span{line-height:1.4!important;padding-top:2px!important}
