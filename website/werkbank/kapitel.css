@@ -523,3 +523,7 @@ html.ins-ruhe :is(.stapel .tel,.runter i,.zeile__z,.namenzug div,.wb-band__zug,.
 .ins-r--mb{order:9}
 /* Nachzug 14.11.2026 (Prüfpunkt 21): am Handy steht die Nummer über der Überschrift, damit sich die Zeilen nicht berühren */
 @media(max-width:600px){.sag-h{flex-direction:column;align-items:flex-start;gap:6px}}
+
+/* Prüfung 20.11.2026, Prüfpunkt 36: gesperrte Schrift mindestens 14 px (Leiste) und 15 px (Knöpfe, Etiketten), Sperrung höchstens .12em */
+.insel .insel__m span,.insel nav a,.insel .glanz{font-size:14px!important;letter-spacing:.12em!important}
+.kn,.auftakt__fuss>span,.kap>span:not([class]),.rh-gruss__n>span,.wfa__zahl,.r.mono>span,.r.mono>a,.mn-haus,.mn-gang span,.mn-ende span{font-size:15px!important;letter-spacing:.12em!important}
