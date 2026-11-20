@@ -531,3 +531,8 @@ html.ins-ruhe :is(.stapel .tel,.runter i,.zeile__z,.namenzug div,.wb-band__zug,.
 
 /* Prüfung 20.11.2026, KI-Seite bis 1360 px: Laptop über der Karte statt klein daneben, «Ohne KI» 2 + 2 (Prüfpunkte 10 und 20) */
 @media(min-width:1001px) and (max-width:1360px){.ki-st{grid-template-columns:1fr!important}.ki-st--um .ki-st__b,.ki-st--um .ki-geraet{order:0!important}.ki-st .ki-geraet img{max-width:760px;margin:0 auto}.ki-ohne{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+
+/* Prüfung 20.11.2026, KI-Seite roots: Muster im Rhythmus wie bei Gilles (Ihre Daten statt In Ihrer Hand, die direkt vor dem Fuss stand), Karten «Ohne KI» gleich hoch (Prüfpunkte 26 und 10) */
+#ki-hand{background-image:none!important}
+#ki-daten{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='132' height='132' viewBox='0 0 120 120'%3E%3Cg fill='none' stroke='%23C8A36B' stroke-opacity='0.22' stroke-width='1' stroke-linecap='round'%3E%3Cpath d='M60 34v22M60 56c-4 6-10 9-17 11M60 56c4 6 10 9 17 11M60 56v16M51 62c-3 4-4 8-4 12M69 62c3 4 4 8 4 12'/%3E%3Cpath d='M0 94v10M0 104c-2 3-5 4-8 5M0 104c2 3 5 4 8 5M120 94v10M120 104c-2 3-5 4-8 5M120 104c2 3 5 4 8 5'/%3E%3C/g%3E%3Ccircle cx='60' cy='30' r='1.4' fill='%23C8A36B' fill-opacity='0.3'/%3E%3Ccircle cx='0' cy='90' r='1.1' fill='%23C8A36B' fill-opacity='0.3'/%3E%3Ccircle cx='120' cy='90' r='1.1' fill='%23C8A36B' fill-opacity='0.3'/%3E%3C/svg%3E")!important;background-size:132px!important}
+#ki-ohne .ki-o{display:flex;flex-direction:column;justify-content:space-between;gap:14px}
