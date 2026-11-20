@@ -105,3 +105,7 @@
 
 /* Prüfung 20.11.2026: Werkzeug-Titel im Kopf passen am Handy in ihr Feld */
 @media (max-width:440px){.wo-marke-w b{font-size:15.5px!important;letter-spacing:0!important}}
+
+/* Prüfung 20.11.2026: Bildunterschriften im Markenbuch brechen um statt «…»; Zusatz im Kopf von Drucksachen & Feed passt bei 1280 */
+.li-f__n{white-space:normal!important;overflow:visible!important;text-overflow:clip!important}
+@media (max-width:1366px){.kopf__marke small{letter-spacing:.1em!important}}

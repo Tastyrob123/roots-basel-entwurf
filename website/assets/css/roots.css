@@ -2802,3 +2802,9 @@ main>div[id]>section,main>.abw>.abv>section{position:relative;z-index:1;margin-t
 /* «Lebensmittelpunkt.» ist das längste Wort: Titel passt sich der Spalte an */
 .ab--lebensmittelpunkt .ab__t .t2{font-size:min(clamp(2.3rem,4.4vw,4.5rem),10.8cqi)}
 .ab--lebensmittelpunkt .ab__t.ab-gruen .t2,.ab--lebensmittelpunkt .ab__t.ab-tafel .t2{font-size:min(clamp(2.3rem,4.4vw,4.5rem),9cqi)}
+
+/* Prüfung 20.11.2026, Jobs: kurze linke Spalte läuft neben der langen Stellenbeschreibung mit, statt oben stehen zu bleiben */
+@media (min-width:861px){.taefer .spalte{position:sticky;top:120px;align-self:start}}
+
+/* Prüfung 20.11.2026, Medien: neun Teamfotos in drei vollen Reihen statt 5 + 4 (Leerraum-Regel) */
+@media (min-width:861px){.galerie--team{grid-template-columns:repeat(3,minmax(0,1fr))}}
