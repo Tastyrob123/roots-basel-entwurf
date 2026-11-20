@@ -69,7 +69,7 @@
   },
   {
    "source": "/werkzeuge/imprimerie/haeuser/roots/bilder/:pfad*",
-   "destination": "https://roots-basel-werkstatt.vercel.app/werkzeuge/imprimerie/haeuser/roots/bilder/:pfad*"
+   "destination": "https://tastyrob123.github.io/roots-basel-entwurf/_werkzeuge/imprimerie/haeuser/roots/bilder/:pfad*"
   }
  ],
  "stand": "",

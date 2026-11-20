@@ -82,7 +82,7 @@
   DS.livreUrl = p => new URL(p, new URL(DS.LIVRE, location.href)).href;
   /* Regeln der Marke: interne Bauregeln (Haustyp, Schwesterhaus) gehören in die KI, nicht in die Ansicht für das Haus (Oberchef 21.10.2026) */
   DS.regelSichtbar = r => String(r || '').replace(/\s*Kein Hotel, keine Zimmer\..*$/, '').trim();
-  DS.livreSeite = () => location.port === '9307' ? '/_werkzeuge/livre/' : DS.ALLEIN ? 'https://roots-basel-entwurf.vercel.app/werkzeuge/livre/' : DS.LIVRE;
+  DS.livreSeite = () => location.port === '9307' ? '/_werkzeuge/livre/' : DS.ALLEIN ? 'https://tastyrob123.github.io/roots-basel-entwurf/_werkzeuge/livre/' : DS.LIVRE;
   /* Logo, Logo quer und Wortmarke aus «Markenbuch»: Bildschirm SVG, Blatt und PDF PNG (bis 3000 px, mit Transparenz) */
   DS.livreDateien = M => (M.livre ? M.livre.dateien : []).filter(d => ['logo', 'quer', 'wortmarke'].includes(d.k) && d.var).flatMap(d => {
     const vb = (d.vb || '0 0 4 3').split(' ').map(Number), N = { logo: 'Logo', quer: 'Logo quer', wortmarke: 'Wortmarke' }[d.k];

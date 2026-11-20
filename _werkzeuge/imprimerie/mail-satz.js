@@ -5,7 +5,7 @@
    Fotos als JPG (haeuser/roots/mail/, 1200 px, Outlook kann kein WebP), öffentliche Adressen auf der Studio-Seite.
    Kein Mailprogramm führt Skripte aus; alles hier ist reines HTML. DSMAIL.html(doc, {editor}) → vollständiges Dokument. */
 (function () {
-  const ONLINE = 'https://roots-basel-entwurf.vercel.app/werkzeuge/imprimerie/';   // öffentliche Adresse der Bilder in den Mails (Fotos, Kopf, Fuss)
+  const ONLINE = 'https://tastyrob123.github.io/roots-basel-entwurf/_werkzeuge/imprimerie/';   // öffentliche Adresse der Bilder in den Mails (Fotos, Kopf, Fuss)
   const C = { navy: '#0f3d27', papier: '#f1ede4', creme: '#e4dfd3', weiss: '#f7f4ee', sand: '#dcc293', gold: '#dcc293', messing: '#c8a36b', taupe: '#3b4a40', tief: '#14472f', tinte: '#15221a' };
   const F = {
     serif: "'Newsreader',Georgia,'Times New Roman',serif",
