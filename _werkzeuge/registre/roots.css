@@ -89,3 +89,7 @@
 
 /* Prüfung 20.11.2026: Zwischentitel schweben ohne Überschwingen herein, damit sie das Zeichen darüber nicht kreuzen (Prüfpunkt 21) */
 .zw[data-r].rg-da{animation-timing-function:cubic-bezier(.16,1,.3,1)!important}
+/* Prüfung 20.11.2026: kurzer Einflug-Weg der Zwischentitel (10 px), damit sie vor dem Auftritt nicht über den Karten darunter liegen (Prüfpunkt 21) */
+@keyframes rg-zw{from{translate:0 10px;scale:.98}}
+.zw[data-r]:not(.rg-da){translate:0 10px!important;scale:.98!important}
+.zw[data-r].rg-da{animation-name:rg-zw!important}

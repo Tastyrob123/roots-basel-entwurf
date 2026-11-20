@@ -364,3 +364,7 @@ html{font-synthesis:none}
 
 /* Prüfung 20.11.2026: Punkte des Ü im Kopf nicht gekappt */
 .wo-kopf__mitte b{line-height:1.5!important;padding-top:3px!important;overflow:visible!important}
+/* Prüfung 20.11.2026: kurzer Einflug-Weg der Zwischentitel (12 px), damit sie vor dem Auftritt nicht über den Karten darunter liegen (Prüfpunkt 21) */
+@keyframes sw-zw{from{translate:0 12px;scale:.98}}
+.wo-zw[data-sw]:not(.sw-da){translate:0 12px!important;scale:.98!important}
+.wo-zw[data-sw].sw-da{animation-name:sw-zw!important}
