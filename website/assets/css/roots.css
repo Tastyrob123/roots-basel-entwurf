@@ -2808,3 +2808,4 @@ main>div[id]>section,main>.abw>.abv>section{position:relative;z-index:1;margin-t
 
 /* Prüfung 20.11.2026, Medien: neun Teamfotos in drei vollen Reihen statt 5 + 4 (Leerraum-Regel) */
 @media (min-width:861px){.galerie--team{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:860px){.galerie--team{grid-template-columns:repeat(3,minmax(0,1fr))}}
