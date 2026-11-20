@@ -345,3 +345,13 @@ html{font-synthesis:none}
 
 /* Prüfung 09.11.2026: nach Mindestschrift 13 px ist die rechte Spalte höher; der Stand rechts in der Karte steht mittig statt oben mit Leere darunter */
 @media (min-width:1181px){.re-start__sp .re-a__st{align-self:center}}
+
+/* Prüfung 20.11.2026: «Zuletzt angefragt» und «Zuletzt gefragt» haben ungleich viel Inhalt, darum untereinander, jede so hoch wie ihr Inhalt,
+   die Karten zwei je Reihe (globale Regel Leerraum: Tafeln nebeneinander nur bei gleich viel Inhalt). Kein «…» in der Kennzeile (Fehlerbuch 28.10.2026). */
+.re-a__k{white-space:normal;overflow:visible;text-overflow:clip}
+@media (min-width:1181px){
+  .re-start{grid-template-columns:1fr;align-items:start}
+  .re-start__sp{display:block}
+  .re-start__sp>.re-liste{display:grid;grid-template-columns:1fr 1fr;gap:16px;justify-content:normal;align-items:stretch}
+  .re-start__sp>.re-liste>*{margin:0}
+}
