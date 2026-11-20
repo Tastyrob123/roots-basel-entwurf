@@ -221,7 +221,7 @@ main>section.durchblick{position:relative;z-index:auto;height:min(66vh,640px);ba
 /* Saal: Bilder sitzen wie Fächer im Regal des Hauses, Fuge im dunklen Holz */
 .saal{padding:var(--polster) 0}
 .saal__kopf{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(28px,5vw,96px);align-items:end;margin-bottom:clamp(28px,3vw,48px)}
-.saal__kopf .wort{font-family:var(--titel);font-size:clamp(3.6rem,9vw,9.4rem);line-height:.9;letter-spacing:-.02em;color:var(--wald)}
+.saal__kopf .wort{font-family:var(--titel);font-size:clamp(3.6rem,8.4vw,8.8rem);line-height:.9;letter-spacing:-.02em;color:var(--wald)}
 .regal{display:grid;grid-template-columns:repeat(12,1fr);grid-auto-rows:clamp(64px,7.4vw,118px);gap:10px;padding:10px;background:var(--holz);border-radius:var(--r2);box-shadow:0 40px 70px -40px rgba(6,26,16,.55)}
 .regal .zoom{border-radius:6px;height:100%}
 .regal .f1{grid-column:1/7;grid-row:span 4}
