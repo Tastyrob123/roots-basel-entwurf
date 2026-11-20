@@ -355,3 +355,6 @@ html{font-synthesis:none}
   .re-start__sp>.re-liste{display:grid;grid-template-columns:1fr 1fr;gap:16px;justify-content:normal;align-items:stretch}
   .re-start__sp>.re-liste>*{margin:0}
 }
+
+/* Prüfung 20.11.2026: Hinweis über dem Brief nicht mit «…» gekürzt, er bricht um */
+.gs-hinweis{white-space:normal}.gs-hinweis #gs-name{overflow:visible;text-overflow:clip;white-space:normal}

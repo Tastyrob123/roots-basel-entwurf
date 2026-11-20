@@ -83,3 +83,6 @@
 @media (min-width:701px) and (max-width:1240px){
   .rg .zwei:has(.vergleich){grid-template-columns:minmax(0,1fr)}
 }
+
+/* Prüfung 20.11.2026: Ort und Besuchszeile werden nicht mit «…» gekürzt, sie brechen um (Robert: abgeschnittene Texte im Registre) */
+.besuch__n b,.besuch__n small{white-space:normal;overflow:visible;text-overflow:clip}
