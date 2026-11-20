@@ -526,4 +526,5 @@ html.ins-ruhe :is(.stapel .tel,.runter i,.zeile__z,.namenzug div,.wb-band__zug,.
 
 /* Prüfung 20.11.2026, Prüfpunkt 36: gesperrte Schrift mindestens 14 px (Leiste) und 15 px (Knöpfe, Etiketten), Sperrung höchstens .12em */
 .insel .insel__m span,.insel nav a,.insel .glanz{font-size:14px!important;letter-spacing:.12em!important}
-.kn,.auftakt__fuss>span,.kap>span:not([class]),.rh-gruss__n>span,.wfa__zahl,.r.mono>span,.r.mono>a,.mn-haus,.mn-gang span,.mn-ende span{font-size:15px!important;letter-spacing:.12em!important}
+@media(min-width:1200px) and (max-width:1439px){.papier{grid-template-columns:repeat(2,minmax(0,1fr))!important}}   /* vier schmale Karten bei 1280: Knöpfe und Text passten nicht, 2 + 2 */
+.kn:not(.papier .kn),.auftakt__fuss>span,.kap>span:not([class]),.rh-gruss__n>span,.wfa__zahl,.r.mono>span,.r.mono>a,.mn-haus,.mn-gang span,.mn-ende span{font-size:15px!important;letter-spacing:.12em!important}
