@@ -102,3 +102,6 @@
 /* roots (09.11.2026): der Name bleibt klein, auch in den kleinen Zeilen, in denen er steht (Robert 08.11.2026: nur «roots» klein, nie Versalien;
    gleich wie Drucksachen & Feed, haeuser/roots/oberflaeche.css). Die übrigen kleinen Zeilen ohne Namen bleiben wie in der Vorlage. */
 .wo-marke-w small,.wo-sb__zier,.wo-sb__zier span,.wo-brief__kopf span,.wo-brief__fuss{text-transform:none!important;letter-spacing:.06em!important}
+
+/* Prüfung 20.11.2026: Werkzeug-Titel im Kopf passen am Handy in ihr Feld */
+@media (max-width:440px){.wo-marke-w b{font-size:15.5px!important;letter-spacing:0!important}}
